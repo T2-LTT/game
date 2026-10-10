@@ -69,11 +69,23 @@ function doPost(e) {
   }
   
   var data = JSON.parse(e.postData.contents);
+  var now = new Date();
+  
+  // Xử lý huy hiệu (Lưu vào sheet Tủ kính)
+  if (data.type === 'badge') {
+    var badgeSheet = ss.getSheetByName('Tủ kính');
+    if (!badgeSheet) {
+      badgeSheet = ss.insertSheet('Tủ kính');
+      badgeSheet.appendRow(['Thời Gian', 'ID Bé', 'Huy Hiệu', 'Biểu Tượng']);
+    }
+    badgeSheet.appendRow([now, data.playerId || '', data.badgeName || '', data.emoji || '']);
+    return ContentService.createTextOutput("Lưu huy hiệu thành công").setMimeType(ContentService.MimeType.TEXT);
+  }
+  
+  // Xử lý lưu điểm số và nhật ký
   var sheetName = (data.env === 'dev') ? 'Điểm số DEV' : 'Điểm số Game';
   var sheet = ss.getSheetByName(sheetName) || ss.getSheetByName('Điểm số Game');
   if (!sheet) sheet = ss.getSheets()[0];
-  
-  var now = new Date();
   
   // Trích xuất dữ liệu, hỗ trợ cả ghi điểm lẫn ghi lịch sử đúng sai
   var action = data.action || '';
