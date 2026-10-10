@@ -3,6 +3,7 @@ import { ChevronLeft, Play, RefreshCw, Star } from 'lucide-react';
 import { playSound } from '../utils/audio';
 import confetti from 'canvas-confetti';
 import { logAttempt, updatePlayerStats } from '../utils/jsonStorage';
+import { addBadge } from '../utils/badges';
 
 const speak = (text) => {
   if ('speechSynthesis' in window) {
@@ -41,6 +42,7 @@ const WhackAMole = ({ onBack, player = 'kiet', playerName }) => {
       playSound('correct');
       speak(`Hết giờ! Bạn đập được ${score} con chuột!`);
       if (score >= 10) {
+        addBadge(player, 'Tay Lưới Nhanh Nhẹn Vũ Trụ', '🐹');
         confetti({
           particleCount: 150,
           spread: 80,

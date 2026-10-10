@@ -3,6 +3,7 @@ import { ChevronLeft, Music, Star } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { playSound } from '../utils/audio';
 import { updatePlayerStats, logAttempt } from '../utils/jsonStorage';
+import { addBadge } from '../utils/badges';
 
 // Tần số các nốt nhạc cơ bản (Quãng C4)
 const NOTES = [
@@ -84,6 +85,7 @@ const PianoGame = ({ onBack, player, playerName, playerAvatar }) => {
     if (newCount > 0 && newCount % 20 === 0) {
       playSound('correct');
       updatePlayerStats(player, 5); // Tặng 5 điểm
+      addBadge(player, 'Nhạc Sĩ Nhí Vũ Trụ', '🎹');
       logAttempt(player, 'Đánh Đàn', 'Chơi đàn Piano', true, 'Hoàn thành 20 nốt', 'Thưởng điểm');
     }
   };

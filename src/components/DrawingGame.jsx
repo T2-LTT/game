@@ -3,6 +3,7 @@ import { ChevronLeft, Eraser, Trash2, Download, CheckCircle2, PaintBucket, PenTo
 import confetti from 'canvas-confetti';
 import { playSound } from '../utils/audio';
 import { updatePlayerStats, logAttempt } from '../utils/jsonStorage';
+import { addBadge } from '../utils/badges';
 
 const COLORS = [
   '#ff0000', // Đỏ
@@ -144,6 +145,8 @@ const DrawingGame = ({ onBack, player, playerName, playerAvatar }) => {
 
     if (!scoreEarned) {
       updatePlayerStats(player, 5); // Tặng 5 điểm sáng tạo
+      const result = addBadge(player, 'Họa Sĩ Nhí Vũ Trụ', '🎨');
+      if (result) speak(`Chúc mừng ${playerName} nhận được huy hiệu Họa Sĩ Nhí Vũ Trụ`);
       logAttempt(player, 'Vẽ Tranh', 'Sáng tạo một bức tranh mới', true, 'Tác phẩm hoàn thành', 'Tuyệt vời');
       setScoreEarned(true);
     }

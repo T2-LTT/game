@@ -3,6 +3,7 @@ import { ChevronLeft, Play, RefreshCw } from 'lucide-react';
 import { playSound } from '../utils/audio';
 import confetti from 'canvas-confetti';
 import { logAttempt, updatePlayerStats } from '../utils/jsonStorage';
+import { addBadge } from '../utils/badges';
 
 const speak = (text) => {
   if ('speechSynthesis' in window) {
@@ -67,6 +68,7 @@ const CatchFishGame = ({ onBack, player = 'kiet', playerName }) => {
       playSound('correct');
       speak(`Hết giờ! Bạn bắt được ${score} con cá!`);
       if (score >= 10) {
+        addBadge(player, 'Siêu Cần Thủ Vũ Trụ', '🎣');
         confetti({
           particleCount: 150,
           spread: 80,
