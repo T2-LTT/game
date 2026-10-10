@@ -1,0 +1,257 @@
+[
+  {
+    "name": "Con mèo",
+    "img": "/image/animals/cat.jpg",
+    "color": "#ffb3ba"
+  },
+  {
+    "name": "Con chó",
+    "img": "/image/animals/dog.jpg",
+    "color": "#ffdfba"
+  },
+  {
+    "name": "Con chim",
+    "img": "/image/animals/bird.png",
+    "color": "#baffc9"
+  },
+  {
+    "name": "Con cá",
+    "img": "/image/animals/fish.jpg",
+    "color": "#bae1ff"
+  },
+  {
+    "name": "Con thỏ",
+    "img": "/image/animals/rabbit.png",
+    "color": "#f4c2c2"
+  },
+  {
+    "name": "Con rùa",
+    "img": "/image/animals/turtle.png",
+    "color": "#c2f4c2"
+  },
+  {
+    "name": "Con khỉ",
+    "img": "/image/animals/monkey.jpg",
+    "color": "#e0c2f4"
+  },
+  {
+    "name": "Con voi",
+    "img": "/image/animals/elephant.jpg",
+    "color": "#c2e0f4"
+  },
+  {
+    "name": "Con lợn",
+    "img": "/image/animals/pig.png",
+    "color": "#ffc2d1"
+  },
+  {
+    "name": "Con bò",
+    "img": "/image/animals/cow.png",
+    "color": "#e2e2e2"
+  },
+  {
+    "name": "Con hổ",
+    "img": "/image/animals/tiger.png",
+    "color": "#ffd8a8"
+  },
+  {
+    "name": "Con gấu",
+    "img": "/image/animals/bear.png",
+    "color": "#d6ccc2"
+  },
+  {
+    "name": "Con sóc",
+    "img": "/image/animals/squirrel.png",
+    "color": "#f3d5b5"
+  },
+  {
+    "name": "Con sư tử",
+    "img": "/image/animals/lion.jpg",
+    "color": "#ffd8a8"
+  },
+  {
+    "name": "Hươu cao cổ",
+    "img": "/image/animals/giraffe.jpg",
+    "color": "#f3d5b5"
+  },
+  {
+    "name": "Ngựa vằn",
+    "img": "/image/animals/zebra.jpg",
+    "color": "#e2e2e2"
+  },
+  {
+    "name": "Tê giác",
+    "img": "/image/animals/rhinoceros.jpg",
+    "color": "#d6ccc2"
+  },
+  {
+    "name": "Hà mã",
+    "img": "/image/animals/hippopotamus.jpg",
+    "color": "#c2e0f4"
+  },
+  {
+    "name": "Báo đốm",
+    "img": "/image/animals/leopard.jpg",
+    "color": "#ffd8a8"
+  },
+  {
+    "name": "Đà điểu",
+    "img": "/image/animals/ostrich.jpg",
+    "color": "#f4c2c2"
+  },
+  {
+    "name": "Chim cánh cụt",
+    "img": "/image/animals/penguin.jpg",
+    "color": "#bae1ff"
+  },
+  {
+    "name": "Chuột túi",
+    "img": "/image/animals/kangaroo.jpg",
+    "color": "#f3d5b5"
+  },
+  {
+    "name": "Gấu trúc",
+    "img": "/image/animals/giant_panda.jpg",
+    "color": "#e2e2e2"
+  },
+  {
+    "name": "Con dê",
+    "img": "/image/animals/goat.jpg",
+    "color": "#d6ccc2"
+  },
+  {
+    "name": "Gà mái",
+    "img": "/image/animals/chicken.jpg",
+    "color": "#ffc2d1"
+  },
+  {
+    "name": "Con vịt",
+    "img": "/image/animals/duck.jpg",
+    "color": "#ffdfba"
+  },
+  {
+    "name": "Con ngỗng",
+    "img": "/image/animals/goose.jpg",
+    "color": "#e2e2e2"
+  },
+  {
+    "name": "Con trâu",
+    "img": "/image/animals/water_buffalo.jpg",
+    "color": "#d6ccc2"
+  },
+  {
+    "name": "Con ngựa",
+    "img": "/image/animals/horse.jpg",
+    "color": "#f3d5b5"
+  },
+  {
+    "name": "Con lừa",
+    "img": "/image/animals/donkey.jpg",
+    "color": "#d6ccc2"
+  },
+  {
+    "name": "Con chuột",
+    "img": "/image/animals/mouse.jpg",
+    "color": "#e2e2e2"
+  },
+  {
+    "name": "Con rắn",
+    "img": "/image/animals/snake.jpg",
+    "color": "#baffc9"
+  },
+  {
+    "name": "Thằn lằn",
+    "img": "/image/animals/lizard.jpg",
+    "color": "#baffc9"
+  },
+  {
+    "name": "Rùa biển",
+    "img": "/image/animals/sea_turtle.jpg",
+    "color": "#bae1ff"
+  },
+  {
+    "name": "Cá heo",
+    "img": "/image/animals/dolphin.jpg",
+    "color": "#bae1ff"
+  },
+  {
+    "name": "Cá mập",
+    "img": "/image/animals/shark.jpg",
+    "color": "#c2e0f4"
+  },
+  {
+    "name": "Cá voi",
+    "img": "/image/animals/whale.jpg",
+    "color": "#bae1ff"
+  },
+  {
+    "name": "Bạch tuộc",
+    "img": "/image/animals/octopus.jpg",
+    "color": "#ffb3ba"
+  },
+  {
+    "name": "Con mực",
+    "img": "/image/animals/squid.jpg",
+    "color": "#ffc2d1"
+  },
+  {
+    "name": "Con cua",
+    "img": "/image/animals/crab.jpg",
+    "color": "#ffb3ba"
+  },
+  {
+    "name": "Con tôm",
+    "img": "/image/animals/shrimp.jpg",
+    "color": "#ffdfba"
+  },
+  {
+    "name": "Sao biển",
+    "img": "/image/animals/starfish.jpg",
+    "color": "#ffdfba"
+  },
+  {
+    "name": "Đại bàng",
+    "img": "/image/animals/eagle.jpg",
+    "color": "#f3d5b5"
+  },
+  {
+    "name": "Con vẹt",
+    "img": "/image/animals/parrot.jpg",
+    "color": "#baffc9"
+  },
+  {
+    "name": "Chim công",
+    "img": "/image/animals/peafowl.jpg",
+    "color": "#e0c2f4"
+  },
+  {
+    "name": "Con cò",
+    "img": "/image/animals/stork.jpg",
+    "color": "#e2e2e2"
+  },
+  {
+    "name": "Con dơi",
+    "img": "/image/animals/bat.jpg",
+    "color": "#d6ccc2"
+  },
+  {
+    "name": "Con ong",
+    "img": "/image/animals/bee.jpg",
+    "color": "#ffdfba"
+  },
+  {
+    "name": "Con bướm",
+    "img": "/image/animals/butterfly.jpg",
+    "color": "#e0c2f4"
+  },
+  {
+    "name": "Con kiến",
+    "img": "/image/animals/ant.jpg",
+    "color": "#f4c2c2"
+  },
+  {
+    "name": "Con nhện",
+    "img": "/image/animals/spider.jpg",
+    "color": "#d6ccc2"
+  }
+]

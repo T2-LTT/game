@@ -1,0 +1,19 @@
+{
+  "easy_cards": [
+    { "id": 1, "name": "Con Mèo", "emoji": "🐱", "color": "#ffb3ba" },
+    { "id": 2, "name": "Con Chó", "emoji": "🐶", "color": "#ffdfba" },
+    { "id": 3, "name": "Con Voi", "emoji": "🐘", "color": "#c2e0f4" },
+    { "id": 4, "name": "Con Lợn", "emoji": "🐷", "color": "#ffb3ba" },
+    { "id": 5, "name": "Con Thỏ", "emoji": "🐰", "color": "#ffdfba" }
+  ],
+  "hard_cards": [
+    { "id": 1, "name": "Rocket", "mean": "Tên Lửa", "emoji": "🚀", "color": "#ff0080" },
+    { "id": 2, "name": "Planet", "mean": "Hành Tinh", "emoji": "🪐", "color": "#00d2ff" },
+    { "id": 3, "name": "Star", "mean": "Ngôi Sao", "emoji": "⭐️", "color": "#ffcc00" },
+    { "id": 4, "name": "Moon", "mean": "Mặt Trăng", "emoji": "🌙", "color": "#9d4edd" },
+    { "id": 5, "name": "Astronaut", "mean": "Phi Hành Gia", "emoji": "🧑‍🚀", "color": "#10b981" },
+    { "id": 6, "name": "Alien", "mean": "Người Ngoài Hành Tinh", "emoji": "👾", "color": "#ec4899" },
+    { "id": 7, "name": "Sun", "mean": "Mặt Trời", "emoji": "☀️", "color": "#ffcc00" },
+    { "id": 8, "name": "Earth", "mean": "Trái Đất", "emoji": "🌍", "color": "#00d2ff" }
+  ]
+}

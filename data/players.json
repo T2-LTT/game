@@ -1,0 +1,37 @@
+[
+  {
+    "id": "nhi",
+    "name": "Bảo Nhi",
+    "yearOfBirth": 2018,
+    "avatar": "/image/baonhi.JPG",
+    "color": "var(--neon-blue)"
+  },
+  {
+    "id": "kiet",
+    "name": "Tuấn Kiệt",
+    "yearOfBirth": 2023,
+    "avatar": "/image/tuankiet.JPG",
+    "color": "var(--neon-pink)"
+  },
+  {
+    "id": "bong",
+    "name": "Bé Bông",
+    "yearOfBirth": 2024,
+    "avatar": "/image/BeBong.PNG",
+    "color": "#ffcc00"
+  },
+  {
+    "id": "linhdan",
+    "name": "Linh Đan",
+    "yearOfBirth": 2022,
+    "avatar": "/image/LinhDan.PNG",
+    "color": "var(--neon-purple)"
+  },
+  {
+    "id": "tamyen",
+    "name": "Tâm Yên",
+    "yearOfBirth": 2023,
+    "avatar": "/image/TamYen.JPG",
+    "color": "var(--neon-purple)"
+  }
+]

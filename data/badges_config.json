@@ -1,0 +1,39 @@
+{
+  "badges": [
+    {
+      "id": "kiet_color_master",
+      "owner": "kiet",
+      "name": "Chuyên Gia Màu Sắc",
+      "emoji": "🎨",
+      "description": "Hoàn thành xuất sắc bài học nhận biết màu sắc"
+    },
+    {
+      "id": "kiet_animal_master",
+      "owner": "kiet",
+      "name": "Nhà Động Vật Học",
+      "emoji": "🦁",
+      "description": "Nhận biết chính xác các con vật thân quen"
+    },
+    {
+      "id": "kiet_number_master",
+      "owner": "kiet",
+      "name": "Thần Đồng Chữ Số",
+      "emoji": "🔢",
+      "description": "Học thuộc các con số từ 0 đến 10"
+    },
+    {
+      "id": "nhi_rocket_master",
+      "owner": "nhi",
+      "name": "Phi Hành Gia Tập Sự",
+      "emoji": "🚀",
+      "description": "Nạp đủ nhiên liệu và phóng tên lửa vào không gian"
+    },
+    {
+      "id": "nhi_english_master",
+      "owner": "nhi",
+      "name": "Hiệp Sĩ Tiếng Anh Vũ Trụ",
+      "emoji": "🇬🇧",
+      "description": "Chinh phục từ vựng và ghép chữ Tiếng Anh"
+    }
+  ]
+}

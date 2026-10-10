@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800;900&display=swap');
+
+:root {
+  --space-dark: #0a0521;
+  --space-darker: #050212;
+  --neon-blue: #00d2ff;
+  --neon-purple: #9d4edd;
+  --neon-pink: #ff0080;
+  --star-glow: rgba(255, 255, 255, 0.8);
+  --glass-bg: rgba(20, 10, 45, 0.5);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --text-main: #f0f0f5;
+  --text-muted: #b0a8c2;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  color: var(--text-main);
+  min-height: 100vh;
+  min-height: 100dvh;
+  overflow-x: hidden;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Typography */
+h1, h2, h3 {
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+
+.title-gradient {
+  background: linear-gradient(to right, #fff, var(--neon-blue), var(--neon-purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glassmorphism utilities - Tối ưu bằng cách tắt backdrop-filter */
+.glass-panel {
+  background: rgba(20, 10, 45, 0.85); /* Thay vì trong suốt và blur, dùng nền mờ đặc hơn */
+  border: 1px solid var(--glass-border);
+  border-radius: 32px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+}
+
+.glass-button {
+  background: linear-gradient(135deg, rgba(255,255,255,0.15), rgba(255,255,255,0.05));
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.4);
+  color: white;
+  border-radius: 999px;
+  padding: 18px 40px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 800;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.glass-button::before {
+  content: '';
+  position: absolute;
+  top: 0; left: -100%;
+  width: 50%; height: 100%;
+  background: linear-gradient(to right, transparent, rgba(255,255,255,0.3), transparent);
+  transform: skewX(-20deg);
+  transition: 0.5s;
+}
+
+.glass-button:hover::before {
+  left: 150%;
+}
+
+.glass-button:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 15px 40px 0 rgba(0, 210, 255, 0.4);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.glass-button:active {
+  transform: translateY(2px) scale(0.98);
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, #4f46e5, #ec4899);
+  border: 2px solid rgba(255,255,255,0.2);
+}
+.btn-primary:hover {
+  box-shadow: 0 15px 40px 0 rgba(236, 72, 153, 0.5);
+}
+
+.btn-secondary {
+  background: linear-gradient(45deg, #0ea5e9, #10b981);
+  border: 2px solid rgba(255,255,255,0.2);
+}
+.btn-secondary:hover {
+  box-shadow: 0 15px 40px 0 rgba(16, 185, 129, 0.5);
+}
+
+/* Animations */
+@keyframes float {
+  0% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-20px) rotate(3deg); }
+  100% { transform: translateY(0px) rotate(0deg); }
+}
+
+.floating {
+  animation: float 6s ease-in-out infinite;
+}
+
+.floating-delayed {
+  animation: float 7s ease-in-out infinite;
+  animation-delay: 1s;
+}
+
+@keyframes pulse-glow {
+  0% { text-shadow: 0 0 15px rgba(0,210,255,0.5); }
+  50% { text-shadow: 0 0 35px rgba(0,210,255,0.9), 0 0 20px rgba(255,0,128,0.5); }
+  100% { text-shadow: 0 0 15px rgba(0,210,255,0.5); }
+}
+
+.text-glow {
+  animation: pulse-glow 3s infinite;
+}

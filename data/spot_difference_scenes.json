@@ -1,0 +1,6790 @@
+{
+  "scenes": [
+    {
+      "id": 1,
+      "title": "Trạm Tên Lửa Vũ Trụ",
+      "bg": "linear-gradient(135deg, #0f051d, #1a0b36)",
+      "itemsLeft": [
+        {
+          "id": "star1",
+          "emoji": "⭐",
+          "top": "15%",
+          "left": "20%",
+          "size": "2.5rem"
+        },
+        {
+          "id": "star2",
+          "emoji": "✨",
+          "top": "25%",
+          "left": "75%",
+          "size": "2rem"
+        },
+        {
+          "id": "planet1",
+          "emoji": "🪐",
+          "top": "65%",
+          "left": "15%",
+          "size": "4rem"
+        },
+        {
+          "id": "rocket",
+          "emoji": "🚀",
+          "top": "35%",
+          "left": "45%",
+          "size": "5rem"
+        },
+        {
+          "id": "alien",
+          "emoji": "👾",
+          "top": "75%",
+          "left": "70%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "moon",
+          "emoji": "🌙",
+          "top": "12%",
+          "left": "50%",
+          "size": "3rem"
+        },
+        {
+          "id": "flag",
+          "emoji": "🚩",
+          "top": "40%",
+          "left": "60%",
+          "size": "2.5rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_moon",
+          "x": 50,
+          "y": 12,
+          "name": "Mặt trăng biến thành Mặt trời ☀️",
+          "hint": "Nhìn lên góc trên giữa xem có gì khác không?"
+        },
+        {
+          "id": "diff_alien",
+          "x": 70,
+          "y": 75,
+          "name": "Người ngoài hành tinh thành Rô-bốt 🤖",
+          "hint": "Ở góc dưới bên phải có một chú rô-bốt!"
+        },
+        {
+          "id": "diff_comet",
+          "x": 25,
+          "y": 40,
+          "name": "Thêm Sao chổi lấp lánh ☄️",
+          "hint": "Phía bên trái vừa xuất hiện một ngôi sao chổi."
+        },
+        {
+          "id": "diff_flag",
+          "x": 60,
+          "y": 40,
+          "name": "Cờ đổi màu 🏳️",
+          "hint": "Lá cờ trên tên lửa đã đổi thành màu trắng!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "star1",
+          "emoji": "⭐",
+          "top": "15%",
+          "left": "20%",
+          "size": "2.5rem"
+        },
+        {
+          "id": "star2",
+          "emoji": "✨",
+          "top": "25%",
+          "left": "75%",
+          "size": "2rem"
+        },
+        {
+          "id": "planet1",
+          "emoji": "🪐",
+          "top": "65%",
+          "left": "15%",
+          "size": "4rem"
+        },
+        {
+          "id": "rocket",
+          "emoji": "🚀",
+          "top": "35%",
+          "left": "45%",
+          "size": "5rem"
+        },
+        {
+          "id": "alien",
+          "emoji": "🤖",
+          "top": "75%",
+          "left": "70%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "moon",
+          "emoji": "☀️",
+          "top": "12%",
+          "left": "50%",
+          "size": "3rem"
+        },
+        {
+          "id": "flag",
+          "emoji": "🏳️",
+          "top": "40%",
+          "left": "60%",
+          "size": "2.5rem"
+        },
+        {
+          "id": "comet",
+          "emoji": "☄️",
+          "top": "40%",
+          "left": "25%",
+          "size": "3rem"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Hành Tinh Kỳ Diệu",
+      "bg": "linear-gradient(135deg, #051428, #0a2e4c)",
+      "itemsLeft": [
+        {
+          "id": "astronaut",
+          "emoji": "🧑‍🚀",
+          "top": "45%",
+          "left": "40%",
+          "size": "5rem"
+        },
+        {
+          "id": "earth",
+          "emoji": "🌍",
+          "top": "15%",
+          "left": "80%",
+          "size": "4rem"
+        },
+        {
+          "id": "sun",
+          "emoji": "☀️",
+          "top": "10%",
+          "left": "15%",
+          "size": "4.5rem"
+        },
+        {
+          "id": "ufo",
+          "emoji": "🛸",
+          "top": "25%",
+          "left": "45%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "gem",
+          "emoji": "💎",
+          "top": "75%",
+          "left": "30%",
+          "size": "2.8rem"
+        },
+        {
+          "id": "dino",
+          "emoji": "🦕",
+          "top": "70%",
+          "left": "75%",
+          "size": "4rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_earth",
+          "x": 80,
+          "y": 15,
+          "name": "Trái đất biến thành Quả địa cầu 🌐",
+          "hint": "Trái đất ở góc trên bên phải có chút thay đổi!"
+        },
+        {
+          "id": "diff_ufo",
+          "x": 45,
+          "y": 25,
+          "name": "Đĩa bay đổi loại 🛸",
+          "hint": "Chú ý chiếc đĩa bay ở giữa màn hình."
+        },
+        {
+          "id": "diff_star",
+          "x": 15,
+          "y": 70,
+          "name": "Thêm Ngôi sao vàng ⭐️",
+          "hint": "Phía dưới bên trái vừa xuất hiện một ngôi sao!"
+        },
+        {
+          "id": "diff_dino",
+          "x": 75,
+          "y": 70,
+          "name": "Chú khủng long đổi loài 🦖",
+          "hint": "Khủng long xanh lá đã đổi loại!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "astronaut",
+          "emoji": "🧑‍🚀",
+          "top": "45%",
+          "left": "40%",
+          "size": "5rem"
+        },
+        {
+          "id": "earth",
+          "emoji": "🌐",
+          "top": "15%",
+          "left": "80%",
+          "size": "4rem"
+        },
+        {
+          "id": "sun",
+          "emoji": "☀️",
+          "top": "10%",
+          "left": "15%",
+          "size": "4.5rem"
+        },
+        {
+          "id": "ufo",
+          "emoji": "🛸",
+          "top": "25%",
+          "left": "45%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "gem",
+          "emoji": "💎",
+          "top": "75%",
+          "left": "30%",
+          "size": "2.8rem"
+        },
+        {
+          "id": "dino",
+          "emoji": "🦖",
+          "top": "70%",
+          "left": "75%",
+          "size": "4rem"
+        },
+        {
+          "id": "star_extra",
+          "emoji": "⭐️",
+          "top": "70%",
+          "left": "15%",
+          "size": "3rem"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Phòng Thí Nghiệm Rô-bốt",
+      "bg": "linear-gradient(135deg, #18032b, #330857)",
+      "itemsLeft": [
+        {
+          "id": "robot",
+          "emoji": "🤖",
+          "top": "50%",
+          "left": "50%",
+          "size": "5.5rem"
+        },
+        {
+          "id": "sat",
+          "emoji": "🛰️",
+          "top": "15%",
+          "left": "25%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "tele",
+          "emoji": "🔭",
+          "top": "75%",
+          "left": "20%",
+          "size": "3.8rem"
+        },
+        {
+          "id": "bat",
+          "emoji": "🔋",
+          "top": "20%",
+          "left": "75%",
+          "size": "3rem"
+        },
+        {
+          "id": "comp",
+          "emoji": "💻",
+          "top": "75%",
+          "left": "80%",
+          "size": "3.5rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_robot",
+          "x": 50,
+          "y": 50,
+          "name": "Rô-bốt biến thành Quái vật tí hon 👾",
+          "hint": "Nhìn vào chú rô-bốt ở trung tâm phòng thí nghiệm."
+        },
+        {
+          "id": "diff_bat",
+          "x": 75,
+          "y": 20,
+          "name": "Pin biến thành Bóng đèn 💡",
+          "hint": "Cục pin ở góc trên bên phải có thay đổi!"
+        },
+        {
+          "id": "diff_key",
+          "x": 50,
+          "y": 15,
+          "name": "Thêm Chìa khóa vàng 🔑",
+          "hint": "Góc trên giữa vừa có thêm một chìa khóa."
+        },
+        {
+          "id": "diff_comp",
+          "x": 80,
+          "y": 75,
+          "name": "Máy tính đổi màu màn hình 🖥️",
+          "hint": "Chiếc máy tính ở góc dưới bên phải!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "robot",
+          "emoji": "👾",
+          "top": "50%",
+          "left": "50%",
+          "size": "5.5rem"
+        },
+        {
+          "id": "sat",
+          "emoji": "🛰️",
+          "top": "15%",
+          "left": "25%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "tele",
+          "emoji": "🔭",
+          "top": "75%",
+          "left": "20%",
+          "size": "3.8rem"
+        },
+        {
+          "id": "bat",
+          "emoji": "💡",
+          "top": "20%",
+          "left": "75%",
+          "size": "3rem"
+        },
+        {
+          "id": "comp",
+          "emoji": "🖥️",
+          "top": "75%",
+          "left": "80%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "key",
+          "emoji": "🔑",
+          "top": "15%",
+          "left": "50%",
+          "size": "3rem"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Chuyến Bay Vũ Trụ",
+      "bg": "linear-gradient(135deg, #021b1a, #054441)",
+      "itemsLeft": [
+        {
+          "id": "star_shoot",
+          "emoji": "🌠",
+          "top": "15%",
+          "left": "30%",
+          "size": "4rem"
+        },
+        {
+          "id": "saucer",
+          "emoji": "🛸",
+          "top": "40%",
+          "left": "20%",
+          "size": "4rem"
+        },
+        {
+          "id": "crescent",
+          "emoji": "🌙",
+          "top": "20%",
+          "left": "80%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "station",
+          "emoji": "🛰️",
+          "top": "65%",
+          "left": "50%",
+          "size": "4.5rem"
+        },
+        {
+          "id": "alien2",
+          "emoji": "👽",
+          "top": "70%",
+          "left": "80%",
+          "size": "3.5rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_crescent",
+          "x": 80,
+          "y": 20,
+          "name": "Mặt trăng tròn 🌕",
+          "hint": "Mặt trăng góc trên phải đã tròn xoe!"
+        },
+        {
+          "id": "diff_alien2",
+          "x": 80,
+          "y": 70,
+          "name": "Người ngoài hành tinh thêm Kính râm 🕶️",
+          "hint": "Ở góc dưới bên phải có phụ kiện mới!"
+        },
+        {
+          "id": "diff_rocket",
+          "x": 50,
+          "y": 20,
+          "name": "Thêm Tên lửa mini 🚀",
+          "hint": "Góc trên giữa có thêm một chiếc tên lửa nhỏ."
+        },
+        {
+          "id": "diff_saucer",
+          "x": 20,
+          "y": 40,
+          "name": "Đĩa bay đổi thành Vệ tinh 🛰️",
+          "hint": "Chiếc đĩa bay ở bên trái có biến đổi!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "star_shoot",
+          "emoji": "🌠",
+          "top": "15%",
+          "left": "30%",
+          "size": "4rem"
+        },
+        {
+          "id": "saucer",
+          "emoji": "🛰️",
+          "top": "40%",
+          "left": "20%",
+          "size": "4rem"
+        },
+        {
+          "id": "crescent",
+          "emoji": "🌕",
+          "top": "20%",
+          "left": "80%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "station",
+          "emoji": "🛰️",
+          "top": "65%",
+          "left": "50%",
+          "size": "4.5rem"
+        },
+        {
+          "id": "alien2",
+          "emoji": "🕶️",
+          "top": "70%",
+          "left": "80%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "rocket_mini",
+          "emoji": "🚀",
+          "top": "20%",
+          "left": "50%",
+          "size": "3rem"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Bữa Tiệc Ngân Hà",
+      "bg": "linear-gradient(135deg, #2b0419, #590833)",
+      "itemsLeft": [
+        {
+          "id": "party_rocket",
+          "emoji": "🚀",
+          "top": "50%",
+          "left": "30%",
+          "size": "5rem"
+        },
+        {
+          "id": "cake",
+          "emoji": "🎂",
+          "top": "65%",
+          "left": "65%",
+          "size": "4.5rem"
+        },
+        {
+          "id": "crown",
+          "emoji": "👑",
+          "top": "20%",
+          "left": "50%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "balloon",
+          "emoji": "🎈",
+          "top": "25%",
+          "left": "20%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "rainbow",
+          "emoji": "🌈",
+          "top": "20%",
+          "left": "80%",
+          "size": "4rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_cake",
+          "x": 65,
+          "y": 65,
+          "name": "Bánh kem đổi thành Kẹo mút 🍭",
+          "hint": "Chiếc bánh sinh nhật đã biến thành món kẹo ngọt!"
+        },
+        {
+          "id": "diff_balloon",
+          "x": 20,
+          "y": 25,
+          "name": "Bóng bay đổi màu 🎆",
+          "hint": "Bóng bay đỏ đổi thành pháo hoa lấp lánh."
+        },
+        {
+          "id": "diff_gift",
+          "x": 50,
+          "y": 70,
+          "name": "Thêm Hộp quà sinh nhật 🎁",
+          "hint": "Ở giữa phía dưới vừa có thêm một hộp quà!"
+        },
+        {
+          "id": "diff_crown",
+          "x": 50,
+          "y": 20,
+          "name": "Vương vương thành Cúp vàng 🏆",
+          "hint": "Vương miện ở trên cao đã đổi thành cúp vàng!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "party_rocket",
+          "emoji": "🚀",
+          "top": "50%",
+          "left": "30%",
+          "size": "5rem"
+        },
+        {
+          "id": "cake",
+          "emoji": "🍭",
+          "top": "65%",
+          "left": "65%",
+          "size": "4.5rem"
+        },
+        {
+          "id": "crown",
+          "emoji": "🏆",
+          "top": "20%",
+          "left": "50%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "balloon",
+          "emoji": "🎆",
+          "top": "25%",
+          "left": "20%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "rainbow",
+          "emoji": "🌈",
+          "top": "20%",
+          "left": "80%",
+          "size": "4rem"
+        },
+        {
+          "id": "gift",
+          "emoji": "🎁",
+          "top": "70%",
+          "left": "50%",
+          "size": "3.5rem"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Ngân Hà Thần Tiên 1",
+      "bg": "linear-gradient(135deg, #2a0b0a, #172055)",
+      "itemsLeft": [
+        {
+          "id": "item_0_0",
+          "emoji": "👾",
+          "top": "19%",
+          "left": "44%",
+          "size": "2.9rem"
+        },
+        {
+          "id": "item_0_1",
+          "emoji": "🎆",
+          "top": "10%",
+          "left": "47%",
+          "size": "5.5rem"
+        },
+        {
+          "id": "item_0_2",
+          "emoji": "✨",
+          "top": "22%",
+          "left": "31%",
+          "size": "4.8rem"
+        },
+        {
+          "id": "item_0_3",
+          "emoji": "🌲",
+          "top": "70%",
+          "left": "84%",
+          "size": "3.1rem"
+        },
+        {
+          "id": "item_0_4",
+          "emoji": "☁️",
+          "top": "24%",
+          "left": "33%",
+          "size": "2.8rem"
+        },
+        {
+          "id": "item_0_5",
+          "emoji": "☁️",
+          "top": "75%",
+          "left": "84%",
+          "size": "4.8rem"
+        },
+        {
+          "id": "item_0_6",
+          "emoji": "🌍",
+          "top": "71%",
+          "left": "12%",
+          "size": "5.5rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_0_0",
+          "x": 84,
+          "y": 70,
+          "name": "Cây thông thành Cây cọ 🌴",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 70% dọc, 84% ngang!"
+        },
+        {
+          "id": "diff_0_1",
+          "x": 44,
+          "y": 19,
+          "name": "Quái vật thành Bóng ma 👻",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 19% dọc, 44% ngang!"
+        },
+        {
+          "id": "diff_0_2",
+          "x": 12,
+          "y": 71,
+          "name": "Trái đất thành Quả địa cầu 🌐",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 71% dọc, 12% ngang!"
+        },
+        {
+          "id": "diff_extra_0",
+          "x": 73,
+          "y": 27,
+          "name": "Thêm 🎇",
+          "hint": "Vừa có một thứ mới xuất hiện ở vị trí 27% dọc, 73% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_0_0",
+          "emoji": "👻",
+          "top": "19%",
+          "left": "44%",
+          "size": "2.9rem"
+        },
+        {
+          "id": "item_0_1",
+          "emoji": "🎆",
+          "top": "10%",
+          "left": "47%",
+          "size": "5.5rem"
+        },
+        {
+          "id": "item_0_2",
+          "emoji": "✨",
+          "top": "22%",
+          "left": "31%",
+          "size": "4.8rem"
+        },
+        {
+          "id": "item_0_3",
+          "emoji": "🌴",
+          "top": "70%",
+          "left": "84%",
+          "size": "3.1rem"
+        },
+        {
+          "id": "item_0_4",
+          "emoji": "☁️",
+          "top": "24%",
+          "left": "33%",
+          "size": "2.8rem"
+        },
+        {
+          "id": "item_0_5",
+          "emoji": "☁️",
+          "top": "75%",
+          "left": "84%",
+          "size": "4.8rem"
+        },
+        {
+          "id": "item_0_6",
+          "emoji": "🌐",
+          "top": "71%",
+          "left": "12%",
+          "size": "5.5rem"
+        },
+        {
+          "id": "extra_0",
+          "emoji": "🎇",
+          "top": "27%",
+          "left": "73%",
+          "size": "3.5rem"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Ngân Hà Huyền Bí 2",
+      "bg": "linear-gradient(135deg, #070845, #250128)",
+      "itemsLeft": [
+        {
+          "id": "item_1_0",
+          "emoji": "🛸",
+          "top": "60%",
+          "left": "75%",
+          "size": "4.5rem"
+        },
+        {
+          "id": "item_1_1",
+          "emoji": "🌙",
+          "top": "40%",
+          "left": "82%",
+          "size": "3.6rem"
+        },
+        {
+          "id": "item_1_2",
+          "emoji": "💎",
+          "top": "12%",
+          "left": "62%",
+          "size": "3.6rem"
+        },
+        {
+          "id": "item_1_3",
+          "emoji": "✨",
+          "top": "62%",
+          "left": "78%",
+          "size": "3.7rem"
+        },
+        {
+          "id": "item_1_4",
+          "emoji": "👽",
+          "top": "21%",
+          "left": "14%",
+          "size": "5.2rem"
+        },
+        {
+          "id": "item_1_5",
+          "emoji": "🚀",
+          "top": "53%",
+          "left": "49%",
+          "size": "4.8rem"
+        },
+        {
+          "id": "item_1_6",
+          "emoji": "🌍",
+          "top": "78%",
+          "left": "52%",
+          "size": "4.9rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_1_0",
+          "x": 49,
+          "y": 53,
+          "name": "Tên lửa thành Máy bay 🛩️",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 53% dọc, 49% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_1_0",
+          "emoji": "🛸",
+          "top": "60%",
+          "left": "75%",
+          "size": "4.5rem"
+        },
+        {
+          "id": "item_1_1",
+          "emoji": "🌙",
+          "top": "40%",
+          "left": "82%",
+          "size": "3.6rem"
+        },
+        {
+          "id": "item_1_2",
+          "emoji": "💎",
+          "top": "12%",
+          "left": "62%",
+          "size": "3.6rem"
+        },
+        {
+          "id": "item_1_3",
+          "emoji": "✨",
+          "top": "62%",
+          "left": "78%",
+          "size": "3.7rem"
+        },
+        {
+          "id": "item_1_4",
+          "emoji": "👽",
+          "top": "21%",
+          "left": "14%",
+          "size": "5.2rem"
+        },
+        {
+          "id": "item_1_5",
+          "emoji": "🛩️",
+          "top": "53%",
+          "left": "49%",
+          "size": "4.8rem"
+        },
+        {
+          "id": "item_1_6",
+          "emoji": "🌍",
+          "top": "78%",
+          "left": "52%",
+          "size": "4.9rem"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Mê Cung Sinh Tồn 3",
+      "bg": "linear-gradient(135deg, #0a1646, #19151c)",
+      "itemsLeft": [
+        {
+          "id": "item_2_0",
+          "emoji": "✨",
+          "top": "16%",
+          "left": "78%",
+          "size": "4.3rem"
+        },
+        {
+          "id": "item_2_1",
+          "emoji": "☄️",
+          "top": "16%",
+          "left": "55%",
+          "size": "4.9rem"
+        },
+        {
+          "id": "item_2_2",
+          "emoji": "🌙",
+          "top": "69%",
+          "left": "39%",
+          "size": "3.0rem"
+        },
+        {
+          "id": "item_2_3",
+          "emoji": "🦁",
+          "top": "59%",
+          "left": "11%",
+          "size": "2.6rem"
+        },
+        {
+          "id": "item_2_4",
+          "emoji": "☁️",
+          "top": "59%",
+          "left": "30%",
+          "size": "5.1rem"
+        },
+        {
+          "id": "item_2_5",
+          "emoji": "🛰️",
+          "top": "34%",
+          "left": "51%",
+          "size": "4.8rem"
+        },
+        {
+          "id": "item_2_6",
+          "emoji": "🚀",
+          "top": "12%",
+          "left": "48%",
+          "size": "4.8rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_2_0",
+          "x": 48,
+          "y": 12,
+          "name": "Tên lửa thành Máy bay 🛩️",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 12% dọc, 48% ngang!"
+        },
+        {
+          "id": "diff_2_1",
+          "x": 11,
+          "y": 59,
+          "name": "Sư tử thành Hổ 🐯",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 59% dọc, 11% ngang!"
+        },
+        {
+          "id": "diff_extra_2",
+          "x": 73,
+          "y": 46,
+          "name": "Thêm 🤖",
+          "hint": "Vừa có một thứ mới xuất hiện ở vị trí 46% dọc, 73% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_2_0",
+          "emoji": "✨",
+          "top": "16%",
+          "left": "78%",
+          "size": "4.3rem"
+        },
+        {
+          "id": "item_2_1",
+          "emoji": "☄️",
+          "top": "16%",
+          "left": "55%",
+          "size": "4.9rem"
+        },
+        {
+          "id": "item_2_2",
+          "emoji": "🌙",
+          "top": "69%",
+          "left": "39%",
+          "size": "3.0rem"
+        },
+        {
+          "id": "item_2_3",
+          "emoji": "🐯",
+          "top": "59%",
+          "left": "11%",
+          "size": "2.6rem"
+        },
+        {
+          "id": "item_2_4",
+          "emoji": "☁️",
+          "top": "59%",
+          "left": "30%",
+          "size": "5.1rem"
+        },
+        {
+          "id": "item_2_5",
+          "emoji": "🛰️",
+          "top": "34%",
+          "left": "51%",
+          "size": "4.8rem"
+        },
+        {
+          "id": "item_2_6",
+          "emoji": "🛩️",
+          "top": "12%",
+          "left": "48%",
+          "size": "4.8rem"
+        },
+        {
+          "id": "extra_2",
+          "emoji": "🤖",
+          "top": "46%",
+          "left": "73%",
+          "size": "3.5rem"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Phi Thuyền Sinh Tồn 4",
+      "bg": "linear-gradient(135deg, #1f014c, #062341)",
+      "itemsLeft": [
+        {
+          "id": "item_3_0",
+          "emoji": "👽",
+          "top": "61%",
+          "left": "29%",
+          "size": "2.6rem"
+        },
+        {
+          "id": "item_3_1",
+          "emoji": "👽",
+          "top": "43%",
+          "left": "59%",
+          "size": "4.2rem"
+        },
+        {
+          "id": "item_3_2",
+          "emoji": "🛰️",
+          "top": "28%",
+          "left": "54%",
+          "size": "2.7rem"
+        },
+        {
+          "id": "item_3_3",
+          "emoji": "🌻",
+          "top": "12%",
+          "left": "14%",
+          "size": "3.1rem"
+        },
+        {
+          "id": "item_3_4",
+          "emoji": "👽",
+          "top": "33%",
+          "left": "85%",
+          "size": "2.6rem"
+        },
+        {
+          "id": "item_3_5",
+          "emoji": "💎",
+          "top": "38%",
+          "left": "10%",
+          "size": "5.5rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_3_0",
+          "x": 14,
+          "y": 12,
+          "name": "Hoa hướng dương thành Hoa hồng 🌹",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 12% dọc, 14% ngang!"
+        },
+        {
+          "id": "diff_3_1",
+          "x": 59,
+          "y": 43,
+          "name": "Người ngoài hành tinh thành Rô-bốt 🤖",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 43% dọc, 59% ngang!"
+        },
+        {
+          "id": "diff_3_2",
+          "x": 29,
+          "y": 61,
+          "name": "Người ngoài hành tinh thành Rô-bốt 🤖",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 61% dọc, 29% ngang!"
+        },
+        {
+          "id": "diff_extra_3",
+          "x": 56,
+          "y": 35,
+          "name": "Thêm 🚀",
+          "hint": "Vừa có một thứ mới xuất hiện ở vị trí 35% dọc, 56% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_3_0",
+          "emoji": "🤖",
+          "top": "61%",
+          "left": "29%",
+          "size": "2.6rem"
+        },
+        {
+          "id": "item_3_1",
+          "emoji": "🤖",
+          "top": "43%",
+          "left": "59%",
+          "size": "4.2rem"
+        },
+        {
+          "id": "item_3_2",
+          "emoji": "🛰️",
+          "top": "28%",
+          "left": "54%",
+          "size": "2.7rem"
+        },
+        {
+          "id": "item_3_3",
+          "emoji": "🌹",
+          "top": "12%",
+          "left": "14%",
+          "size": "3.1rem"
+        },
+        {
+          "id": "item_3_4",
+          "emoji": "👽",
+          "top": "33%",
+          "left": "85%",
+          "size": "2.6rem"
+        },
+        {
+          "id": "item_3_5",
+          "emoji": "💎",
+          "top": "38%",
+          "left": "10%",
+          "size": "5.5rem"
+        },
+        {
+          "id": "extra_3",
+          "emoji": "🚀",
+          "top": "35%",
+          "left": "56%",
+          "size": "3.5rem"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quần Đảo Tương Lai 5",
+      "bg": "linear-gradient(135deg, #0b0741, #2b1e1b)",
+      "itemsLeft": [
+        {
+          "id": "item_4_0",
+          "emoji": "🧑‍🚀",
+          "top": "54%",
+          "left": "48%",
+          "size": "2.5rem"
+        },
+        {
+          "id": "item_4_1",
+          "emoji": "🍎",
+          "top": "64%",
+          "left": "16%",
+          "size": "4.8rem"
+        },
+        {
+          "id": "item_4_2",
+          "emoji": "👾",
+          "top": "66%",
+          "left": "38%",
+          "size": "4.2rem"
+        },
+        {
+          "id": "item_4_3",
+          "emoji": "🌙",
+          "top": "59%",
+          "left": "32%",
+          "size": "4.6rem"
+        },
+        {
+          "id": "item_4_4",
+          "emoji": "🌻",
+          "top": "57%",
+          "left": "76%",
+          "size": "3.8rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_4_0",
+          "x": 76,
+          "y": 57,
+          "name": "Hoa hướng dương thành Hoa hồng 🌹",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 57% dọc, 76% ngang!"
+        },
+        {
+          "id": "diff_4_1",
+          "x": 16,
+          "y": 64,
+          "name": "Táo thành Dưa hấu 🍉",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 64% dọc, 16% ngang!"
+        },
+        {
+          "id": "diff_4_2",
+          "x": 48,
+          "y": 54,
+          "name": "Phi hành gia đổi kiểu 👨‍🚀",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 54% dọc, 48% ngang!"
+        },
+        {
+          "id": "diff_extra_4",
+          "x": 25,
+          "y": 29,
+          "name": "Thêm 🌍",
+          "hint": "Vừa có một thứ mới xuất hiện ở vị trí 29% dọc, 25% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_4_0",
+          "emoji": "👨‍🚀",
+          "top": "54%",
+          "left": "48%",
+          "size": "2.5rem"
+        },
+        {
+          "id": "item_4_1",
+          "emoji": "🍉",
+          "top": "64%",
+          "left": "16%",
+          "size": "4.8rem"
+        },
+        {
+          "id": "item_4_2",
+          "emoji": "👾",
+          "top": "66%",
+          "left": "38%",
+          "size": "4.2rem"
+        },
+        {
+          "id": "item_4_3",
+          "emoji": "🌙",
+          "top": "59%",
+          "left": "32%",
+          "size": "4.6rem"
+        },
+        {
+          "id": "item_4_4",
+          "emoji": "🌹",
+          "top": "57%",
+          "left": "76%",
+          "size": "3.8rem"
+        },
+        {
+          "id": "extra_4",
+          "emoji": "🌍",
+          "top": "29%",
+          "left": "25%",
+          "size": "3.5rem"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Khu Phố Rực Lửa 6",
+      "bg": "linear-gradient(135deg, #2e0b20, #060546)",
+      "itemsLeft": [
+        {
+          "id": "item_5_0",
+          "emoji": "✨",
+          "top": "30%",
+          "left": "21%",
+          "size": "4.9rem"
+        },
+        {
+          "id": "item_5_1",
+          "emoji": "☁️",
+          "top": "38%",
+          "left": "83%",
+          "size": "5.0rem"
+        },
+        {
+          "id": "item_5_2",
+          "emoji": "✨",
+          "top": "65%",
+          "left": "51%",
+          "size": "3.0rem"
+        },
+        {
+          "id": "item_5_3",
+          "emoji": "🧑‍🚀",
+          "top": "74%",
+          "left": "37%",
+          "size": "3.1rem"
+        },
+        {
+          "id": "item_5_4",
+          "emoji": "☁️",
+          "top": "15%",
+          "left": "33%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "item_5_5",
+          "emoji": "🌻",
+          "top": "26%",
+          "left": "21%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "item_5_6",
+          "emoji": "☄️",
+          "top": "32%",
+          "left": "70%",
+          "size": "4.7rem"
+        },
+        {
+          "id": "item_5_7",
+          "emoji": "💎",
+          "top": "16%",
+          "left": "55%",
+          "size": "3.4rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_5_0",
+          "x": 21,
+          "y": 26,
+          "name": "Hoa hướng dương thành Hoa hồng 🌹",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 26% dọc, 21% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_5_0",
+          "emoji": "✨",
+          "top": "30%",
+          "left": "21%",
+          "size": "4.9rem"
+        },
+        {
+          "id": "item_5_1",
+          "emoji": "☁️",
+          "top": "38%",
+          "left": "83%",
+          "size": "5.0rem"
+        },
+        {
+          "id": "item_5_2",
+          "emoji": "✨",
+          "top": "65%",
+          "left": "51%",
+          "size": "3.0rem"
+        },
+        {
+          "id": "item_5_3",
+          "emoji": "🧑‍🚀",
+          "top": "74%",
+          "left": "37%",
+          "size": "3.1rem"
+        },
+        {
+          "id": "item_5_4",
+          "emoji": "☁️",
+          "top": "15%",
+          "left": "33%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "item_5_5",
+          "emoji": "🌹",
+          "top": "26%",
+          "left": "21%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "item_5_6",
+          "emoji": "☄️",
+          "top": "32%",
+          "left": "70%",
+          "size": "4.7rem"
+        },
+        {
+          "id": "item_5_7",
+          "emoji": "💎",
+          "top": "16%",
+          "left": "55%",
+          "size": "3.4rem"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Trạm Huyền Bí 7",
+      "bg": "linear-gradient(135deg, #2a2821, #1d2826)",
+      "itemsLeft": [
+        {
+          "id": "item_6_0",
+          "emoji": "🧑‍🚀",
+          "top": "76%",
+          "left": "79%",
+          "size": "4.9rem"
+        },
+        {
+          "id": "item_6_1",
+          "emoji": "🤖",
+          "top": "11%",
+          "left": "53%",
+          "size": "4.0rem"
+        },
+        {
+          "id": "item_6_2",
+          "emoji": "☄️",
+          "top": "25%",
+          "left": "60%",
+          "size": "4.0rem"
+        },
+        {
+          "id": "item_6_3",
+          "emoji": "🚗",
+          "top": "71%",
+          "left": "10%",
+          "size": "2.6rem"
+        },
+        {
+          "id": "item_6_4",
+          "emoji": "🤖",
+          "top": "28%",
+          "left": "74%",
+          "size": "5.2rem"
+        },
+        {
+          "id": "item_6_5",
+          "emoji": "🌍",
+          "top": "29%",
+          "left": "75%",
+          "size": "3.9rem"
+        },
+        {
+          "id": "item_6_6",
+          "emoji": "🎆",
+          "top": "23%",
+          "left": "33%",
+          "size": "5.3rem"
+        },
+        {
+          "id": "item_6_7",
+          "emoji": "🌍",
+          "top": "50%",
+          "left": "56%",
+          "size": "2.8rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_6_0",
+          "x": 79,
+          "y": 76,
+          "name": "Phi hành gia đổi kiểu 👨‍🚀",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 76% dọc, 79% ngang!"
+        },
+        {
+          "id": "diff_6_1",
+          "x": 10,
+          "y": 71,
+          "name": "Ô tô đỏ thành Ô tô vàng 🚕",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 71% dọc, 10% ngang!"
+        },
+        {
+          "id": "diff_extra_6",
+          "x": 55,
+          "y": 30,
+          "name": "Thêm 💎",
+          "hint": "Vừa có một thứ mới xuất hiện ở vị trí 30% dọc, 55% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_6_0",
+          "emoji": "👨‍🚀",
+          "top": "76%",
+          "left": "79%",
+          "size": "4.9rem"
+        },
+        {
+          "id": "item_6_1",
+          "emoji": "🤖",
+          "top": "11%",
+          "left": "53%",
+          "size": "4.0rem"
+        },
+        {
+          "id": "item_6_2",
+          "emoji": "☄️",
+          "top": "25%",
+          "left": "60%",
+          "size": "4.0rem"
+        },
+        {
+          "id": "item_6_3",
+          "emoji": "🚕",
+          "top": "71%",
+          "left": "10%",
+          "size": "2.6rem"
+        },
+        {
+          "id": "item_6_4",
+          "emoji": "🤖",
+          "top": "28%",
+          "left": "74%",
+          "size": "5.2rem"
+        },
+        {
+          "id": "item_6_5",
+          "emoji": "🌍",
+          "top": "29%",
+          "left": "75%",
+          "size": "3.9rem"
+        },
+        {
+          "id": "item_6_6",
+          "emoji": "🎆",
+          "top": "23%",
+          "left": "33%",
+          "size": "5.3rem"
+        },
+        {
+          "id": "item_6_7",
+          "emoji": "🌍",
+          "top": "50%",
+          "left": "56%",
+          "size": "2.8rem"
+        },
+        {
+          "id": "extra_6",
+          "emoji": "💎",
+          "top": "30%",
+          "left": "55%",
+          "size": "3.5rem"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Ngân Hà Kỳ Diệu 8",
+      "bg": "linear-gradient(135deg, #253211, #260943)",
+      "itemsLeft": [
+        {
+          "id": "item_7_0",
+          "emoji": "👽",
+          "top": "54%",
+          "left": "38%",
+          "size": "2.6rem"
+        },
+        {
+          "id": "item_7_1",
+          "emoji": "🤖",
+          "top": "74%",
+          "left": "63%",
+          "size": "4.8rem"
+        },
+        {
+          "id": "item_7_2",
+          "emoji": "🌟",
+          "top": "55%",
+          "left": "28%",
+          "size": "2.6rem"
+        },
+        {
+          "id": "item_7_3",
+          "emoji": "🍕",
+          "top": "35%",
+          "left": "17%",
+          "size": "2.9rem"
+        },
+        {
+          "id": "item_7_4",
+          "emoji": "🎇",
+          "top": "16%",
+          "left": "61%",
+          "size": "2.5rem"
+        },
+        {
+          "id": "item_7_5",
+          "emoji": "🚀",
+          "top": "79%",
+          "left": "46%",
+          "size": "3.3rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_7_0",
+          "x": 17,
+          "y": 35,
+          "name": "Pizza thành Burger 🍔",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 35% dọc, 17% ngang!"
+        },
+        {
+          "id": "diff_7_1",
+          "x": 46,
+          "y": 79,
+          "name": "Tên lửa thành Máy bay 🛩️",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 79% dọc, 46% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_7_0",
+          "emoji": "👽",
+          "top": "54%",
+          "left": "38%",
+          "size": "2.6rem"
+        },
+        {
+          "id": "item_7_1",
+          "emoji": "🤖",
+          "top": "74%",
+          "left": "63%",
+          "size": "4.8rem"
+        },
+        {
+          "id": "item_7_2",
+          "emoji": "🌟",
+          "top": "55%",
+          "left": "28%",
+          "size": "2.6rem"
+        },
+        {
+          "id": "item_7_3",
+          "emoji": "🍔",
+          "top": "35%",
+          "left": "17%",
+          "size": "2.9rem"
+        },
+        {
+          "id": "item_7_4",
+          "emoji": "🎇",
+          "top": "16%",
+          "left": "61%",
+          "size": "2.5rem"
+        },
+        {
+          "id": "item_7_5",
+          "emoji": "🛩️",
+          "top": "79%",
+          "left": "46%",
+          "size": "3.3rem"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Thành Phố Sinh Tồn 9",
+      "bg": "linear-gradient(135deg, #1b3007, #051d36)",
+      "itemsLeft": [
+        {
+          "id": "item_8_0",
+          "emoji": "🧑‍🚀",
+          "top": "14%",
+          "left": "85%",
+          "size": "3.9rem"
+        },
+        {
+          "id": "item_8_1",
+          "emoji": "⭐",
+          "top": "55%",
+          "left": "10%",
+          "size": "4.5rem"
+        },
+        {
+          "id": "item_8_2",
+          "emoji": "⭐",
+          "top": "15%",
+          "left": "72%",
+          "size": "3.7rem"
+        },
+        {
+          "id": "item_8_3",
+          "emoji": "🦋",
+          "top": "76%",
+          "left": "79%",
+          "size": "4.8rem"
+        },
+        {
+          "id": "item_8_4",
+          "emoji": "🌍",
+          "top": "60%",
+          "left": "41%",
+          "size": "4.4rem"
+        },
+        {
+          "id": "item_8_5",
+          "emoji": "🤖",
+          "top": "10%",
+          "left": "55%",
+          "size": "3.9rem"
+        },
+        {
+          "id": "item_8_6",
+          "emoji": "👾",
+          "top": "11%",
+          "left": "39%",
+          "size": "4.2rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_8_0",
+          "x": 39,
+          "y": 11,
+          "name": "Quái vật thành Bóng ma 👻",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 11% dọc, 39% ngang!"
+        },
+        {
+          "id": "diff_8_1",
+          "x": 79,
+          "y": 76,
+          "name": "Bướm thành Ong 🐝",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 76% dọc, 79% ngang!"
+        },
+        {
+          "id": "diff_8_2",
+          "x": 85,
+          "y": 14,
+          "name": "Phi hành gia đổi kiểu 👨‍🚀",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 14% dọc, 85% ngang!"
+        },
+        {
+          "id": "diff_extra_8",
+          "x": 25,
+          "y": 52,
+          "name": "Thêm 🎆",
+          "hint": "Vừa có một thứ mới xuất hiện ở vị trí 52% dọc, 25% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_8_0",
+          "emoji": "👨‍🚀",
+          "top": "14%",
+          "left": "85%",
+          "size": "3.9rem"
+        },
+        {
+          "id": "item_8_1",
+          "emoji": "⭐",
+          "top": "55%",
+          "left": "10%",
+          "size": "4.5rem"
+        },
+        {
+          "id": "item_8_2",
+          "emoji": "⭐",
+          "top": "15%",
+          "left": "72%",
+          "size": "3.7rem"
+        },
+        {
+          "id": "item_8_3",
+          "emoji": "🐝",
+          "top": "76%",
+          "left": "79%",
+          "size": "4.8rem"
+        },
+        {
+          "id": "item_8_4",
+          "emoji": "🌍",
+          "top": "60%",
+          "left": "41%",
+          "size": "4.4rem"
+        },
+        {
+          "id": "item_8_5",
+          "emoji": "🤖",
+          "top": "10%",
+          "left": "55%",
+          "size": "3.9rem"
+        },
+        {
+          "id": "item_8_6",
+          "emoji": "👻",
+          "top": "11%",
+          "left": "39%",
+          "size": "4.2rem"
+        },
+        {
+          "id": "extra_8",
+          "emoji": "🎆",
+          "top": "52%",
+          "left": "25%",
+          "size": "3.5rem"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Dải Ngân Hà Huyền Bí 10",
+      "bg": "linear-gradient(135deg, #180b22, #311754)",
+      "itemsLeft": [
+        {
+          "id": "item_9_0",
+          "emoji": "☀️",
+          "top": "49%",
+          "left": "62%",
+          "size": "3.9rem"
+        },
+        {
+          "id": "item_9_1",
+          "emoji": "💎",
+          "top": "53%",
+          "left": "65%",
+          "size": "4.0rem"
+        },
+        {
+          "id": "item_9_2",
+          "emoji": "👽",
+          "top": "25%",
+          "left": "83%",
+          "size": "5.4rem"
+        },
+        {
+          "id": "item_9_3",
+          "emoji": "🧑‍🚀",
+          "top": "77%",
+          "left": "43%",
+          "size": "5.1rem"
+        },
+        {
+          "id": "item_9_4",
+          "emoji": "💎",
+          "top": "65%",
+          "left": "31%",
+          "size": "2.5rem"
+        },
+        {
+          "id": "item_9_5",
+          "emoji": "🌟",
+          "top": "40%",
+          "left": "62%",
+          "size": "4.2rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_9_0",
+          "x": 62,
+          "y": 49,
+          "name": "Mặt trời thành Mặt trăng 🌕",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 49% dọc, 62% ngang!"
+        },
+        {
+          "id": "diff_9_1",
+          "x": 43,
+          "y": 77,
+          "name": "Phi hành gia đổi kiểu 👨‍🚀",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 77% dọc, 43% ngang!"
+        },
+        {
+          "id": "diff_extra_9",
+          "x": 31,
+          "y": 43,
+          "name": "Thêm 👽",
+          "hint": "Vừa có một thứ mới xuất hiện ở vị trí 43% dọc, 31% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_9_0",
+          "emoji": "🌕",
+          "top": "49%",
+          "left": "62%",
+          "size": "3.9rem"
+        },
+        {
+          "id": "item_9_1",
+          "emoji": "💎",
+          "top": "53%",
+          "left": "65%",
+          "size": "4.0rem"
+        },
+        {
+          "id": "item_9_2",
+          "emoji": "👽",
+          "top": "25%",
+          "left": "83%",
+          "size": "5.4rem"
+        },
+        {
+          "id": "item_9_3",
+          "emoji": "👨‍🚀",
+          "top": "77%",
+          "left": "43%",
+          "size": "5.1rem"
+        },
+        {
+          "id": "item_9_4",
+          "emoji": "💎",
+          "top": "65%",
+          "left": "31%",
+          "size": "2.5rem"
+        },
+        {
+          "id": "item_9_5",
+          "emoji": "🌟",
+          "top": "40%",
+          "left": "62%",
+          "size": "4.2rem"
+        },
+        {
+          "id": "extra_9",
+          "emoji": "👽",
+          "top": "43%",
+          "left": "31%",
+          "size": "3.5rem"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Phòng Thí Nghiệm Thần Tiên 11",
+      "bg": "linear-gradient(135deg, #181b3d, #2f0a5f)",
+      "itemsLeft": [
+        {
+          "id": "item_10_0",
+          "emoji": "🌟",
+          "top": "13%",
+          "left": "33%",
+          "size": "3.9rem"
+        },
+        {
+          "id": "item_10_1",
+          "emoji": "🚗",
+          "top": "25%",
+          "left": "30%",
+          "size": "3.8rem"
+        },
+        {
+          "id": "item_10_2",
+          "emoji": "🧑‍🚀",
+          "top": "21%",
+          "left": "39%",
+          "size": "5.4rem"
+        },
+        {
+          "id": "item_10_3",
+          "emoji": "🛸",
+          "top": "61%",
+          "left": "15%",
+          "size": "3.0rem"
+        },
+        {
+          "id": "item_10_4",
+          "emoji": "🌟",
+          "top": "30%",
+          "left": "54%",
+          "size": "5.0rem"
+        },
+        {
+          "id": "item_10_5",
+          "emoji": "🌍",
+          "top": "26%",
+          "left": "52%",
+          "size": "4.1rem"
+        },
+        {
+          "id": "item_10_6",
+          "emoji": "✨",
+          "top": "40%",
+          "left": "38%",
+          "size": "4.4rem"
+        },
+        {
+          "id": "item_10_7",
+          "emoji": "👽",
+          "top": "42%",
+          "left": "77%",
+          "size": "4.0rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_10_0",
+          "x": 52,
+          "y": 26,
+          "name": "Trái đất thành Quả địa cầu 🌐",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 26% dọc, 52% ngang!"
+        },
+        {
+          "id": "diff_10_1",
+          "x": 30,
+          "y": 25,
+          "name": "Ô tô đỏ thành Ô tô vàng 🚕",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 25% dọc, 30% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_10_0",
+          "emoji": "🌟",
+          "top": "13%",
+          "left": "33%",
+          "size": "3.9rem"
+        },
+        {
+          "id": "item_10_1",
+          "emoji": "🚕",
+          "top": "25%",
+          "left": "30%",
+          "size": "3.8rem"
+        },
+        {
+          "id": "item_10_2",
+          "emoji": "🧑‍🚀",
+          "top": "21%",
+          "left": "39%",
+          "size": "5.4rem"
+        },
+        {
+          "id": "item_10_3",
+          "emoji": "🛸",
+          "top": "61%",
+          "left": "15%",
+          "size": "3.0rem"
+        },
+        {
+          "id": "item_10_4",
+          "emoji": "🌟",
+          "top": "30%",
+          "left": "54%",
+          "size": "5.0rem"
+        },
+        {
+          "id": "item_10_5",
+          "emoji": "🌐",
+          "top": "26%",
+          "left": "52%",
+          "size": "4.1rem"
+        },
+        {
+          "id": "item_10_6",
+          "emoji": "✨",
+          "top": "40%",
+          "left": "38%",
+          "size": "4.4rem"
+        },
+        {
+          "id": "item_10_7",
+          "emoji": "👽",
+          "top": "42%",
+          "left": "77%",
+          "size": "4.0rem"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Hành Tinh Vô Cực 12",
+      "bg": "linear-gradient(135deg, #141f61, #0c2025)",
+      "itemsLeft": [
+        {
+          "id": "item_11_0",
+          "emoji": "💎",
+          "top": "59%",
+          "left": "15%",
+          "size": "3.6rem"
+        },
+        {
+          "id": "item_11_1",
+          "emoji": "🧑‍🚀",
+          "top": "19%",
+          "left": "54%",
+          "size": "5.1rem"
+        },
+        {
+          "id": "item_11_2",
+          "emoji": "👾",
+          "top": "62%",
+          "left": "35%",
+          "size": "2.7rem"
+        },
+        {
+          "id": "item_11_3",
+          "emoji": "🚀",
+          "top": "12%",
+          "left": "68%",
+          "size": "4.1rem"
+        },
+        {
+          "id": "item_11_4",
+          "emoji": "💎",
+          "top": "53%",
+          "left": "48%",
+          "size": "2.6rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_11_0",
+          "x": 68,
+          "y": 12,
+          "name": "Tên lửa thành Máy bay 🛩️",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 12% dọc, 68% ngang!"
+        },
+        {
+          "id": "diff_extra_11",
+          "x": 63,
+          "y": 42,
+          "name": "Thêm 🚀",
+          "hint": "Vừa có một thứ mới xuất hiện ở vị trí 42% dọc, 63% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_11_0",
+          "emoji": "💎",
+          "top": "59%",
+          "left": "15%",
+          "size": "3.6rem"
+        },
+        {
+          "id": "item_11_1",
+          "emoji": "🧑‍🚀",
+          "top": "19%",
+          "left": "54%",
+          "size": "5.1rem"
+        },
+        {
+          "id": "item_11_2",
+          "emoji": "👾",
+          "top": "62%",
+          "left": "35%",
+          "size": "2.7rem"
+        },
+        {
+          "id": "item_11_3",
+          "emoji": "🛩️",
+          "top": "12%",
+          "left": "68%",
+          "size": "4.1rem"
+        },
+        {
+          "id": "item_11_4",
+          "emoji": "💎",
+          "top": "53%",
+          "left": "48%",
+          "size": "2.6rem"
+        },
+        {
+          "id": "extra_11",
+          "emoji": "🚀",
+          "top": "42%",
+          "left": "63%",
+          "size": "3.5rem"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Mê Cung Tương Lai 13",
+      "bg": "linear-gradient(135deg, #10233d, #02240b)",
+      "itemsLeft": [
+        {
+          "id": "item_12_0",
+          "emoji": "🛸",
+          "top": "74%",
+          "left": "72%",
+          "size": "4.3rem"
+        },
+        {
+          "id": "item_12_1",
+          "emoji": "🌍",
+          "top": "64%",
+          "left": "24%",
+          "size": "4.5rem"
+        },
+        {
+          "id": "item_12_2",
+          "emoji": "🤖",
+          "top": "41%",
+          "left": "30%",
+          "size": "5.5rem"
+        },
+        {
+          "id": "item_12_3",
+          "emoji": "☄️",
+          "top": "14%",
+          "left": "35%",
+          "size": "5.2rem"
+        },
+        {
+          "id": "item_12_4",
+          "emoji": "👽",
+          "top": "10%",
+          "left": "37%",
+          "size": "5.4rem"
+        },
+        {
+          "id": "item_12_5",
+          "emoji": "🛰️",
+          "top": "19%",
+          "left": "79%",
+          "size": "5.5rem"
+        },
+        {
+          "id": "item_12_6",
+          "emoji": "🌻",
+          "top": "66%",
+          "left": "13%",
+          "size": "4.5rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_12_0",
+          "x": 13,
+          "y": 66,
+          "name": "Hoa hướng dương thành Hoa hồng 🌹",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 66% dọc, 13% ngang!"
+        },
+        {
+          "id": "diff_extra_12",
+          "x": 47,
+          "y": 21,
+          "name": "Thêm 🎇",
+          "hint": "Vừa có một thứ mới xuất hiện ở vị trí 21% dọc, 47% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_12_0",
+          "emoji": "🛸",
+          "top": "74%",
+          "left": "72%",
+          "size": "4.3rem"
+        },
+        {
+          "id": "item_12_1",
+          "emoji": "🌍",
+          "top": "64%",
+          "left": "24%",
+          "size": "4.5rem"
+        },
+        {
+          "id": "item_12_2",
+          "emoji": "🤖",
+          "top": "41%",
+          "left": "30%",
+          "size": "5.5rem"
+        },
+        {
+          "id": "item_12_3",
+          "emoji": "☄️",
+          "top": "14%",
+          "left": "35%",
+          "size": "5.2rem"
+        },
+        {
+          "id": "item_12_4",
+          "emoji": "👽",
+          "top": "10%",
+          "left": "37%",
+          "size": "5.4rem"
+        },
+        {
+          "id": "item_12_5",
+          "emoji": "🛰️",
+          "top": "19%",
+          "left": "79%",
+          "size": "5.5rem"
+        },
+        {
+          "id": "item_12_6",
+          "emoji": "🌹",
+          "top": "66%",
+          "left": "13%",
+          "size": "4.5rem"
+        },
+        {
+          "id": "extra_12",
+          "emoji": "🎇",
+          "top": "21%",
+          "left": "47%",
+          "size": "3.5rem"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Phi Thuyền Kỳ Diệu 14",
+      "bg": "linear-gradient(135deg, #042e4a, #191434)",
+      "itemsLeft": [
+        {
+          "id": "item_13_0",
+          "emoji": "🌍",
+          "top": "69%",
+          "left": "68%",
+          "size": "4.7rem"
+        },
+        {
+          "id": "item_13_1",
+          "emoji": "🐶",
+          "top": "60%",
+          "left": "24%",
+          "size": "3.8rem"
+        },
+        {
+          "id": "item_13_2",
+          "emoji": "🌍",
+          "top": "51%",
+          "left": "17%",
+          "size": "4.0rem"
+        },
+        {
+          "id": "item_13_3",
+          "emoji": "🪐",
+          "top": "13%",
+          "left": "49%",
+          "size": "3.1rem"
+        },
+        {
+          "id": "item_13_4",
+          "emoji": "🌍",
+          "top": "27%",
+          "left": "10%",
+          "size": "3.1rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_13_0",
+          "x": 68,
+          "y": 69,
+          "name": "Trái đất thành Quả địa cầu 🌐",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 69% dọc, 68% ngang!"
+        },
+        {
+          "id": "diff_13_1",
+          "x": 24,
+          "y": 60,
+          "name": "Chó thành Mèo 🐱",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 60% dọc, 24% ngang!"
+        },
+        {
+          "id": "diff_extra_13",
+          "x": 33,
+          "y": 57,
+          "name": "Thêm ☄️",
+          "hint": "Vừa có một thứ mới xuất hiện ở vị trí 57% dọc, 33% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_13_0",
+          "emoji": "🌐",
+          "top": "69%",
+          "left": "68%",
+          "size": "4.7rem"
+        },
+        {
+          "id": "item_13_1",
+          "emoji": "🐱",
+          "top": "60%",
+          "left": "24%",
+          "size": "3.8rem"
+        },
+        {
+          "id": "item_13_2",
+          "emoji": "🌍",
+          "top": "51%",
+          "left": "17%",
+          "size": "4.0rem"
+        },
+        {
+          "id": "item_13_3",
+          "emoji": "🪐",
+          "top": "13%",
+          "left": "49%",
+          "size": "3.1rem"
+        },
+        {
+          "id": "item_13_4",
+          "emoji": "🌍",
+          "top": "27%",
+          "left": "10%",
+          "size": "3.1rem"
+        },
+        {
+          "id": "extra_13",
+          "emoji": "☄️",
+          "top": "57%",
+          "left": "33%",
+          "size": "3.5rem"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Thành Phố Thần Tiên 15",
+      "bg": "linear-gradient(135deg, #120f34, #180133)",
+      "itemsLeft": [
+        {
+          "id": "item_14_0",
+          "emoji": "🚀",
+          "top": "36%",
+          "left": "52%",
+          "size": "4.9rem"
+        },
+        {
+          "id": "item_14_1",
+          "emoji": "🪐",
+          "top": "46%",
+          "left": "76%",
+          "size": "5.2rem"
+        },
+        {
+          "id": "item_14_2",
+          "emoji": "🚀",
+          "top": "59%",
+          "left": "71%",
+          "size": "3.0rem"
+        },
+        {
+          "id": "item_14_3",
+          "emoji": "✨",
+          "top": "31%",
+          "left": "66%",
+          "size": "4.4rem"
+        },
+        {
+          "id": "item_14_4",
+          "emoji": "🧑‍🚀",
+          "top": "77%",
+          "left": "13%",
+          "size": "3.8rem"
+        },
+        {
+          "id": "item_14_5",
+          "emoji": "👾",
+          "top": "53%",
+          "left": "55%",
+          "size": "4.0rem"
+        },
+        {
+          "id": "item_14_6",
+          "emoji": "🪐",
+          "top": "51%",
+          "left": "63%",
+          "size": "5.4rem"
+        },
+        {
+          "id": "item_14_7",
+          "emoji": "🧑‍🚀",
+          "top": "31%",
+          "left": "10%",
+          "size": "5.2rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_14_0",
+          "x": 55,
+          "y": 53,
+          "name": "Quái vật thành Bóng ma 👻",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 53% dọc, 55% ngang!"
+        },
+        {
+          "id": "diff_14_1",
+          "x": 52,
+          "y": 36,
+          "name": "Tên lửa thành Máy bay 🛩️",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 36% dọc, 52% ngang!"
+        },
+        {
+          "id": "diff_extra_14",
+          "x": 60,
+          "y": 34,
+          "name": "Thêm 💎",
+          "hint": "Vừa có một thứ mới xuất hiện ở vị trí 34% dọc, 60% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_14_0",
+          "emoji": "🛩️",
+          "top": "36%",
+          "left": "52%",
+          "size": "4.9rem"
+        },
+        {
+          "id": "item_14_1",
+          "emoji": "🪐",
+          "top": "46%",
+          "left": "76%",
+          "size": "5.2rem"
+        },
+        {
+          "id": "item_14_2",
+          "emoji": "🚀",
+          "top": "59%",
+          "left": "71%",
+          "size": "3.0rem"
+        },
+        {
+          "id": "item_14_3",
+          "emoji": "✨",
+          "top": "31%",
+          "left": "66%",
+          "size": "4.4rem"
+        },
+        {
+          "id": "item_14_4",
+          "emoji": "🧑‍🚀",
+          "top": "77%",
+          "left": "13%",
+          "size": "3.8rem"
+        },
+        {
+          "id": "item_14_5",
+          "emoji": "👻",
+          "top": "53%",
+          "left": "55%",
+          "size": "4.0rem"
+        },
+        {
+          "id": "item_14_6",
+          "emoji": "🪐",
+          "top": "51%",
+          "left": "63%",
+          "size": "5.4rem"
+        },
+        {
+          "id": "item_14_7",
+          "emoji": "🧑‍🚀",
+          "top": "31%",
+          "left": "10%",
+          "size": "5.2rem"
+        },
+        {
+          "id": "extra_14",
+          "emoji": "💎",
+          "top": "34%",
+          "left": "60%",
+          "size": "3.5rem"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Dải Ngân Hà Thần Tiên 16",
+      "bg": "linear-gradient(135deg, #1a0001, #121f10)",
+      "itemsLeft": [
+        {
+          "id": "item_15_0",
+          "emoji": "☀️",
+          "top": "71%",
+          "left": "84%",
+          "size": "4.2rem"
+        },
+        {
+          "id": "item_15_1",
+          "emoji": "🎇",
+          "top": "23%",
+          "left": "53%",
+          "size": "3.3rem"
+        },
+        {
+          "id": "item_15_2",
+          "emoji": "👾",
+          "top": "36%",
+          "left": "35%",
+          "size": "5.2rem"
+        },
+        {
+          "id": "item_15_3",
+          "emoji": "🤖",
+          "top": "48%",
+          "left": "39%",
+          "size": "3.6rem"
+        },
+        {
+          "id": "item_15_4",
+          "emoji": "🌍",
+          "top": "37%",
+          "left": "21%",
+          "size": "2.7rem"
+        },
+        {
+          "id": "item_15_5",
+          "emoji": "🚀",
+          "top": "57%",
+          "left": "43%",
+          "size": "3.7rem"
+        },
+        {
+          "id": "item_15_6",
+          "emoji": "🤖",
+          "top": "56%",
+          "left": "60%",
+          "size": "3.6rem"
+        },
+        {
+          "id": "item_15_7",
+          "emoji": "🦋",
+          "top": "59%",
+          "left": "36%",
+          "size": "4.5rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_15_0",
+          "x": 84,
+          "y": 71,
+          "name": "Mặt trời thành Mặt trăng 🌕",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 71% dọc, 84% ngang!"
+        },
+        {
+          "id": "diff_15_1",
+          "x": 35,
+          "y": 36,
+          "name": "Quái vật thành Bóng ma 👻",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 36% dọc, 35% ngang!"
+        },
+        {
+          "id": "diff_15_2",
+          "x": 36,
+          "y": 59,
+          "name": "Bướm thành Ong 🐝",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 59% dọc, 36% ngang!"
+        },
+        {
+          "id": "diff_extra_15",
+          "x": 69,
+          "y": 17,
+          "name": "Thêm 🌟",
+          "hint": "Vừa có một thứ mới xuất hiện ở vị trí 17% dọc, 69% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_15_0",
+          "emoji": "🌕",
+          "top": "71%",
+          "left": "84%",
+          "size": "4.2rem"
+        },
+        {
+          "id": "item_15_1",
+          "emoji": "🎇",
+          "top": "23%",
+          "left": "53%",
+          "size": "3.3rem"
+        },
+        {
+          "id": "item_15_2",
+          "emoji": "👻",
+          "top": "36%",
+          "left": "35%",
+          "size": "5.2rem"
+        },
+        {
+          "id": "item_15_3",
+          "emoji": "🤖",
+          "top": "48%",
+          "left": "39%",
+          "size": "3.6rem"
+        },
+        {
+          "id": "item_15_4",
+          "emoji": "🌍",
+          "top": "37%",
+          "left": "21%",
+          "size": "2.7rem"
+        },
+        {
+          "id": "item_15_5",
+          "emoji": "🚀",
+          "top": "57%",
+          "left": "43%",
+          "size": "3.7rem"
+        },
+        {
+          "id": "item_15_6",
+          "emoji": "🤖",
+          "top": "56%",
+          "left": "60%",
+          "size": "3.6rem"
+        },
+        {
+          "id": "item_15_7",
+          "emoji": "🐝",
+          "top": "59%",
+          "left": "36%",
+          "size": "4.5rem"
+        },
+        {
+          "id": "extra_15",
+          "emoji": "🌟",
+          "top": "17%",
+          "left": "69%",
+          "size": "3.5rem"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Ngân Hà Sinh Tồn 17",
+      "bg": "linear-gradient(135deg, #260422, #231d37)",
+      "itemsLeft": [
+        {
+          "id": "item_16_0",
+          "emoji": "🚀",
+          "top": "59%",
+          "left": "11%",
+          "size": "4.1rem"
+        },
+        {
+          "id": "item_16_1",
+          "emoji": "🛸",
+          "top": "80%",
+          "left": "44%",
+          "size": "3.2rem"
+        },
+        {
+          "id": "item_16_2",
+          "emoji": "👾",
+          "top": "62%",
+          "left": "11%",
+          "size": "3.9rem"
+        },
+        {
+          "id": "item_16_3",
+          "emoji": "🌍",
+          "top": "14%",
+          "left": "76%",
+          "size": "4.5rem"
+        },
+        {
+          "id": "item_16_4",
+          "emoji": "🎆",
+          "top": "75%",
+          "left": "71%",
+          "size": "4.6rem"
+        },
+        {
+          "id": "item_16_5",
+          "emoji": "🚀",
+          "top": "25%",
+          "left": "47%",
+          "size": "4.4rem"
+        },
+        {
+          "id": "item_16_6",
+          "emoji": "✨",
+          "top": "62%",
+          "left": "60%",
+          "size": "3.1rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_16_0",
+          "x": 11,
+          "y": 59,
+          "name": "Tên lửa thành Máy bay 🛩️",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 59% dọc, 11% ngang!"
+        },
+        {
+          "id": "diff_16_1",
+          "x": 76,
+          "y": 14,
+          "name": "Trái đất thành Quả địa cầu 🌐",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 14% dọc, 76% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_16_0",
+          "emoji": "🛩️",
+          "top": "59%",
+          "left": "11%",
+          "size": "4.1rem"
+        },
+        {
+          "id": "item_16_1",
+          "emoji": "🛸",
+          "top": "80%",
+          "left": "44%",
+          "size": "3.2rem"
+        },
+        {
+          "id": "item_16_2",
+          "emoji": "👾",
+          "top": "62%",
+          "left": "11%",
+          "size": "3.9rem"
+        },
+        {
+          "id": "item_16_3",
+          "emoji": "🌐",
+          "top": "14%",
+          "left": "76%",
+          "size": "4.5rem"
+        },
+        {
+          "id": "item_16_4",
+          "emoji": "🎆",
+          "top": "75%",
+          "left": "71%",
+          "size": "4.6rem"
+        },
+        {
+          "id": "item_16_5",
+          "emoji": "🚀",
+          "top": "25%",
+          "left": "47%",
+          "size": "4.4rem"
+        },
+        {
+          "id": "item_16_6",
+          "emoji": "✨",
+          "top": "62%",
+          "left": "60%",
+          "size": "3.1rem"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Phòng Thí Nghiệm Bí Ẩn 18",
+      "bg": "linear-gradient(135deg, #211e21, #051352)",
+      "itemsLeft": [
+        {
+          "id": "item_17_0",
+          "emoji": "🌟",
+          "top": "79%",
+          "left": "33%",
+          "size": "4.6rem"
+        },
+        {
+          "id": "item_17_1",
+          "emoji": "🐶",
+          "top": "73%",
+          "left": "55%",
+          "size": "5.4rem"
+        },
+        {
+          "id": "item_17_2",
+          "emoji": "🌍",
+          "top": "27%",
+          "left": "33%",
+          "size": "4.0rem"
+        },
+        {
+          "id": "item_17_3",
+          "emoji": "🌲",
+          "top": "61%",
+          "left": "57%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "item_17_4",
+          "emoji": "🧑‍🚀",
+          "top": "58%",
+          "left": "11%",
+          "size": "4.2rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_17_0",
+          "x": 55,
+          "y": 73,
+          "name": "Chó thành Mèo 🐱",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 73% dọc, 55% ngang!"
+        },
+        {
+          "id": "diff_17_1",
+          "x": 11,
+          "y": 58,
+          "name": "Phi hành gia đổi kiểu 👨‍🚀",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 58% dọc, 11% ngang!"
+        },
+        {
+          "id": "diff_17_2",
+          "x": 57,
+          "y": 61,
+          "name": "Cây thông thành Cây cọ 🌴",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 61% dọc, 57% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_17_0",
+          "emoji": "🌟",
+          "top": "79%",
+          "left": "33%",
+          "size": "4.6rem"
+        },
+        {
+          "id": "item_17_1",
+          "emoji": "🐱",
+          "top": "73%",
+          "left": "55%",
+          "size": "5.4rem"
+        },
+        {
+          "id": "item_17_2",
+          "emoji": "🌍",
+          "top": "27%",
+          "left": "33%",
+          "size": "4.0rem"
+        },
+        {
+          "id": "item_17_3",
+          "emoji": "🌴",
+          "top": "61%",
+          "left": "57%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "item_17_4",
+          "emoji": "👨‍🚀",
+          "top": "58%",
+          "left": "11%",
+          "size": "4.2rem"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Ngân Hà Pha Lê 19",
+      "bg": "linear-gradient(135deg, #191211, #051050)",
+      "itemsLeft": [
+        {
+          "id": "item_18_0",
+          "emoji": "☁️",
+          "top": "53%",
+          "left": "64%",
+          "size": "4.4rem"
+        },
+        {
+          "id": "item_18_1",
+          "emoji": "🌍",
+          "top": "75%",
+          "left": "74%",
+          "size": "4.4rem"
+        },
+        {
+          "id": "item_18_2",
+          "emoji": "🚀",
+          "top": "79%",
+          "left": "58%",
+          "size": "3.4rem"
+        },
+        {
+          "id": "item_18_3",
+          "emoji": "🛰️",
+          "top": "56%",
+          "left": "32%",
+          "size": "3.6rem"
+        },
+        {
+          "id": "item_18_4",
+          "emoji": "🍕",
+          "top": "27%",
+          "left": "18%",
+          "size": "2.9rem"
+        },
+        {
+          "id": "item_18_5",
+          "emoji": "🤖",
+          "top": "61%",
+          "left": "41%",
+          "size": "5.0rem"
+        },
+        {
+          "id": "item_18_6",
+          "emoji": "🌟",
+          "top": "41%",
+          "left": "43%",
+          "size": "4.9rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_18_0",
+          "x": 18,
+          "y": 27,
+          "name": "Pizza thành Burger 🍔",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 27% dọc, 18% ngang!"
+        },
+        {
+          "id": "diff_18_1",
+          "x": 74,
+          "y": 75,
+          "name": "Trái đất thành Quả địa cầu 🌐",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 75% dọc, 74% ngang!"
+        },
+        {
+          "id": "diff_18_2",
+          "x": 58,
+          "y": 79,
+          "name": "Tên lửa thành Máy bay 🛩️",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 79% dọc, 58% ngang!"
+        },
+        {
+          "id": "diff_extra_18",
+          "x": 55,
+          "y": 61,
+          "name": "Thêm 🤖",
+          "hint": "Vừa có một thứ mới xuất hiện ở vị trí 61% dọc, 55% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_18_0",
+          "emoji": "☁️",
+          "top": "53%",
+          "left": "64%",
+          "size": "4.4rem"
+        },
+        {
+          "id": "item_18_1",
+          "emoji": "🌐",
+          "top": "75%",
+          "left": "74%",
+          "size": "4.4rem"
+        },
+        {
+          "id": "item_18_2",
+          "emoji": "🛩️",
+          "top": "79%",
+          "left": "58%",
+          "size": "3.4rem"
+        },
+        {
+          "id": "item_18_3",
+          "emoji": "🛰️",
+          "top": "56%",
+          "left": "32%",
+          "size": "3.6rem"
+        },
+        {
+          "id": "item_18_4",
+          "emoji": "🍔",
+          "top": "27%",
+          "left": "18%",
+          "size": "2.9rem"
+        },
+        {
+          "id": "item_18_5",
+          "emoji": "🤖",
+          "top": "61%",
+          "left": "41%",
+          "size": "5.0rem"
+        },
+        {
+          "id": "item_18_6",
+          "emoji": "🌟",
+          "top": "41%",
+          "left": "43%",
+          "size": "4.9rem"
+        },
+        {
+          "id": "extra_18",
+          "emoji": "🤖",
+          "top": "61%",
+          "left": "55%",
+          "size": "3.5rem"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Dải Ngân Hà Bí Ẩn 20",
+      "bg": "linear-gradient(135deg, #012a28, #1f2629)",
+      "itemsLeft": [
+        {
+          "id": "item_19_0",
+          "emoji": "🌙",
+          "top": "72%",
+          "left": "31%",
+          "size": "4.8rem"
+        },
+        {
+          "id": "item_19_1",
+          "emoji": "🚀",
+          "top": "34%",
+          "left": "30%",
+          "size": "4.0rem"
+        },
+        {
+          "id": "item_19_2",
+          "emoji": "👽",
+          "top": "53%",
+          "left": "18%",
+          "size": "4.4rem"
+        },
+        {
+          "id": "item_19_3",
+          "emoji": "✨",
+          "top": "46%",
+          "left": "20%",
+          "size": "3.2rem"
+        },
+        {
+          "id": "item_19_4",
+          "emoji": "🪐",
+          "top": "22%",
+          "left": "63%",
+          "size": "4.0rem"
+        },
+        {
+          "id": "item_19_5",
+          "emoji": "🚀",
+          "top": "68%",
+          "left": "69%",
+          "size": "5.1rem"
+        },
+        {
+          "id": "item_19_6",
+          "emoji": "👽",
+          "top": "45%",
+          "left": "77%",
+          "size": "4.2rem"
+        },
+        {
+          "id": "item_19_7",
+          "emoji": "👾",
+          "top": "45%",
+          "left": "55%",
+          "size": "3.3rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_19_0",
+          "x": 77,
+          "y": 45,
+          "name": "Người ngoài hành tinh thành Rô-bốt 🤖",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 45% dọc, 77% ngang!"
+        },
+        {
+          "id": "diff_19_1",
+          "x": 69,
+          "y": 68,
+          "name": "Tên lửa thành Máy bay 🛩️",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 68% dọc, 69% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_19_0",
+          "emoji": "🌙",
+          "top": "72%",
+          "left": "31%",
+          "size": "4.8rem"
+        },
+        {
+          "id": "item_19_1",
+          "emoji": "🚀",
+          "top": "34%",
+          "left": "30%",
+          "size": "4.0rem"
+        },
+        {
+          "id": "item_19_2",
+          "emoji": "👽",
+          "top": "53%",
+          "left": "18%",
+          "size": "4.4rem"
+        },
+        {
+          "id": "item_19_3",
+          "emoji": "✨",
+          "top": "46%",
+          "left": "20%",
+          "size": "3.2rem"
+        },
+        {
+          "id": "item_19_4",
+          "emoji": "🪐",
+          "top": "22%",
+          "left": "63%",
+          "size": "4.0rem"
+        },
+        {
+          "id": "item_19_5",
+          "emoji": "🛩️",
+          "top": "68%",
+          "left": "69%",
+          "size": "5.1rem"
+        },
+        {
+          "id": "item_19_6",
+          "emoji": "🤖",
+          "top": "45%",
+          "left": "77%",
+          "size": "4.2rem"
+        },
+        {
+          "id": "item_19_7",
+          "emoji": "👾",
+          "top": "45%",
+          "left": "55%",
+          "size": "3.3rem"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Hành Tinh Cổ Tích 21",
+      "bg": "linear-gradient(135deg, #31155f, #102e2e)",
+      "itemsLeft": [
+        {
+          "id": "item_20_0",
+          "emoji": "👾",
+          "top": "58%",
+          "left": "39%",
+          "size": "4.0rem"
+        },
+        {
+          "id": "item_20_1",
+          "emoji": "✨",
+          "top": "17%",
+          "left": "74%",
+          "size": "5.4rem"
+        },
+        {
+          "id": "item_20_2",
+          "emoji": "🌟",
+          "top": "16%",
+          "left": "64%",
+          "size": "5.1rem"
+        },
+        {
+          "id": "item_20_3",
+          "emoji": "👾",
+          "top": "25%",
+          "left": "43%",
+          "size": "2.8rem"
+        },
+        {
+          "id": "item_20_4",
+          "emoji": "🧑‍🚀",
+          "top": "49%",
+          "left": "59%",
+          "size": "4.3rem"
+        },
+        {
+          "id": "item_20_5",
+          "emoji": "⭐",
+          "top": "76%",
+          "left": "18%",
+          "size": "3.1rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_20_0",
+          "x": 59,
+          "y": 49,
+          "name": "Phi hành gia đổi kiểu 👨‍🚀",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 49% dọc, 59% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_20_0",
+          "emoji": "👾",
+          "top": "58%",
+          "left": "39%",
+          "size": "4.0rem"
+        },
+        {
+          "id": "item_20_1",
+          "emoji": "✨",
+          "top": "17%",
+          "left": "74%",
+          "size": "5.4rem"
+        },
+        {
+          "id": "item_20_2",
+          "emoji": "🌟",
+          "top": "16%",
+          "left": "64%",
+          "size": "5.1rem"
+        },
+        {
+          "id": "item_20_3",
+          "emoji": "👾",
+          "top": "25%",
+          "left": "43%",
+          "size": "2.8rem"
+        },
+        {
+          "id": "item_20_4",
+          "emoji": "👨‍🚀",
+          "top": "49%",
+          "left": "59%",
+          "size": "4.3rem"
+        },
+        {
+          "id": "item_20_5",
+          "emoji": "⭐",
+          "top": "76%",
+          "left": "18%",
+          "size": "3.1rem"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Cánh Đồng Cổ Tích 22",
+      "bg": "linear-gradient(135deg, #08064f, #140739)",
+      "itemsLeft": [
+        {
+          "id": "item_21_0",
+          "emoji": "☀️",
+          "top": "66%",
+          "left": "74%",
+          "size": "4.1rem"
+        },
+        {
+          "id": "item_21_1",
+          "emoji": "☄️",
+          "top": "64%",
+          "left": "46%",
+          "size": "2.9rem"
+        },
+        {
+          "id": "item_21_2",
+          "emoji": "✨",
+          "top": "41%",
+          "left": "56%",
+          "size": "4.2rem"
+        },
+        {
+          "id": "item_21_3",
+          "emoji": "🍎",
+          "top": "65%",
+          "left": "80%",
+          "size": "5.2rem"
+        },
+        {
+          "id": "item_21_4",
+          "emoji": "🧑‍🚀",
+          "top": "52%",
+          "left": "59%",
+          "size": "3.4rem"
+        },
+        {
+          "id": "item_21_5",
+          "emoji": "👾",
+          "top": "41%",
+          "left": "83%",
+          "size": "3.0rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_21_0",
+          "x": 74,
+          "y": 66,
+          "name": "Mặt trời thành Mặt trăng 🌕",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 66% dọc, 74% ngang!"
+        },
+        {
+          "id": "diff_21_1",
+          "x": 80,
+          "y": 65,
+          "name": "Táo thành Dưa hấu 🍉",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 65% dọc, 80% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_21_0",
+          "emoji": "🌕",
+          "top": "66%",
+          "left": "74%",
+          "size": "4.1rem"
+        },
+        {
+          "id": "item_21_1",
+          "emoji": "☄️",
+          "top": "64%",
+          "left": "46%",
+          "size": "2.9rem"
+        },
+        {
+          "id": "item_21_2",
+          "emoji": "✨",
+          "top": "41%",
+          "left": "56%",
+          "size": "4.2rem"
+        },
+        {
+          "id": "item_21_3",
+          "emoji": "🍉",
+          "top": "65%",
+          "left": "80%",
+          "size": "5.2rem"
+        },
+        {
+          "id": "item_21_4",
+          "emoji": "🧑‍🚀",
+          "top": "52%",
+          "left": "59%",
+          "size": "3.4rem"
+        },
+        {
+          "id": "item_21_5",
+          "emoji": "👾",
+          "top": "41%",
+          "left": "83%",
+          "size": "3.0rem"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Phi Thuyền Màu Nhiệm 23",
+      "bg": "linear-gradient(135deg, #131426, #2d0a21)",
+      "itemsLeft": [
+        {
+          "id": "item_22_0",
+          "emoji": "🦁",
+          "top": "15%",
+          "left": "10%",
+          "size": "4.6rem"
+        },
+        {
+          "id": "item_22_1",
+          "emoji": "👽",
+          "top": "15%",
+          "left": "28%",
+          "size": "4.9rem"
+        },
+        {
+          "id": "item_22_2",
+          "emoji": "☄️",
+          "top": "45%",
+          "left": "52%",
+          "size": "3.4rem"
+        },
+        {
+          "id": "item_22_3",
+          "emoji": "🚀",
+          "top": "34%",
+          "left": "73%",
+          "size": "4.2rem"
+        },
+        {
+          "id": "item_22_4",
+          "emoji": "🛸",
+          "top": "80%",
+          "left": "33%",
+          "size": "5.1rem"
+        },
+        {
+          "id": "item_22_5",
+          "emoji": "🛸",
+          "top": "54%",
+          "left": "23%",
+          "size": "3.7rem"
+        },
+        {
+          "id": "item_22_6",
+          "emoji": "🍕",
+          "top": "40%",
+          "left": "20%",
+          "size": "5.4rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_22_0",
+          "x": 20,
+          "y": 40,
+          "name": "Pizza thành Burger 🍔",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 40% dọc, 20% ngang!"
+        },
+        {
+          "id": "diff_22_1",
+          "x": 73,
+          "y": 34,
+          "name": "Tên lửa thành Máy bay 🛩️",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 34% dọc, 73% ngang!"
+        },
+        {
+          "id": "diff_22_2",
+          "x": 10,
+          "y": 15,
+          "name": "Sư tử thành Hổ 🐯",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 15% dọc, 10% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_22_0",
+          "emoji": "🐯",
+          "top": "15%",
+          "left": "10%",
+          "size": "4.6rem"
+        },
+        {
+          "id": "item_22_1",
+          "emoji": "👽",
+          "top": "15%",
+          "left": "28%",
+          "size": "4.9rem"
+        },
+        {
+          "id": "item_22_2",
+          "emoji": "☄️",
+          "top": "45%",
+          "left": "52%",
+          "size": "3.4rem"
+        },
+        {
+          "id": "item_22_3",
+          "emoji": "🛩️",
+          "top": "34%",
+          "left": "73%",
+          "size": "4.2rem"
+        },
+        {
+          "id": "item_22_4",
+          "emoji": "🛸",
+          "top": "80%",
+          "left": "33%",
+          "size": "5.1rem"
+        },
+        {
+          "id": "item_22_5",
+          "emoji": "🛸",
+          "top": "54%",
+          "left": "23%",
+          "size": "3.7rem"
+        },
+        {
+          "id": "item_22_6",
+          "emoji": "🍔",
+          "top": "40%",
+          "left": "20%",
+          "size": "5.4rem"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Mê Cung Sinh Tồn 24",
+      "bg": "linear-gradient(135deg, #292948, #2d0363)",
+      "itemsLeft": [
+        {
+          "id": "item_23_0",
+          "emoji": "🌍",
+          "top": "42%",
+          "left": "49%",
+          "size": "2.7rem"
+        },
+        {
+          "id": "item_23_1",
+          "emoji": "🌻",
+          "top": "27%",
+          "left": "13%",
+          "size": "2.8rem"
+        },
+        {
+          "id": "item_23_2",
+          "emoji": "🌟",
+          "top": "22%",
+          "left": "37%",
+          "size": "2.7rem"
+        },
+        {
+          "id": "item_23_3",
+          "emoji": "🌍",
+          "top": "10%",
+          "left": "14%",
+          "size": "4.7rem"
+        },
+        {
+          "id": "item_23_4",
+          "emoji": "👽",
+          "top": "72%",
+          "left": "29%",
+          "size": "3.7rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_23_0",
+          "x": 14,
+          "y": 10,
+          "name": "Trái đất thành Quả địa cầu 🌐",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 10% dọc, 14% ngang!"
+        },
+        {
+          "id": "diff_23_1",
+          "x": 13,
+          "y": 27,
+          "name": "Hoa hướng dương thành Hoa hồng 🌹",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 27% dọc, 13% ngang!"
+        },
+        {
+          "id": "diff_23_2",
+          "x": 29,
+          "y": 72,
+          "name": "Người ngoài hành tinh thành Rô-bốt 🤖",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 72% dọc, 29% ngang!"
+        },
+        {
+          "id": "diff_extra_23",
+          "x": 58,
+          "y": 18,
+          "name": "Thêm ☄️",
+          "hint": "Vừa có một thứ mới xuất hiện ở vị trí 18% dọc, 58% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_23_0",
+          "emoji": "🌍",
+          "top": "42%",
+          "left": "49%",
+          "size": "2.7rem"
+        },
+        {
+          "id": "item_23_1",
+          "emoji": "🌹",
+          "top": "27%",
+          "left": "13%",
+          "size": "2.8rem"
+        },
+        {
+          "id": "item_23_2",
+          "emoji": "🌟",
+          "top": "22%",
+          "left": "37%",
+          "size": "2.7rem"
+        },
+        {
+          "id": "item_23_3",
+          "emoji": "🌐",
+          "top": "10%",
+          "left": "14%",
+          "size": "4.7rem"
+        },
+        {
+          "id": "item_23_4",
+          "emoji": "🤖",
+          "top": "72%",
+          "left": "29%",
+          "size": "3.7rem"
+        },
+        {
+          "id": "extra_23",
+          "emoji": "☄️",
+          "top": "18%",
+          "left": "58%",
+          "size": "3.5rem"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Căn Cứ Cổ Tích 25",
+      "bg": "linear-gradient(135deg, #2a254a, #1a010c)",
+      "itemsLeft": [
+        {
+          "id": "item_24_0",
+          "emoji": "🧑‍🚀",
+          "top": "45%",
+          "left": "45%",
+          "size": "4.6rem"
+        },
+        {
+          "id": "item_24_1",
+          "emoji": "🦋",
+          "top": "36%",
+          "left": "50%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "item_24_2",
+          "emoji": "💎",
+          "top": "48%",
+          "left": "70%",
+          "size": "4.8rem"
+        },
+        {
+          "id": "item_24_3",
+          "emoji": "☁️",
+          "top": "72%",
+          "left": "24%",
+          "size": "2.9rem"
+        },
+        {
+          "id": "item_24_4",
+          "emoji": "👽",
+          "top": "41%",
+          "left": "51%",
+          "size": "4.7rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_24_0",
+          "x": 50,
+          "y": 36,
+          "name": "Bướm thành Ong 🐝",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 36% dọc, 50% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_24_0",
+          "emoji": "🧑‍🚀",
+          "top": "45%",
+          "left": "45%",
+          "size": "4.6rem"
+        },
+        {
+          "id": "item_24_1",
+          "emoji": "🐝",
+          "top": "36%",
+          "left": "50%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "item_24_2",
+          "emoji": "💎",
+          "top": "48%",
+          "left": "70%",
+          "size": "4.8rem"
+        },
+        {
+          "id": "item_24_3",
+          "emoji": "☁️",
+          "top": "72%",
+          "left": "24%",
+          "size": "2.9rem"
+        },
+        {
+          "id": "item_24_4",
+          "emoji": "👽",
+          "top": "41%",
+          "left": "51%",
+          "size": "4.7rem"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Quần Đảo Vô Cực 26",
+      "bg": "linear-gradient(135deg, #0c2561, #0a0361)",
+      "itemsLeft": [
+        {
+          "id": "item_25_0",
+          "emoji": "🛸",
+          "top": "24%",
+          "left": "58%",
+          "size": "2.5rem"
+        },
+        {
+          "id": "item_25_1",
+          "emoji": "💎",
+          "top": "74%",
+          "left": "19%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "item_25_2",
+          "emoji": "☁️",
+          "top": "41%",
+          "left": "60%",
+          "size": "2.6rem"
+        },
+        {
+          "id": "item_25_3",
+          "emoji": "🧑‍🚀",
+          "top": "11%",
+          "left": "66%",
+          "size": "4.2rem"
+        },
+        {
+          "id": "item_25_4",
+          "emoji": "🌲",
+          "top": "39%",
+          "left": "34%",
+          "size": "4.9rem"
+        },
+        {
+          "id": "item_25_5",
+          "emoji": "🐶",
+          "top": "23%",
+          "left": "44%",
+          "size": "4.9rem"
+        },
+        {
+          "id": "item_25_6",
+          "emoji": "👾",
+          "top": "50%",
+          "left": "65%",
+          "size": "4.5rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_25_0",
+          "x": 44,
+          "y": 23,
+          "name": "Chó thành Mèo 🐱",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 23% dọc, 44% ngang!"
+        },
+        {
+          "id": "diff_25_1",
+          "x": 34,
+          "y": 39,
+          "name": "Cây thông thành Cây cọ 🌴",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 39% dọc, 34% ngang!"
+        },
+        {
+          "id": "diff_extra_25",
+          "x": 51,
+          "y": 47,
+          "name": "Thêm ⭐",
+          "hint": "Vừa có một thứ mới xuất hiện ở vị trí 47% dọc, 51% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_25_0",
+          "emoji": "🛸",
+          "top": "24%",
+          "left": "58%",
+          "size": "2.5rem"
+        },
+        {
+          "id": "item_25_1",
+          "emoji": "💎",
+          "top": "74%",
+          "left": "19%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "item_25_2",
+          "emoji": "☁️",
+          "top": "41%",
+          "left": "60%",
+          "size": "2.6rem"
+        },
+        {
+          "id": "item_25_3",
+          "emoji": "🧑‍🚀",
+          "top": "11%",
+          "left": "66%",
+          "size": "4.2rem"
+        },
+        {
+          "id": "item_25_4",
+          "emoji": "🌴",
+          "top": "39%",
+          "left": "34%",
+          "size": "4.9rem"
+        },
+        {
+          "id": "item_25_5",
+          "emoji": "🐱",
+          "top": "23%",
+          "left": "44%",
+          "size": "4.9rem"
+        },
+        {
+          "id": "item_25_6",
+          "emoji": "👾",
+          "top": "50%",
+          "left": "65%",
+          "size": "4.5rem"
+        },
+        {
+          "id": "extra_25",
+          "emoji": "⭐",
+          "top": "47%",
+          "left": "51%",
+          "size": "3.5rem"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Thành Phố Sáng Bừng 27",
+      "bg": "linear-gradient(135deg, #270b42, #202d11)",
+      "itemsLeft": [
+        {
+          "id": "item_26_0",
+          "emoji": "🌙",
+          "top": "45%",
+          "left": "40%",
+          "size": "3.7rem"
+        },
+        {
+          "id": "item_26_1",
+          "emoji": "🌟",
+          "top": "36%",
+          "left": "51%",
+          "size": "3.0rem"
+        },
+        {
+          "id": "item_26_2",
+          "emoji": "🌍",
+          "top": "45%",
+          "left": "33%",
+          "size": "5.2rem"
+        },
+        {
+          "id": "item_26_3",
+          "emoji": "🍎",
+          "top": "62%",
+          "left": "35%",
+          "size": "5.4rem"
+        },
+        {
+          "id": "item_26_4",
+          "emoji": "🌲",
+          "top": "77%",
+          "left": "41%",
+          "size": "3.5rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_26_0",
+          "x": 35,
+          "y": 62,
+          "name": "Táo thành Dưa hấu 🍉",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 62% dọc, 35% ngang!"
+        },
+        {
+          "id": "diff_26_1",
+          "x": 33,
+          "y": 45,
+          "name": "Trái đất thành Quả địa cầu 🌐",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 45% dọc, 33% ngang!"
+        },
+        {
+          "id": "diff_26_2",
+          "x": 41,
+          "y": 77,
+          "name": "Cây thông thành Cây cọ 🌴",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 77% dọc, 41% ngang!"
+        },
+        {
+          "id": "diff_extra_26",
+          "x": 64,
+          "y": 34,
+          "name": "Thêm 🌟",
+          "hint": "Vừa có một thứ mới xuất hiện ở vị trí 34% dọc, 64% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_26_0",
+          "emoji": "🌙",
+          "top": "45%",
+          "left": "40%",
+          "size": "3.7rem"
+        },
+        {
+          "id": "item_26_1",
+          "emoji": "🌟",
+          "top": "36%",
+          "left": "51%",
+          "size": "3.0rem"
+        },
+        {
+          "id": "item_26_2",
+          "emoji": "🌐",
+          "top": "45%",
+          "left": "33%",
+          "size": "5.2rem"
+        },
+        {
+          "id": "item_26_3",
+          "emoji": "🍉",
+          "top": "62%",
+          "left": "35%",
+          "size": "5.4rem"
+        },
+        {
+          "id": "item_26_4",
+          "emoji": "🌴",
+          "top": "77%",
+          "left": "41%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "extra_26",
+          "emoji": "🌟",
+          "top": "34%",
+          "left": "64%",
+          "size": "3.5rem"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Phòng Thí Nghiệm Vô Cực 28",
+      "bg": "linear-gradient(135deg, #0f084c, #070663)",
+      "itemsLeft": [
+        {
+          "id": "item_27_0",
+          "emoji": "✨",
+          "top": "42%",
+          "left": "76%",
+          "size": "3.7rem"
+        },
+        {
+          "id": "item_27_1",
+          "emoji": "☄️",
+          "top": "40%",
+          "left": "79%",
+          "size": "4.3rem"
+        },
+        {
+          "id": "item_27_2",
+          "emoji": "🌙",
+          "top": "32%",
+          "left": "72%",
+          "size": "3.1rem"
+        },
+        {
+          "id": "item_27_3",
+          "emoji": "🧑‍🚀",
+          "top": "28%",
+          "left": "44%",
+          "size": "3.0rem"
+        },
+        {
+          "id": "item_27_4",
+          "emoji": "🌍",
+          "top": "60%",
+          "left": "80%",
+          "size": "4.5rem"
+        },
+        {
+          "id": "item_27_5",
+          "emoji": "👾",
+          "top": "52%",
+          "left": "54%",
+          "size": "4.0rem"
+        },
+        {
+          "id": "item_27_6",
+          "emoji": "🌙",
+          "top": "24%",
+          "left": "23%",
+          "size": "4.5rem"
+        },
+        {
+          "id": "item_27_7",
+          "emoji": "🌲",
+          "top": "42%",
+          "left": "33%",
+          "size": "3.7rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_27_0",
+          "x": 33,
+          "y": 42,
+          "name": "Cây thông thành Cây cọ 🌴",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 42% dọc, 33% ngang!"
+        },
+        {
+          "id": "diff_27_1",
+          "x": 54,
+          "y": 52,
+          "name": "Quái vật thành Bóng ma 👻",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 52% dọc, 54% ngang!"
+        },
+        {
+          "id": "diff_27_2",
+          "x": 80,
+          "y": 60,
+          "name": "Trái đất thành Quả địa cầu 🌐",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 60% dọc, 80% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_27_0",
+          "emoji": "✨",
+          "top": "42%",
+          "left": "76%",
+          "size": "3.7rem"
+        },
+        {
+          "id": "item_27_1",
+          "emoji": "☄️",
+          "top": "40%",
+          "left": "79%",
+          "size": "4.3rem"
+        },
+        {
+          "id": "item_27_2",
+          "emoji": "🌙",
+          "top": "32%",
+          "left": "72%",
+          "size": "3.1rem"
+        },
+        {
+          "id": "item_27_3",
+          "emoji": "🧑‍🚀",
+          "top": "28%",
+          "left": "44%",
+          "size": "3.0rem"
+        },
+        {
+          "id": "item_27_4",
+          "emoji": "🌐",
+          "top": "60%",
+          "left": "80%",
+          "size": "4.5rem"
+        },
+        {
+          "id": "item_27_5",
+          "emoji": "👻",
+          "top": "52%",
+          "left": "54%",
+          "size": "4.0rem"
+        },
+        {
+          "id": "item_27_6",
+          "emoji": "🌙",
+          "top": "24%",
+          "left": "23%",
+          "size": "4.5rem"
+        },
+        {
+          "id": "item_27_7",
+          "emoji": "🌴",
+          "top": "42%",
+          "left": "33%",
+          "size": "3.7rem"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Ngân Hà Thần Tiên 29",
+      "bg": "linear-gradient(135deg, #182a25, #1d004d)",
+      "itemsLeft": [
+        {
+          "id": "item_28_0",
+          "emoji": "🛰️",
+          "top": "28%",
+          "left": "26%",
+          "size": "2.5rem"
+        },
+        {
+          "id": "item_28_1",
+          "emoji": "🚀",
+          "top": "26%",
+          "left": "51%",
+          "size": "4.4rem"
+        },
+        {
+          "id": "item_28_2",
+          "emoji": "👾",
+          "top": "73%",
+          "left": "28%",
+          "size": "5.4rem"
+        },
+        {
+          "id": "item_28_3",
+          "emoji": "🚗",
+          "top": "66%",
+          "left": "77%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "item_28_4",
+          "emoji": "🎇",
+          "top": "11%",
+          "left": "54%",
+          "size": "3.9rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_28_0",
+          "x": 51,
+          "y": 26,
+          "name": "Tên lửa thành Máy bay 🛩️",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 26% dọc, 51% ngang!"
+        },
+        {
+          "id": "diff_28_1",
+          "x": 28,
+          "y": 73,
+          "name": "Quái vật thành Bóng ma 👻",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 73% dọc, 28% ngang!"
+        },
+        {
+          "id": "diff_28_2",
+          "x": 77,
+          "y": 66,
+          "name": "Ô tô đỏ thành Ô tô vàng 🚕",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 66% dọc, 77% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_28_0",
+          "emoji": "🛰️",
+          "top": "28%",
+          "left": "26%",
+          "size": "2.5rem"
+        },
+        {
+          "id": "item_28_1",
+          "emoji": "🛩️",
+          "top": "26%",
+          "left": "51%",
+          "size": "4.4rem"
+        },
+        {
+          "id": "item_28_2",
+          "emoji": "👻",
+          "top": "73%",
+          "left": "28%",
+          "size": "5.4rem"
+        },
+        {
+          "id": "item_28_3",
+          "emoji": "🚕",
+          "top": "66%",
+          "left": "77%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "item_28_4",
+          "emoji": "🎇",
+          "top": "11%",
+          "left": "54%",
+          "size": "3.9rem"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Ngân Hà Màu Nhiệm 30",
+      "bg": "linear-gradient(135deg, #040258, #12075b)",
+      "itemsLeft": [
+        {
+          "id": "item_29_0",
+          "emoji": "🌻",
+          "top": "29%",
+          "left": "28%",
+          "size": "3.9rem"
+        },
+        {
+          "id": "item_29_1",
+          "emoji": "👽",
+          "top": "59%",
+          "left": "16%",
+          "size": "4.5rem"
+        },
+        {
+          "id": "item_29_2",
+          "emoji": "🤖",
+          "top": "48%",
+          "left": "23%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "item_29_3",
+          "emoji": "🧑‍🚀",
+          "top": "11%",
+          "left": "27%",
+          "size": "2.7rem"
+        },
+        {
+          "id": "item_29_4",
+          "emoji": "🎇",
+          "top": "12%",
+          "left": "52%",
+          "size": "3.1rem"
+        },
+        {
+          "id": "item_29_5",
+          "emoji": "👾",
+          "top": "77%",
+          "left": "50%",
+          "size": "3.2rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_29_0",
+          "x": 28,
+          "y": 29,
+          "name": "Hoa hướng dương thành Hoa hồng 🌹",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 29% dọc, 28% ngang!"
+        },
+        {
+          "id": "diff_29_1",
+          "x": 50,
+          "y": 77,
+          "name": "Quái vật thành Bóng ma 👻",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 77% dọc, 50% ngang!"
+        },
+        {
+          "id": "diff_29_2",
+          "x": 16,
+          "y": 59,
+          "name": "Người ngoài hành tinh thành Rô-bốt 🤖",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 59% dọc, 16% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_29_0",
+          "emoji": "🌹",
+          "top": "29%",
+          "left": "28%",
+          "size": "3.9rem"
+        },
+        {
+          "id": "item_29_1",
+          "emoji": "🤖",
+          "top": "59%",
+          "left": "16%",
+          "size": "4.5rem"
+        },
+        {
+          "id": "item_29_2",
+          "emoji": "🤖",
+          "top": "48%",
+          "left": "23%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "item_29_3",
+          "emoji": "🧑‍🚀",
+          "top": "11%",
+          "left": "27%",
+          "size": "2.7rem"
+        },
+        {
+          "id": "item_29_4",
+          "emoji": "🎇",
+          "top": "12%",
+          "left": "52%",
+          "size": "3.1rem"
+        },
+        {
+          "id": "item_29_5",
+          "emoji": "👻",
+          "top": "77%",
+          "left": "50%",
+          "size": "3.2rem"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Quần Đảo Tương Lai 31",
+      "bg": "linear-gradient(135deg, #1c0e3f, #072d00)",
+      "itemsLeft": [
+        {
+          "id": "item_30_0",
+          "emoji": "🚀",
+          "top": "18%",
+          "left": "55%",
+          "size": "4.6rem"
+        },
+        {
+          "id": "item_30_1",
+          "emoji": "🦁",
+          "top": "78%",
+          "left": "27%",
+          "size": "3.3rem"
+        },
+        {
+          "id": "item_30_2",
+          "emoji": "🌟",
+          "top": "35%",
+          "left": "63%",
+          "size": "3.7rem"
+        },
+        {
+          "id": "item_30_3",
+          "emoji": "🚀",
+          "top": "69%",
+          "left": "85%",
+          "size": "4.3rem"
+        },
+        {
+          "id": "item_30_4",
+          "emoji": "🧑‍🚀",
+          "top": "67%",
+          "left": "41%",
+          "size": "5.0rem"
+        },
+        {
+          "id": "item_30_5",
+          "emoji": "👽",
+          "top": "50%",
+          "left": "54%",
+          "size": "4.2rem"
+        },
+        {
+          "id": "item_30_6",
+          "emoji": "🧑‍🚀",
+          "top": "14%",
+          "left": "28%",
+          "size": "3.6rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_30_0",
+          "x": 28,
+          "y": 14,
+          "name": "Phi hành gia đổi kiểu 👨‍🚀",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 14% dọc, 28% ngang!"
+        },
+        {
+          "id": "diff_30_1",
+          "x": 55,
+          "y": 18,
+          "name": "Tên lửa thành Máy bay 🛩️",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 18% dọc, 55% ngang!"
+        },
+        {
+          "id": "diff_30_2",
+          "x": 27,
+          "y": 78,
+          "name": "Sư tử thành Hổ 🐯",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 78% dọc, 27% ngang!"
+        },
+        {
+          "id": "diff_extra_30",
+          "x": 43,
+          "y": 15,
+          "name": "Thêm 💎",
+          "hint": "Vừa có một thứ mới xuất hiện ở vị trí 15% dọc, 43% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_30_0",
+          "emoji": "🛩️",
+          "top": "18%",
+          "left": "55%",
+          "size": "4.6rem"
+        },
+        {
+          "id": "item_30_1",
+          "emoji": "🐯",
+          "top": "78%",
+          "left": "27%",
+          "size": "3.3rem"
+        },
+        {
+          "id": "item_30_2",
+          "emoji": "🌟",
+          "top": "35%",
+          "left": "63%",
+          "size": "3.7rem"
+        },
+        {
+          "id": "item_30_3",
+          "emoji": "🚀",
+          "top": "69%",
+          "left": "85%",
+          "size": "4.3rem"
+        },
+        {
+          "id": "item_30_4",
+          "emoji": "🧑‍🚀",
+          "top": "67%",
+          "left": "41%",
+          "size": "5.0rem"
+        },
+        {
+          "id": "item_30_5",
+          "emoji": "👽",
+          "top": "50%",
+          "left": "54%",
+          "size": "4.2rem"
+        },
+        {
+          "id": "item_30_6",
+          "emoji": "👨‍🚀",
+          "top": "14%",
+          "left": "28%",
+          "size": "3.6rem"
+        },
+        {
+          "id": "extra_30",
+          "emoji": "💎",
+          "top": "15%",
+          "left": "43%",
+          "size": "3.5rem"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Thành Phố Cổ Tích 32",
+      "bg": "linear-gradient(135deg, #2a2361, #111a40)",
+      "itemsLeft": [
+        {
+          "id": "item_31_0",
+          "emoji": "👽",
+          "top": "16%",
+          "left": "12%",
+          "size": "2.7rem"
+        },
+        {
+          "id": "item_31_1",
+          "emoji": "🌻",
+          "top": "69%",
+          "left": "72%",
+          "size": "2.7rem"
+        },
+        {
+          "id": "item_31_2",
+          "emoji": "🌟",
+          "top": "34%",
+          "left": "49%",
+          "size": "2.5rem"
+        },
+        {
+          "id": "item_31_3",
+          "emoji": "☁️",
+          "top": "38%",
+          "left": "26%",
+          "size": "4.6rem"
+        },
+        {
+          "id": "item_31_4",
+          "emoji": "🍎",
+          "top": "55%",
+          "left": "82%",
+          "size": "5.2rem"
+        },
+        {
+          "id": "item_31_5",
+          "emoji": "☀️",
+          "top": "47%",
+          "left": "37%",
+          "size": "3.8rem"
+        },
+        {
+          "id": "item_31_6",
+          "emoji": "☄️",
+          "top": "80%",
+          "left": "42%",
+          "size": "5.2rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_31_0",
+          "x": 72,
+          "y": 69,
+          "name": "Hoa hướng dương thành Hoa hồng 🌹",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 69% dọc, 72% ngang!"
+        },
+        {
+          "id": "diff_31_1",
+          "x": 37,
+          "y": 47,
+          "name": "Mặt trời thành Mặt trăng 🌕",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 47% dọc, 37% ngang!"
+        },
+        {
+          "id": "diff_31_2",
+          "x": 82,
+          "y": 55,
+          "name": "Táo thành Dưa hấu 🍉",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 55% dọc, 82% ngang!"
+        },
+        {
+          "id": "diff_extra_31",
+          "x": 67,
+          "y": 61,
+          "name": "Thêm 🌍",
+          "hint": "Vừa có một thứ mới xuất hiện ở vị trí 61% dọc, 67% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_31_0",
+          "emoji": "👽",
+          "top": "16%",
+          "left": "12%",
+          "size": "2.7rem"
+        },
+        {
+          "id": "item_31_1",
+          "emoji": "🌹",
+          "top": "69%",
+          "left": "72%",
+          "size": "2.7rem"
+        },
+        {
+          "id": "item_31_2",
+          "emoji": "🌟",
+          "top": "34%",
+          "left": "49%",
+          "size": "2.5rem"
+        },
+        {
+          "id": "item_31_3",
+          "emoji": "☁️",
+          "top": "38%",
+          "left": "26%",
+          "size": "4.6rem"
+        },
+        {
+          "id": "item_31_4",
+          "emoji": "🍉",
+          "top": "55%",
+          "left": "82%",
+          "size": "5.2rem"
+        },
+        {
+          "id": "item_31_5",
+          "emoji": "🌕",
+          "top": "47%",
+          "left": "37%",
+          "size": "3.8rem"
+        },
+        {
+          "id": "item_31_6",
+          "emoji": "☄️",
+          "top": "80%",
+          "left": "42%",
+          "size": "5.2rem"
+        },
+        {
+          "id": "extra_31",
+          "emoji": "🌍",
+          "top": "61%",
+          "left": "67%",
+          "size": "3.5rem"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Hành Tinh Tương Lai 33",
+      "bg": "linear-gradient(135deg, #230620, #29282f)",
+      "itemsLeft": [
+        {
+          "id": "item_32_0",
+          "emoji": "⭐",
+          "top": "60%",
+          "left": "83%",
+          "size": "3.7rem"
+        },
+        {
+          "id": "item_32_1",
+          "emoji": "🤖",
+          "top": "30%",
+          "left": "15%",
+          "size": "5.3rem"
+        },
+        {
+          "id": "item_32_2",
+          "emoji": "✨",
+          "top": "48%",
+          "left": "38%",
+          "size": "4.0rem"
+        },
+        {
+          "id": "item_32_3",
+          "emoji": "🚀",
+          "top": "11%",
+          "left": "19%",
+          "size": "5.3rem"
+        },
+        {
+          "id": "item_32_4",
+          "emoji": "🚀",
+          "top": "21%",
+          "left": "18%",
+          "size": "4.5rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_32_0",
+          "x": 18,
+          "y": 21,
+          "name": "Tên lửa thành Máy bay 🛩️",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 21% dọc, 18% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_32_0",
+          "emoji": "⭐",
+          "top": "60%",
+          "left": "83%",
+          "size": "3.7rem"
+        },
+        {
+          "id": "item_32_1",
+          "emoji": "🤖",
+          "top": "30%",
+          "left": "15%",
+          "size": "5.3rem"
+        },
+        {
+          "id": "item_32_2",
+          "emoji": "✨",
+          "top": "48%",
+          "left": "38%",
+          "size": "4.0rem"
+        },
+        {
+          "id": "item_32_3",
+          "emoji": "🚀",
+          "top": "11%",
+          "left": "19%",
+          "size": "5.3rem"
+        },
+        {
+          "id": "item_32_4",
+          "emoji": "🛩️",
+          "top": "21%",
+          "left": "18%",
+          "size": "4.5rem"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Phi Thuyền Thần Tiên 34",
+      "bg": "linear-gradient(135deg, #242c1d, #012d57)",
+      "itemsLeft": [
+        {
+          "id": "item_33_0",
+          "emoji": "👽",
+          "top": "10%",
+          "left": "55%",
+          "size": "4.9rem"
+        },
+        {
+          "id": "item_33_1",
+          "emoji": "✨",
+          "top": "20%",
+          "left": "25%",
+          "size": "3.6rem"
+        },
+        {
+          "id": "item_33_2",
+          "emoji": "🦋",
+          "top": "24%",
+          "left": "68%",
+          "size": "2.5rem"
+        },
+        {
+          "id": "item_33_3",
+          "emoji": "🚀",
+          "top": "61%",
+          "left": "42%",
+          "size": "4.4rem"
+        },
+        {
+          "id": "item_33_4",
+          "emoji": "🐶",
+          "top": "80%",
+          "left": "49%",
+          "size": "4.8rem"
+        },
+        {
+          "id": "item_33_5",
+          "emoji": "🚀",
+          "top": "21%",
+          "left": "42%",
+          "size": "3.6rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_33_0",
+          "x": 49,
+          "y": 80,
+          "name": "Chó thành Mèo 🐱",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 80% dọc, 49% ngang!"
+        },
+        {
+          "id": "diff_33_1",
+          "x": 68,
+          "y": 24,
+          "name": "Bướm thành Ong 🐝",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 24% dọc, 68% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_33_0",
+          "emoji": "👽",
+          "top": "10%",
+          "left": "55%",
+          "size": "4.9rem"
+        },
+        {
+          "id": "item_33_1",
+          "emoji": "✨",
+          "top": "20%",
+          "left": "25%",
+          "size": "3.6rem"
+        },
+        {
+          "id": "item_33_2",
+          "emoji": "🐝",
+          "top": "24%",
+          "left": "68%",
+          "size": "2.5rem"
+        },
+        {
+          "id": "item_33_3",
+          "emoji": "🚀",
+          "top": "61%",
+          "left": "42%",
+          "size": "4.4rem"
+        },
+        {
+          "id": "item_33_4",
+          "emoji": "🐱",
+          "top": "80%",
+          "left": "49%",
+          "size": "4.8rem"
+        },
+        {
+          "id": "item_33_5",
+          "emoji": "🚀",
+          "top": "21%",
+          "left": "42%",
+          "size": "3.6rem"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Dải Ngân Hà Rực Lửa 35",
+      "bg": "linear-gradient(135deg, #04031b, #050162)",
+      "itemsLeft": [
+        {
+          "id": "item_34_0",
+          "emoji": "🌙",
+          "top": "36%",
+          "left": "31%",
+          "size": "5.1rem"
+        },
+        {
+          "id": "item_34_1",
+          "emoji": "☁️",
+          "top": "32%",
+          "left": "59%",
+          "size": "4.4rem"
+        },
+        {
+          "id": "item_34_2",
+          "emoji": "🌟",
+          "top": "72%",
+          "left": "29%",
+          "size": "3.1rem"
+        },
+        {
+          "id": "item_34_3",
+          "emoji": "☀️",
+          "top": "26%",
+          "left": "79%",
+          "size": "5.5rem"
+        },
+        {
+          "id": "item_34_4",
+          "emoji": "🌍",
+          "top": "60%",
+          "left": "35%",
+          "size": "2.8rem"
+        },
+        {
+          "id": "item_34_5",
+          "emoji": "🛸",
+          "top": "18%",
+          "left": "68%",
+          "size": "5.5rem"
+        },
+        {
+          "id": "item_34_6",
+          "emoji": "☄️",
+          "top": "74%",
+          "left": "67%",
+          "size": "3.9rem"
+        },
+        {
+          "id": "item_34_7",
+          "emoji": "👽",
+          "top": "48%",
+          "left": "69%",
+          "size": "3.3rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_34_0",
+          "x": 69,
+          "y": 48,
+          "name": "Người ngoài hành tinh thành Rô-bốt 🤖",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 48% dọc, 69% ngang!"
+        },
+        {
+          "id": "diff_34_1",
+          "x": 79,
+          "y": 26,
+          "name": "Mặt trời thành Mặt trăng 🌕",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 26% dọc, 79% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_34_0",
+          "emoji": "🌙",
+          "top": "36%",
+          "left": "31%",
+          "size": "5.1rem"
+        },
+        {
+          "id": "item_34_1",
+          "emoji": "☁️",
+          "top": "32%",
+          "left": "59%",
+          "size": "4.4rem"
+        },
+        {
+          "id": "item_34_2",
+          "emoji": "🌟",
+          "top": "72%",
+          "left": "29%",
+          "size": "3.1rem"
+        },
+        {
+          "id": "item_34_3",
+          "emoji": "🌕",
+          "top": "26%",
+          "left": "79%",
+          "size": "5.5rem"
+        },
+        {
+          "id": "item_34_4",
+          "emoji": "🌍",
+          "top": "60%",
+          "left": "35%",
+          "size": "2.8rem"
+        },
+        {
+          "id": "item_34_5",
+          "emoji": "🛸",
+          "top": "18%",
+          "left": "68%",
+          "size": "5.5rem"
+        },
+        {
+          "id": "item_34_6",
+          "emoji": "☄️",
+          "top": "74%",
+          "left": "67%",
+          "size": "3.9rem"
+        },
+        {
+          "id": "item_34_7",
+          "emoji": "🤖",
+          "top": "48%",
+          "left": "69%",
+          "size": "3.3rem"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Thành Phố Màu Nhiệm 36",
+      "bg": "linear-gradient(135deg, #25044e, #02191a)",
+      "itemsLeft": [
+        {
+          "id": "item_35_0",
+          "emoji": "🌙",
+          "top": "68%",
+          "left": "70%",
+          "size": "3.8rem"
+        },
+        {
+          "id": "item_35_1",
+          "emoji": "🚀",
+          "top": "60%",
+          "left": "26%",
+          "size": "4.8rem"
+        },
+        {
+          "id": "item_35_2",
+          "emoji": "💎",
+          "top": "69%",
+          "left": "34%",
+          "size": "3.1rem"
+        },
+        {
+          "id": "item_35_3",
+          "emoji": "👽",
+          "top": "38%",
+          "left": "70%",
+          "size": "5.0rem"
+        },
+        {
+          "id": "item_35_4",
+          "emoji": "🚀",
+          "top": "52%",
+          "left": "63%",
+          "size": "4.5rem"
+        },
+        {
+          "id": "item_35_5",
+          "emoji": "👾",
+          "top": "26%",
+          "left": "24%",
+          "size": "2.6rem"
+        },
+        {
+          "id": "item_35_6",
+          "emoji": "👽",
+          "top": "72%",
+          "left": "38%",
+          "size": "5.4rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_35_0",
+          "x": 63,
+          "y": 52,
+          "name": "Tên lửa thành Máy bay 🛩️",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 52% dọc, 63% ngang!"
+        },
+        {
+          "id": "diff_35_1",
+          "x": 24,
+          "y": 26,
+          "name": "Quái vật thành Bóng ma 👻",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 26% dọc, 24% ngang!"
+        },
+        {
+          "id": "diff_35_2",
+          "x": 70,
+          "y": 38,
+          "name": "Người ngoài hành tinh thành Rô-bốt 🤖",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 38% dọc, 70% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_35_0",
+          "emoji": "🌙",
+          "top": "68%",
+          "left": "70%",
+          "size": "3.8rem"
+        },
+        {
+          "id": "item_35_1",
+          "emoji": "🚀",
+          "top": "60%",
+          "left": "26%",
+          "size": "4.8rem"
+        },
+        {
+          "id": "item_35_2",
+          "emoji": "💎",
+          "top": "69%",
+          "left": "34%",
+          "size": "3.1rem"
+        },
+        {
+          "id": "item_35_3",
+          "emoji": "🤖",
+          "top": "38%",
+          "left": "70%",
+          "size": "5.0rem"
+        },
+        {
+          "id": "item_35_4",
+          "emoji": "🛩️",
+          "top": "52%",
+          "left": "63%",
+          "size": "4.5rem"
+        },
+        {
+          "id": "item_35_5",
+          "emoji": "👻",
+          "top": "26%",
+          "left": "24%",
+          "size": "2.6rem"
+        },
+        {
+          "id": "item_35_6",
+          "emoji": "👽",
+          "top": "72%",
+          "left": "38%",
+          "size": "5.4rem"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Trạm Màu Nhiệm 37",
+      "bg": "linear-gradient(135deg, #1b0a12, #141f4e)",
+      "itemsLeft": [
+        {
+          "id": "item_36_0",
+          "emoji": "🎆",
+          "top": "16%",
+          "left": "50%",
+          "size": "4.1rem"
+        },
+        {
+          "id": "item_36_1",
+          "emoji": "👾",
+          "top": "28%",
+          "left": "80%",
+          "size": "2.8rem"
+        },
+        {
+          "id": "item_36_2",
+          "emoji": "☁️",
+          "top": "41%",
+          "left": "81%",
+          "size": "3.3rem"
+        },
+        {
+          "id": "item_36_3",
+          "emoji": "👽",
+          "top": "32%",
+          "left": "17%",
+          "size": "3.6rem"
+        },
+        {
+          "id": "item_36_4",
+          "emoji": "🌙",
+          "top": "46%",
+          "left": "13%",
+          "size": "4.6rem"
+        },
+        {
+          "id": "item_36_5",
+          "emoji": "🌟",
+          "top": "40%",
+          "left": "37%",
+          "size": "4.9rem"
+        },
+        {
+          "id": "item_36_6",
+          "emoji": "🎇",
+          "top": "53%",
+          "left": "55%",
+          "size": "4.9rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_36_0",
+          "x": 17,
+          "y": 32,
+          "name": "Người ngoài hành tinh thành Rô-bốt 🤖",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 32% dọc, 17% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_36_0",
+          "emoji": "🎆",
+          "top": "16%",
+          "left": "50%",
+          "size": "4.1rem"
+        },
+        {
+          "id": "item_36_1",
+          "emoji": "👾",
+          "top": "28%",
+          "left": "80%",
+          "size": "2.8rem"
+        },
+        {
+          "id": "item_36_2",
+          "emoji": "☁️",
+          "top": "41%",
+          "left": "81%",
+          "size": "3.3rem"
+        },
+        {
+          "id": "item_36_3",
+          "emoji": "🤖",
+          "top": "32%",
+          "left": "17%",
+          "size": "3.6rem"
+        },
+        {
+          "id": "item_36_4",
+          "emoji": "🌙",
+          "top": "46%",
+          "left": "13%",
+          "size": "4.6rem"
+        },
+        {
+          "id": "item_36_5",
+          "emoji": "🌟",
+          "top": "40%",
+          "left": "37%",
+          "size": "4.9rem"
+        },
+        {
+          "id": "item_36_6",
+          "emoji": "🎇",
+          "top": "53%",
+          "left": "55%",
+          "size": "4.9rem"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Mê Cung Cổ Tích 38",
+      "bg": "linear-gradient(135deg, #292708, #2a0009)",
+      "itemsLeft": [
+        {
+          "id": "item_37_0",
+          "emoji": "☄️",
+          "top": "55%",
+          "left": "66%",
+          "size": "4.3rem"
+        },
+        {
+          "id": "item_37_1",
+          "emoji": "🍎",
+          "top": "31%",
+          "left": "14%",
+          "size": "3.3rem"
+        },
+        {
+          "id": "item_37_2",
+          "emoji": "☁️",
+          "top": "28%",
+          "left": "55%",
+          "size": "4.3rem"
+        },
+        {
+          "id": "item_37_3",
+          "emoji": "🌲",
+          "top": "79%",
+          "left": "57%",
+          "size": "2.8rem"
+        },
+        {
+          "id": "item_37_4",
+          "emoji": "🚗",
+          "top": "78%",
+          "left": "32%",
+          "size": "2.8rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_37_0",
+          "x": 14,
+          "y": 31,
+          "name": "Táo thành Dưa hấu 🍉",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 31% dọc, 14% ngang!"
+        },
+        {
+          "id": "diff_37_1",
+          "x": 57,
+          "y": 79,
+          "name": "Cây thông thành Cây cọ 🌴",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 79% dọc, 57% ngang!"
+        },
+        {
+          "id": "diff_37_2",
+          "x": 32,
+          "y": 78,
+          "name": "Ô tô đỏ thành Ô tô vàng 🚕",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 78% dọc, 32% ngang!"
+        },
+        {
+          "id": "diff_extra_37",
+          "x": 72,
+          "y": 45,
+          "name": "Thêm ☄️",
+          "hint": "Vừa có một thứ mới xuất hiện ở vị trí 45% dọc, 72% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_37_0",
+          "emoji": "☄️",
+          "top": "55%",
+          "left": "66%",
+          "size": "4.3rem"
+        },
+        {
+          "id": "item_37_1",
+          "emoji": "🍉",
+          "top": "31%",
+          "left": "14%",
+          "size": "3.3rem"
+        },
+        {
+          "id": "item_37_2",
+          "emoji": "☁️",
+          "top": "28%",
+          "left": "55%",
+          "size": "4.3rem"
+        },
+        {
+          "id": "item_37_3",
+          "emoji": "🌴",
+          "top": "79%",
+          "left": "57%",
+          "size": "2.8rem"
+        },
+        {
+          "id": "item_37_4",
+          "emoji": "🚕",
+          "top": "78%",
+          "left": "32%",
+          "size": "2.8rem"
+        },
+        {
+          "id": "extra_37",
+          "emoji": "☄️",
+          "top": "45%",
+          "left": "72%",
+          "size": "3.5rem"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Trạm Vô Cực 39",
+      "bg": "linear-gradient(135deg, #090e4a, #2d2148)",
+      "itemsLeft": [
+        {
+          "id": "item_38_0",
+          "emoji": "🌍",
+          "top": "32%",
+          "left": "57%",
+          "size": "4.8rem"
+        },
+        {
+          "id": "item_38_1",
+          "emoji": "☄️",
+          "top": "13%",
+          "left": "10%",
+          "size": "2.6rem"
+        },
+        {
+          "id": "item_38_2",
+          "emoji": "🐶",
+          "top": "20%",
+          "left": "23%",
+          "size": "3.0rem"
+        },
+        {
+          "id": "item_38_3",
+          "emoji": "🛸",
+          "top": "48%",
+          "left": "39%",
+          "size": "2.9rem"
+        },
+        {
+          "id": "item_38_4",
+          "emoji": "🤖",
+          "top": "71%",
+          "left": "36%",
+          "size": "3.1rem"
+        },
+        {
+          "id": "item_38_5",
+          "emoji": "⭐",
+          "top": "40%",
+          "left": "53%",
+          "size": "5.4rem"
+        },
+        {
+          "id": "item_38_6",
+          "emoji": "👽",
+          "top": "26%",
+          "left": "41%",
+          "size": "3.3rem"
+        },
+        {
+          "id": "item_38_7",
+          "emoji": "🧑‍🚀",
+          "top": "45%",
+          "left": "58%",
+          "size": "3.2rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_38_0",
+          "x": 23,
+          "y": 20,
+          "name": "Chó thành Mèo 🐱",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 20% dọc, 23% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_38_0",
+          "emoji": "🌍",
+          "top": "32%",
+          "left": "57%",
+          "size": "4.8rem"
+        },
+        {
+          "id": "item_38_1",
+          "emoji": "☄️",
+          "top": "13%",
+          "left": "10%",
+          "size": "2.6rem"
+        },
+        {
+          "id": "item_38_2",
+          "emoji": "🐱",
+          "top": "20%",
+          "left": "23%",
+          "size": "3.0rem"
+        },
+        {
+          "id": "item_38_3",
+          "emoji": "🛸",
+          "top": "48%",
+          "left": "39%",
+          "size": "2.9rem"
+        },
+        {
+          "id": "item_38_4",
+          "emoji": "🤖",
+          "top": "71%",
+          "left": "36%",
+          "size": "3.1rem"
+        },
+        {
+          "id": "item_38_5",
+          "emoji": "⭐",
+          "top": "40%",
+          "left": "53%",
+          "size": "5.4rem"
+        },
+        {
+          "id": "item_38_6",
+          "emoji": "👽",
+          "top": "26%",
+          "left": "41%",
+          "size": "3.3rem"
+        },
+        {
+          "id": "item_38_7",
+          "emoji": "🧑‍🚀",
+          "top": "45%",
+          "left": "58%",
+          "size": "3.2rem"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Căn Cứ Sinh Tồn 40",
+      "bg": "linear-gradient(135deg, #022001, #162321)",
+      "itemsLeft": [
+        {
+          "id": "item_39_0",
+          "emoji": "💎",
+          "top": "71%",
+          "left": "43%",
+          "size": "3.0rem"
+        },
+        {
+          "id": "item_39_1",
+          "emoji": "🤖",
+          "top": "74%",
+          "left": "36%",
+          "size": "3.0rem"
+        },
+        {
+          "id": "item_39_2",
+          "emoji": "🦁",
+          "top": "21%",
+          "left": "19%",
+          "size": "3.9rem"
+        },
+        {
+          "id": "item_39_3",
+          "emoji": "⭐",
+          "top": "21%",
+          "left": "45%",
+          "size": "4.2rem"
+        },
+        {
+          "id": "item_39_4",
+          "emoji": "🐶",
+          "top": "36%",
+          "left": "79%",
+          "size": "4.9rem"
+        },
+        {
+          "id": "item_39_5",
+          "emoji": "🛰️",
+          "top": "70%",
+          "left": "57%",
+          "size": "2.6rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_39_0",
+          "x": 79,
+          "y": 36,
+          "name": "Chó thành Mèo 🐱",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 36% dọc, 79% ngang!"
+        },
+        {
+          "id": "diff_39_1",
+          "x": 19,
+          "y": 21,
+          "name": "Sư tử thành Hổ 🐯",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 21% dọc, 19% ngang!"
+        },
+        {
+          "id": "diff_extra_39",
+          "x": 48,
+          "y": 50,
+          "name": "Thêm 🛰️",
+          "hint": "Vừa có một thứ mới xuất hiện ở vị trí 50% dọc, 48% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_39_0",
+          "emoji": "💎",
+          "top": "71%",
+          "left": "43%",
+          "size": "3.0rem"
+        },
+        {
+          "id": "item_39_1",
+          "emoji": "🤖",
+          "top": "74%",
+          "left": "36%",
+          "size": "3.0rem"
+        },
+        {
+          "id": "item_39_2",
+          "emoji": "🐯",
+          "top": "21%",
+          "left": "19%",
+          "size": "3.9rem"
+        },
+        {
+          "id": "item_39_3",
+          "emoji": "⭐",
+          "top": "21%",
+          "left": "45%",
+          "size": "4.2rem"
+        },
+        {
+          "id": "item_39_4",
+          "emoji": "🐱",
+          "top": "36%",
+          "left": "79%",
+          "size": "4.9rem"
+        },
+        {
+          "id": "item_39_5",
+          "emoji": "🛰️",
+          "top": "70%",
+          "left": "57%",
+          "size": "2.6rem"
+        },
+        {
+          "id": "extra_39",
+          "emoji": "🛰️",
+          "top": "50%",
+          "left": "48%",
+          "size": "3.5rem"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Mê Cung Pha Lê 41",
+      "bg": "linear-gradient(135deg, #2d0045, #070061)",
+      "itemsLeft": [
+        {
+          "id": "item_40_0",
+          "emoji": "☀️",
+          "top": "51%",
+          "left": "40%",
+          "size": "5.1rem"
+        },
+        {
+          "id": "item_40_1",
+          "emoji": "🛸",
+          "top": "79%",
+          "left": "43%",
+          "size": "3.6rem"
+        },
+        {
+          "id": "item_40_2",
+          "emoji": "👾",
+          "top": "44%",
+          "left": "39%",
+          "size": "4.8rem"
+        },
+        {
+          "id": "item_40_3",
+          "emoji": "🎇",
+          "top": "70%",
+          "left": "33%",
+          "size": "2.8rem"
+        },
+        {
+          "id": "item_40_4",
+          "emoji": "☁️",
+          "top": "15%",
+          "left": "76%",
+          "size": "4.2rem"
+        },
+        {
+          "id": "item_40_5",
+          "emoji": "🚀",
+          "top": "17%",
+          "left": "47%",
+          "size": "2.9rem"
+        },
+        {
+          "id": "item_40_6",
+          "emoji": "🎇",
+          "top": "39%",
+          "left": "32%",
+          "size": "4.2rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_40_0",
+          "x": 40,
+          "y": 51,
+          "name": "Mặt trời thành Mặt trăng 🌕",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 51% dọc, 40% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_40_0",
+          "emoji": "🌕",
+          "top": "51%",
+          "left": "40%",
+          "size": "5.1rem"
+        },
+        {
+          "id": "item_40_1",
+          "emoji": "🛸",
+          "top": "79%",
+          "left": "43%",
+          "size": "3.6rem"
+        },
+        {
+          "id": "item_40_2",
+          "emoji": "👾",
+          "top": "44%",
+          "left": "39%",
+          "size": "4.8rem"
+        },
+        {
+          "id": "item_40_3",
+          "emoji": "🎇",
+          "top": "70%",
+          "left": "33%",
+          "size": "2.8rem"
+        },
+        {
+          "id": "item_40_4",
+          "emoji": "☁️",
+          "top": "15%",
+          "left": "76%",
+          "size": "4.2rem"
+        },
+        {
+          "id": "item_40_5",
+          "emoji": "🚀",
+          "top": "17%",
+          "left": "47%",
+          "size": "2.9rem"
+        },
+        {
+          "id": "item_40_6",
+          "emoji": "🎇",
+          "top": "39%",
+          "left": "32%",
+          "size": "4.2rem"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Mê Cung Màu Nhiệm 42",
+      "bg": "linear-gradient(135deg, #161e34, #0b0215)",
+      "itemsLeft": [
+        {
+          "id": "item_41_0",
+          "emoji": "👽",
+          "top": "65%",
+          "left": "61%",
+          "size": "3.0rem"
+        },
+        {
+          "id": "item_41_1",
+          "emoji": "🧑‍🚀",
+          "top": "79%",
+          "left": "54%",
+          "size": "3.8rem"
+        },
+        {
+          "id": "item_41_2",
+          "emoji": "🚀",
+          "top": "31%",
+          "left": "26%",
+          "size": "3.8rem"
+        },
+        {
+          "id": "item_41_3",
+          "emoji": "🚗",
+          "top": "58%",
+          "left": "67%",
+          "size": "3.1rem"
+        },
+        {
+          "id": "item_41_4",
+          "emoji": "☄️",
+          "top": "75%",
+          "left": "18%",
+          "size": "4.7rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_41_0",
+          "x": 67,
+          "y": 58,
+          "name": "Ô tô đỏ thành Ô tô vàng 🚕",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 58% dọc, 67% ngang!"
+        },
+        {
+          "id": "diff_41_1",
+          "x": 61,
+          "y": 65,
+          "name": "Người ngoài hành tinh thành Rô-bốt 🤖",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 65% dọc, 61% ngang!"
+        },
+        {
+          "id": "diff_41_2",
+          "x": 26,
+          "y": 31,
+          "name": "Tên lửa thành Máy bay 🛩️",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 31% dọc, 26% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_41_0",
+          "emoji": "🤖",
+          "top": "65%",
+          "left": "61%",
+          "size": "3.0rem"
+        },
+        {
+          "id": "item_41_1",
+          "emoji": "🧑‍🚀",
+          "top": "79%",
+          "left": "54%",
+          "size": "3.8rem"
+        },
+        {
+          "id": "item_41_2",
+          "emoji": "🛩️",
+          "top": "31%",
+          "left": "26%",
+          "size": "3.8rem"
+        },
+        {
+          "id": "item_41_3",
+          "emoji": "🚕",
+          "top": "58%",
+          "left": "67%",
+          "size": "3.1rem"
+        },
+        {
+          "id": "item_41_4",
+          "emoji": "☄️",
+          "top": "75%",
+          "left": "18%",
+          "size": "4.7rem"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Phòng Thí Nghiệm Kỳ Diệu 43",
+      "bg": "linear-gradient(135deg, #2f1425, #002d08)",
+      "itemsLeft": [
+        {
+          "id": "item_42_0",
+          "emoji": "🌟",
+          "top": "67%",
+          "left": "11%",
+          "size": "4.6rem"
+        },
+        {
+          "id": "item_42_1",
+          "emoji": "⭐",
+          "top": "19%",
+          "left": "76%",
+          "size": "3.2rem"
+        },
+        {
+          "id": "item_42_2",
+          "emoji": "💎",
+          "top": "39%",
+          "left": "72%",
+          "size": "3.9rem"
+        },
+        {
+          "id": "item_42_3",
+          "emoji": "🛸",
+          "top": "40%",
+          "left": "17%",
+          "size": "4.5rem"
+        },
+        {
+          "id": "item_42_4",
+          "emoji": "👾",
+          "top": "20%",
+          "left": "42%",
+          "size": "4.6rem"
+        },
+        {
+          "id": "item_42_5",
+          "emoji": "🌻",
+          "top": "80%",
+          "left": "62%",
+          "size": "4.0rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_42_0",
+          "x": 62,
+          "y": 80,
+          "name": "Hoa hướng dương thành Hoa hồng 🌹",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 80% dọc, 62% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_42_0",
+          "emoji": "🌟",
+          "top": "67%",
+          "left": "11%",
+          "size": "4.6rem"
+        },
+        {
+          "id": "item_42_1",
+          "emoji": "⭐",
+          "top": "19%",
+          "left": "76%",
+          "size": "3.2rem"
+        },
+        {
+          "id": "item_42_2",
+          "emoji": "💎",
+          "top": "39%",
+          "left": "72%",
+          "size": "3.9rem"
+        },
+        {
+          "id": "item_42_3",
+          "emoji": "🛸",
+          "top": "40%",
+          "left": "17%",
+          "size": "4.5rem"
+        },
+        {
+          "id": "item_42_4",
+          "emoji": "👾",
+          "top": "20%",
+          "left": "42%",
+          "size": "4.6rem"
+        },
+        {
+          "id": "item_42_5",
+          "emoji": "🌹",
+          "top": "80%",
+          "left": "62%",
+          "size": "4.0rem"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Ngân Hà Màu Nhiệm 44",
+      "bg": "linear-gradient(135deg, #1d0f17, #262e5d)",
+      "itemsLeft": [
+        {
+          "id": "item_43_0",
+          "emoji": "👽",
+          "top": "20%",
+          "left": "28%",
+          "size": "4.1rem"
+        },
+        {
+          "id": "item_43_1",
+          "emoji": "☁️",
+          "top": "31%",
+          "left": "54%",
+          "size": "4.3rem"
+        },
+        {
+          "id": "item_43_2",
+          "emoji": "🛸",
+          "top": "48%",
+          "left": "46%",
+          "size": "4.7rem"
+        },
+        {
+          "id": "item_43_3",
+          "emoji": "☄️",
+          "top": "50%",
+          "left": "54%",
+          "size": "2.9rem"
+        },
+        {
+          "id": "item_43_4",
+          "emoji": "🌙",
+          "top": "60%",
+          "left": "45%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "item_43_5",
+          "emoji": "🧑‍🚀",
+          "top": "53%",
+          "left": "77%",
+          "size": "2.6rem"
+        },
+        {
+          "id": "item_43_6",
+          "emoji": "☄️",
+          "top": "17%",
+          "left": "17%",
+          "size": "2.9rem"
+        },
+        {
+          "id": "item_43_7",
+          "emoji": "☁️",
+          "top": "72%",
+          "left": "18%",
+          "size": "5.5rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_43_0",
+          "x": 28,
+          "y": 20,
+          "name": "Người ngoài hành tinh thành Rô-bốt 🤖",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 20% dọc, 28% ngang!"
+        },
+        {
+          "id": "diff_extra_43",
+          "x": 33,
+          "y": 39,
+          "name": "Thêm 💎",
+          "hint": "Vừa có một thứ mới xuất hiện ở vị trí 39% dọc, 33% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_43_0",
+          "emoji": "🤖",
+          "top": "20%",
+          "left": "28%",
+          "size": "4.1rem"
+        },
+        {
+          "id": "item_43_1",
+          "emoji": "☁️",
+          "top": "31%",
+          "left": "54%",
+          "size": "4.3rem"
+        },
+        {
+          "id": "item_43_2",
+          "emoji": "🛸",
+          "top": "48%",
+          "left": "46%",
+          "size": "4.7rem"
+        },
+        {
+          "id": "item_43_3",
+          "emoji": "☄️",
+          "top": "50%",
+          "left": "54%",
+          "size": "2.9rem"
+        },
+        {
+          "id": "item_43_4",
+          "emoji": "🌙",
+          "top": "60%",
+          "left": "45%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "item_43_5",
+          "emoji": "🧑‍🚀",
+          "top": "53%",
+          "left": "77%",
+          "size": "2.6rem"
+        },
+        {
+          "id": "item_43_6",
+          "emoji": "☄️",
+          "top": "17%",
+          "left": "17%",
+          "size": "2.9rem"
+        },
+        {
+          "id": "item_43_7",
+          "emoji": "☁️",
+          "top": "72%",
+          "left": "18%",
+          "size": "5.5rem"
+        },
+        {
+          "id": "extra_43",
+          "emoji": "💎",
+          "top": "39%",
+          "left": "33%",
+          "size": "3.5rem"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Cánh Đồng Huyền Bí 45",
+      "bg": "linear-gradient(135deg, #0d194a, #151d31)",
+      "itemsLeft": [
+        {
+          "id": "item_44_0",
+          "emoji": "🌙",
+          "top": "65%",
+          "left": "53%",
+          "size": "4.6rem"
+        },
+        {
+          "id": "item_44_1",
+          "emoji": "🎇",
+          "top": "17%",
+          "left": "62%",
+          "size": "2.9rem"
+        },
+        {
+          "id": "item_44_2",
+          "emoji": "🌲",
+          "top": "35%",
+          "left": "84%",
+          "size": "3.3rem"
+        },
+        {
+          "id": "item_44_3",
+          "emoji": "✨",
+          "top": "12%",
+          "left": "50%",
+          "size": "3.1rem"
+        },
+        {
+          "id": "item_44_4",
+          "emoji": "👾",
+          "top": "74%",
+          "left": "31%",
+          "size": "2.7rem"
+        },
+        {
+          "id": "item_44_5",
+          "emoji": "🌍",
+          "top": "59%",
+          "left": "15%",
+          "size": "4.5rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_44_0",
+          "x": 84,
+          "y": 35,
+          "name": "Cây thông thành Cây cọ 🌴",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 35% dọc, 84% ngang!"
+        },
+        {
+          "id": "diff_44_1",
+          "x": 31,
+          "y": 74,
+          "name": "Quái vật thành Bóng ma 👻",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 74% dọc, 31% ngang!"
+        },
+        {
+          "id": "diff_44_2",
+          "x": 15,
+          "y": 59,
+          "name": "Trái đất thành Quả địa cầu 🌐",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 59% dọc, 15% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_44_0",
+          "emoji": "🌙",
+          "top": "65%",
+          "left": "53%",
+          "size": "4.6rem"
+        },
+        {
+          "id": "item_44_1",
+          "emoji": "🎇",
+          "top": "17%",
+          "left": "62%",
+          "size": "2.9rem"
+        },
+        {
+          "id": "item_44_2",
+          "emoji": "🌴",
+          "top": "35%",
+          "left": "84%",
+          "size": "3.3rem"
+        },
+        {
+          "id": "item_44_3",
+          "emoji": "✨",
+          "top": "12%",
+          "left": "50%",
+          "size": "3.1rem"
+        },
+        {
+          "id": "item_44_4",
+          "emoji": "👻",
+          "top": "74%",
+          "left": "31%",
+          "size": "2.7rem"
+        },
+        {
+          "id": "item_44_5",
+          "emoji": "🌐",
+          "top": "59%",
+          "left": "15%",
+          "size": "4.5rem"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Thành Phố Sinh Tồn 46",
+      "bg": "linear-gradient(135deg, #10145d, #111f2a)",
+      "itemsLeft": [
+        {
+          "id": "item_45_0",
+          "emoji": "☄️",
+          "top": "45%",
+          "left": "69%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "item_45_1",
+          "emoji": "🦁",
+          "top": "67%",
+          "left": "22%",
+          "size": "2.6rem"
+        },
+        {
+          "id": "item_45_2",
+          "emoji": "👾",
+          "top": "57%",
+          "left": "37%",
+          "size": "4.4rem"
+        },
+        {
+          "id": "item_45_3",
+          "emoji": "👽",
+          "top": "66%",
+          "left": "50%",
+          "size": "4.9rem"
+        },
+        {
+          "id": "item_45_4",
+          "emoji": "🐶",
+          "top": "34%",
+          "left": "20%",
+          "size": "2.5rem"
+        },
+        {
+          "id": "item_45_5",
+          "emoji": "👽",
+          "top": "13%",
+          "left": "83%",
+          "size": "5.4rem"
+        },
+        {
+          "id": "item_45_6",
+          "emoji": "👾",
+          "top": "49%",
+          "left": "37%",
+          "size": "3.4rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_45_0",
+          "x": 37,
+          "y": 57,
+          "name": "Quái vật thành Bóng ma 👻",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 57% dọc, 37% ngang!"
+        },
+        {
+          "id": "diff_45_1",
+          "x": 22,
+          "y": 67,
+          "name": "Sư tử thành Hổ 🐯",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 67% dọc, 22% ngang!"
+        },
+        {
+          "id": "diff_45_2",
+          "x": 20,
+          "y": 34,
+          "name": "Chó thành Mèo 🐱",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 34% dọc, 20% ngang!"
+        },
+        {
+          "id": "diff_extra_45",
+          "x": 24,
+          "y": 30,
+          "name": "Thêm 👾",
+          "hint": "Vừa có một thứ mới xuất hiện ở vị trí 30% dọc, 24% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_45_0",
+          "emoji": "☄️",
+          "top": "45%",
+          "left": "69%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "item_45_1",
+          "emoji": "🐯",
+          "top": "67%",
+          "left": "22%",
+          "size": "2.6rem"
+        },
+        {
+          "id": "item_45_2",
+          "emoji": "👻",
+          "top": "57%",
+          "left": "37%",
+          "size": "4.4rem"
+        },
+        {
+          "id": "item_45_3",
+          "emoji": "👽",
+          "top": "66%",
+          "left": "50%",
+          "size": "4.9rem"
+        },
+        {
+          "id": "item_45_4",
+          "emoji": "🐱",
+          "top": "34%",
+          "left": "20%",
+          "size": "2.5rem"
+        },
+        {
+          "id": "item_45_5",
+          "emoji": "👽",
+          "top": "13%",
+          "left": "83%",
+          "size": "5.4rem"
+        },
+        {
+          "id": "item_45_6",
+          "emoji": "👾",
+          "top": "49%",
+          "left": "37%",
+          "size": "3.4rem"
+        },
+        {
+          "id": "extra_45",
+          "emoji": "👾",
+          "top": "30%",
+          "left": "24%",
+          "size": "3.5rem"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Thành Phố Băng Giá 47",
+      "bg": "linear-gradient(135deg, #222800, #242d2d)",
+      "itemsLeft": [
+        {
+          "id": "item_46_0",
+          "emoji": "🧑‍🚀",
+          "top": "67%",
+          "left": "51%",
+          "size": "3.9rem"
+        },
+        {
+          "id": "item_46_1",
+          "emoji": "🌍",
+          "top": "60%",
+          "left": "84%",
+          "size": "5.4rem"
+        },
+        {
+          "id": "item_46_2",
+          "emoji": "🌍",
+          "top": "34%",
+          "left": "66%",
+          "size": "5.0rem"
+        },
+        {
+          "id": "item_46_3",
+          "emoji": "🍎",
+          "top": "10%",
+          "left": "19%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "item_46_4",
+          "emoji": "🌍",
+          "top": "62%",
+          "left": "16%",
+          "size": "4.3rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_46_0",
+          "x": 66,
+          "y": 34,
+          "name": "Trái đất thành Quả địa cầu 🌐",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 34% dọc, 66% ngang!"
+        },
+        {
+          "id": "diff_46_1",
+          "x": 51,
+          "y": 67,
+          "name": "Phi hành gia đổi kiểu 👨‍🚀",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 67% dọc, 51% ngang!"
+        },
+        {
+          "id": "diff_46_2",
+          "x": 19,
+          "y": 10,
+          "name": "Táo thành Dưa hấu 🍉",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 10% dọc, 19% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_46_0",
+          "emoji": "👨‍🚀",
+          "top": "67%",
+          "left": "51%",
+          "size": "3.9rem"
+        },
+        {
+          "id": "item_46_1",
+          "emoji": "🌍",
+          "top": "60%",
+          "left": "84%",
+          "size": "5.4rem"
+        },
+        {
+          "id": "item_46_2",
+          "emoji": "🌐",
+          "top": "34%",
+          "left": "66%",
+          "size": "5.0rem"
+        },
+        {
+          "id": "item_46_3",
+          "emoji": "🍉",
+          "top": "10%",
+          "left": "19%",
+          "size": "3.5rem"
+        },
+        {
+          "id": "item_46_4",
+          "emoji": "🌍",
+          "top": "62%",
+          "left": "16%",
+          "size": "4.3rem"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Hành Tinh Thần Tiên 48",
+      "bg": "linear-gradient(135deg, #2b3024, #0a0208)",
+      "itemsLeft": [
+        {
+          "id": "item_47_0",
+          "emoji": "🌲",
+          "top": "74%",
+          "left": "40%",
+          "size": "3.0rem"
+        },
+        {
+          "id": "item_47_1",
+          "emoji": "💎",
+          "top": "25%",
+          "left": "61%",
+          "size": "5.3rem"
+        },
+        {
+          "id": "item_47_2",
+          "emoji": "👽",
+          "top": "62%",
+          "left": "52%",
+          "size": "4.5rem"
+        },
+        {
+          "id": "item_47_3",
+          "emoji": "🌲",
+          "top": "73%",
+          "left": "43%",
+          "size": "4.0rem"
+        },
+        {
+          "id": "item_47_4",
+          "emoji": "🛸",
+          "top": "14%",
+          "left": "46%",
+          "size": "4.4rem"
+        },
+        {
+          "id": "item_47_5",
+          "emoji": "👽",
+          "top": "63%",
+          "left": "25%",
+          "size": "3.0rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_47_0",
+          "x": 43,
+          "y": 73,
+          "name": "Cây thông thành Cây cọ 🌴",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 73% dọc, 43% ngang!"
+        },
+        {
+          "id": "diff_47_1",
+          "x": 40,
+          "y": 74,
+          "name": "Cây thông thành Cây cọ 🌴",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 74% dọc, 40% ngang!"
+        },
+        {
+          "id": "diff_47_2",
+          "x": 25,
+          "y": 63,
+          "name": "Người ngoài hành tinh thành Rô-bốt 🤖",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 63% dọc, 25% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_47_0",
+          "emoji": "🌴",
+          "top": "74%",
+          "left": "40%",
+          "size": "3.0rem"
+        },
+        {
+          "id": "item_47_1",
+          "emoji": "💎",
+          "top": "25%",
+          "left": "61%",
+          "size": "5.3rem"
+        },
+        {
+          "id": "item_47_2",
+          "emoji": "👽",
+          "top": "62%",
+          "left": "52%",
+          "size": "4.5rem"
+        },
+        {
+          "id": "item_47_3",
+          "emoji": "🌴",
+          "top": "73%",
+          "left": "43%",
+          "size": "4.0rem"
+        },
+        {
+          "id": "item_47_4",
+          "emoji": "🛸",
+          "top": "14%",
+          "left": "46%",
+          "size": "4.4rem"
+        },
+        {
+          "id": "item_47_5",
+          "emoji": "🤖",
+          "top": "63%",
+          "left": "25%",
+          "size": "3.0rem"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Cánh Đồng Huyền Bí 49",
+      "bg": "linear-gradient(135deg, #0a1325, #211517)",
+      "itemsLeft": [
+        {
+          "id": "item_48_0",
+          "emoji": "🍕",
+          "top": "37%",
+          "left": "23%",
+          "size": "5.4rem"
+        },
+        {
+          "id": "item_48_1",
+          "emoji": "✨",
+          "top": "45%",
+          "left": "30%",
+          "size": "3.7rem"
+        },
+        {
+          "id": "item_48_2",
+          "emoji": "☄️",
+          "top": "51%",
+          "left": "76%",
+          "size": "4.0rem"
+        },
+        {
+          "id": "item_48_3",
+          "emoji": "🌲",
+          "top": "25%",
+          "left": "45%",
+          "size": "4.7rem"
+        },
+        {
+          "id": "item_48_4",
+          "emoji": "👽",
+          "top": "47%",
+          "left": "76%",
+          "size": "2.8rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_48_0",
+          "x": 45,
+          "y": 25,
+          "name": "Cây thông thành Cây cọ 🌴",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 25% dọc, 45% ngang!"
+        },
+        {
+          "id": "diff_48_1",
+          "x": 23,
+          "y": 37,
+          "name": "Pizza thành Burger 🍔",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 37% dọc, 23% ngang!"
+        },
+        {
+          "id": "diff_extra_48",
+          "x": 62,
+          "y": 63,
+          "name": "Thêm 🛰️",
+          "hint": "Vừa có một thứ mới xuất hiện ở vị trí 63% dọc, 62% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_48_0",
+          "emoji": "🍔",
+          "top": "37%",
+          "left": "23%",
+          "size": "5.4rem"
+        },
+        {
+          "id": "item_48_1",
+          "emoji": "✨",
+          "top": "45%",
+          "left": "30%",
+          "size": "3.7rem"
+        },
+        {
+          "id": "item_48_2",
+          "emoji": "☄️",
+          "top": "51%",
+          "left": "76%",
+          "size": "4.0rem"
+        },
+        {
+          "id": "item_48_3",
+          "emoji": "🌴",
+          "top": "25%",
+          "left": "45%",
+          "size": "4.7rem"
+        },
+        {
+          "id": "item_48_4",
+          "emoji": "👽",
+          "top": "47%",
+          "left": "76%",
+          "size": "2.8rem"
+        },
+        {
+          "id": "extra_48",
+          "emoji": "🛰️",
+          "top": "63%",
+          "left": "62%",
+          "size": "3.5rem"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Phi Thuyền Màu Nhiệm 50",
+      "bg": "linear-gradient(135deg, #2a2f2b, #311b5c)",
+      "itemsLeft": [
+        {
+          "id": "item_49_0",
+          "emoji": "☄️",
+          "top": "37%",
+          "left": "52%",
+          "size": "3.7rem"
+        },
+        {
+          "id": "item_49_1",
+          "emoji": "🧑‍🚀",
+          "top": "42%",
+          "left": "79%",
+          "size": "2.8rem"
+        },
+        {
+          "id": "item_49_2",
+          "emoji": "🎇",
+          "top": "22%",
+          "left": "73%",
+          "size": "3.2rem"
+        },
+        {
+          "id": "item_49_3",
+          "emoji": "👾",
+          "top": "54%",
+          "left": "82%",
+          "size": "4.2rem"
+        },
+        {
+          "id": "item_49_4",
+          "emoji": "🚀",
+          "top": "70%",
+          "left": "38%",
+          "size": "5.4rem"
+        },
+        {
+          "id": "item_49_5",
+          "emoji": "🍕",
+          "top": "32%",
+          "left": "15%",
+          "size": "3.4rem"
+        },
+        {
+          "id": "item_49_6",
+          "emoji": "🌍",
+          "top": "46%",
+          "left": "33%",
+          "size": "2.7rem"
+        }
+      ],
+      "differences": [
+        {
+          "id": "diff_49_0",
+          "x": 15,
+          "y": 32,
+          "name": "Pizza thành Burger 🍔",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 32% dọc, 15% ngang!"
+        },
+        {
+          "id": "diff_49_1",
+          "x": 79,
+          "y": 42,
+          "name": "Phi hành gia đổi kiểu 👨‍🚀",
+          "hint": "Có một sự thay đổi ở vị trí khoảng 42% dọc, 79% ngang!"
+        }
+      ],
+      "itemsRight": [
+        {
+          "id": "item_49_0",
+          "emoji": "☄️",
+          "top": "37%",
+          "left": "52%",
+          "size": "3.7rem"
+        },
+        {
+          "id": "item_49_1",
+          "emoji": "👨‍🚀",
+          "top": "42%",
+          "left": "79%",
+          "size": "2.8rem"
+        },
+        {
+          "id": "item_49_2",
+          "emoji": "🎇",
+          "top": "22%",
+          "left": "73%",
+          "size": "3.2rem"
+        },
+        {
+          "id": "item_49_3",
+          "emoji": "👾",
+          "top": "54%",
+          "left": "82%",
+          "size": "4.2rem"
+        },
+        {
+          "id": "item_49_4",
+          "emoji": "🚀",
+          "top": "70%",
+          "left": "38%",
+          "size": "5.4rem"
+        },
+        {
+          "id": "item_49_5",
+          "emoji": "🍔",
+          "top": "32%",
+          "left": "15%",
+          "size": "3.4rem"
+        },
+        {
+          "id": "item_49_6",
+          "emoji": "🌍",
+          "top": "46%",
+          "left": "33%",
+          "size": "2.7rem"
+        }
+      ]
+    }
+  ]
+}

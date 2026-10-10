@@ -1,0 +1,3071 @@
+{
+  "categories": [
+    "Vũ Trụ",
+    "Động Vật",
+    "Trái Cây & Thức Ăn",
+    "Học Tập & Đồ Dùng",
+    "Phương Tiện",
+    "Ngôi Nhà & Thiên Nhiên",
+    "Màu Sắc & Hình Dạng",
+    "Thứ & Ngày",
+    "Tháng Trong Năm",
+    "Gia Đình & Người Thân",
+    "Nghề Nghiệp",
+    "Cơ Thể Người",
+    "Quần Áo",
+    "Thời Tiết",
+    "Cảm Xúc",
+    "Hành Động",
+    "Tính Từ Miêu Tả",
+    "Thể Thao",
+    "Địa Điểm",
+    "Đồ Uống",
+    "Rau Củ Tươi",
+    "Đồ Vật Trong Nhà",
+    "Phòng Trong Nhà",
+    "Đồ Chơi & Giải Trí",
+    "Nhạc Cụ",
+    "Côn Trùng",
+    "Sinh Vật Biển",
+    "Vật Liệu",
+    "Toán Học & Khối",
+    "Phương Hướng",
+    "Hoạt Động Hằng Ngày",
+    "Động Từ Cảm Giác",
+    "Tính Từ Trạng Thái",
+    "Thực Phẩm Nấu Chín",
+    "Thiên Nhiên Kỳ Vĩ",
+    "Đồ Dùng Học Tập & VP",
+    "Công Nghệ",
+    "Quần Áo & Trang Sức",
+    "Chim Chóc",
+    "Thú Có Túi & Khác",
+    "Lễ Hội",
+    "Từ Vựng Bổ Sung 1",
+    "Từ Vựng Bổ Sung 2",
+    "Từ Vựng Bổ Sung 3",
+    "Từ Vựng Bổ Sung 4",
+    "Màu Sắc Bổ Sung",
+    "Động Vật Nông Trại",
+    "Gia Vị & Nấu Ăn",
+    "Đồ Dùng Cá Nhân",
+    "Các Bộ Phận Khác",
+    "Phương Tiện Công Cộng",
+    "Công Trình & Nơi Chốn",
+    "Thể Thao Dưới Nước & Khác",
+    "Cảm Xúc Tiêu Cực",
+    "Thời Gian",
+    "Hình Khối 3D",
+    "Vũ Trụ 2",
+    "Thời Tiết 2",
+    "Công Nghệ 2"
+  ],
+  "words": [
+    {
+      "word": "ROCKET",
+      "mean": "Tên Lửa",
+      "emoji": "🚀",
+      "category": "Vũ Trụ"
+    },
+    {
+      "word": "PLANET",
+      "mean": "Hành Tinh",
+      "emoji": "🪐",
+      "category": "Vũ Trụ"
+    },
+    {
+      "word": "STAR",
+      "mean": "Ngôi Sao",
+      "emoji": "⭐️",
+      "category": "Vũ Trụ"
+    },
+    {
+      "word": "MOON",
+      "mean": "Mặt Trăng",
+      "emoji": "🌙",
+      "category": "Vũ Trụ"
+    },
+    {
+      "word": "SUN",
+      "mean": "Mặt Trời",
+      "emoji": "☀️",
+      "category": "Vũ Trụ"
+    },
+    {
+      "word": "ASTRONAUT",
+      "mean": "Phi Hành Gia",
+      "emoji": "🧑‍🚀",
+      "category": "Vũ Trụ"
+    },
+    {
+      "word": "COMET",
+      "mean": "Sao Chổi",
+      "emoji": "☄️",
+      "category": "Vũ Trụ"
+    },
+    {
+      "word": "TELESCOPE",
+      "mean": "Kính Thiên Văn",
+      "emoji": "🔭",
+      "category": "Vũ Trụ"
+    },
+    {
+      "word": "SATELLITE",
+      "mean": "Vệ Tinh",
+      "emoji": "🛰️",
+      "category": "Vũ Trụ"
+    },
+    {
+      "word": "ALIEN",
+      "mean": "Người Ngoài Hành Tinh",
+      "emoji": "👽",
+      "category": "Vũ Trụ"
+    },
+    {
+      "word": "LION",
+      "mean": "Con Sư Tử",
+      "emoji": "🦁",
+      "category": "Động Vật"
+    },
+    {
+      "word": "DOLPHIN",
+      "mean": "Cá Heo",
+      "emoji": "🐬",
+      "category": "Động Vật"
+    },
+    {
+      "word": "EAGLE",
+      "mean": "Chim Đại Bàng",
+      "emoji": "🦅",
+      "category": "Động Vật"
+    },
+    {
+      "word": "ELEPHANT",
+      "mean": "Con Voi",
+      "emoji": "🐘",
+      "category": "Động Vật"
+    },
+    {
+      "word": "TIGER",
+      "mean": "Con Hổ",
+      "emoji": "🐯",
+      "category": "Động Vật"
+    },
+    {
+      "word": "MONKEY",
+      "mean": "Con Khỉ",
+      "emoji": "🐒",
+      "category": "Động Vật"
+    },
+    {
+      "word": "PANDA",
+      "mean": "Gấu Trúc",
+      "emoji": "🐼",
+      "category": "Động Vật"
+    },
+    {
+      "word": "PENGUIN",
+      "mean": "Chim Cánh Cụt",
+      "emoji": "🐧",
+      "category": "Động Vật"
+    },
+    {
+      "word": "DOG",
+      "mean": "Con Chó",
+      "emoji": "🐶",
+      "category": "Động Vật"
+    },
+    {
+      "word": "CAT",
+      "mean": "Con Mèo",
+      "emoji": "🐱",
+      "category": "Động Vật"
+    },
+    {
+      "word": "RABBIT",
+      "mean": "Con Thỏ",
+      "emoji": "🐰",
+      "category": "Động Vật"
+    },
+    {
+      "word": "BEAR",
+      "mean": "Con Gấu",
+      "emoji": "🐻",
+      "category": "Động Vật"
+    },
+    {
+      "word": "BUTTERFLY",
+      "mean": "Con Bướm",
+      "emoji": "🦋",
+      "category": "Động Vật"
+    },
+    {
+      "word": "TURTLE",
+      "mean": "Con Rùa",
+      "emoji": "🐢",
+      "category": "Động Vật"
+    },
+    {
+      "word": "APPLE",
+      "mean": "Quả Táo",
+      "emoji": "🍎",
+      "category": "Trái Cây & Thức Ăn"
+    },
+    {
+      "word": "BANANA",
+      "mean": "Quả Chuối",
+      "emoji": "🍌",
+      "category": "Trái Cây & Thức Ăn"
+    },
+    {
+      "word": "WATERMELON",
+      "mean": "Dưa Hấu",
+      "emoji": "🍉",
+      "category": "Trái Cây & Thức Ăn"
+    },
+    {
+      "word": "STRAWBERRY",
+      "mean": "Dâu Tây",
+      "emoji": "🍓",
+      "category": "Trái Cây & Thức Ăn"
+    },
+    {
+      "word": "ORANGE",
+      "mean": "Màu Cam",
+      "emoji": "🟠",
+      "category": "Màu Sắc Bổ Sung"
+    },
+    {
+      "word": "PIZZA",
+      "mean": "Bánh Pizza",
+      "emoji": "🍕",
+      "category": "Trái Cây & Thức Ăn"
+    },
+    {
+      "word": "CAKE",
+      "mean": "Bánh Sinh Nhật",
+      "emoji": "🎂",
+      "category": "Trái Cây & Thức Ăn"
+    },
+    {
+      "word": "CANDY",
+      "mean": "Kẹo Ngọt",
+      "emoji": "🍬",
+      "category": "Trái Cây & Thức Ăn"
+    },
+    {
+      "word": "MILK",
+      "mean": "Sữa",
+      "emoji": "🥛",
+      "category": "Trái Cây & Thức Ăn"
+    },
+    {
+      "word": "COOKIE",
+      "mean": "Bánh Quy",
+      "emoji": "🍪",
+      "category": "Trái Cây & Thức Ăn"
+    },
+    {
+      "word": "BOOK",
+      "mean": "Quyển Sách",
+      "emoji": "📚",
+      "category": "Học Tập & Đồ Dùng"
+    },
+    {
+      "word": "PENCIL",
+      "mean": "Bút Chì",
+      "emoji": "✏️",
+      "category": "Học Tập & Đồ Dùng"
+    },
+    {
+      "word": "RULER",
+      "mean": "Thước Kẻ",
+      "emoji": "📏",
+      "category": "Học Tập & Đồ Dùng"
+    },
+    {
+      "word": "BAG",
+      "mean": "Cặp Sách",
+      "emoji": "🎒",
+      "category": "Học Tập & Đồ Dùng"
+    },
+    {
+      "word": "ROBOT",
+      "mean": "Người Máy",
+      "emoji": "🤖",
+      "category": "Học Tập & Đồ Dùng"
+    },
+    {
+      "word": "COMPUTER",
+      "mean": "Máy Tính",
+      "emoji": "💻",
+      "category": "Học Tập & Đồ Dùng"
+    },
+    {
+      "word": "CLOCK",
+      "mean": "Đồng Hồ",
+      "emoji": "⏰",
+      "category": "Học Tập & Đồ Dùng"
+    },
+    {
+      "word": "BELL",
+      "mean": "Cái Chuông",
+      "emoji": "🔔",
+      "category": "Nhạc Cụ"
+    },
+    {
+      "word": "CAR",
+      "mean": "Xe Ô Tô",
+      "emoji": "🚗",
+      "category": "Phương Tiện"
+    },
+    {
+      "word": "BUS",
+      "mean": "Xe Buýt",
+      "emoji": "🚌",
+      "category": "Phương Tiện"
+    },
+    {
+      "word": "TRAIN",
+      "mean": "Tàu Hỏa",
+      "emoji": "🚂",
+      "category": "Phương Tiện"
+    },
+    {
+      "word": "PLANE",
+      "mean": "Máy Bay",
+      "emoji": "✈️",
+      "category": "Phương Tiện"
+    },
+    {
+      "word": "SHIP",
+      "mean": "Tàu Thủy",
+      "emoji": "🚢",
+      "category": "Phương Tiện"
+    },
+    {
+      "word": "BICYCLE",
+      "mean": "Xe Đạp",
+      "emoji": "🚲",
+      "category": "Phương Tiện"
+    },
+    {
+      "word": "TRUCK",
+      "mean": "Xe Tải",
+      "emoji": "🚚",
+      "category": "Phương Tiện"
+    },
+    {
+      "word": "HELICOPTER",
+      "mean": "Trực Thăng",
+      "emoji": "🚁",
+      "category": "Phương Tiện"
+    },
+    {
+      "word": "HOUSE",
+      "mean": "Ngôi Nhà",
+      "emoji": "🏠",
+      "category": "Ngôi Nhà & Thiên Nhiên"
+    },
+    {
+      "word": "FLOWER",
+      "mean": "Bông Hoa",
+      "emoji": "🌸",
+      "category": "Ngôi Nhà & Thiên Nhiên"
+    },
+    {
+      "word": "TREE",
+      "mean": "Cái Cây",
+      "emoji": "🌳",
+      "category": "Ngôi Nhà & Thiên Nhiên"
+    },
+    {
+      "word": "RAINBOW",
+      "mean": "Cầu Vồng",
+      "emoji": "🌈",
+      "category": "Ngôi Nhà & Thiên Nhiên"
+    },
+    {
+      "word": "CLOUD",
+      "mean": "Đám Mây",
+      "emoji": "☁️",
+      "category": "Ngôi Nhà & Thiên Nhiên"
+    },
+    {
+      "word": "OCEAN",
+      "mean": "Đại Dương",
+      "emoji": "🌊",
+      "category": "Ngôi Nhà & Thiên Nhiên"
+    },
+    {
+      "word": "FIRE",
+      "mean": "Ngọn Lửa",
+      "emoji": "🔥",
+      "category": "Ngôi Nhà & Thiên Nhiên"
+    },
+    {
+      "word": "RED",
+      "mean": "Màu Đỏ",
+      "emoji": "🔴",
+      "category": "Màu Sắc & Hình Dạng"
+    },
+    {
+      "word": "BLUE",
+      "mean": "Màu Xanh Dương",
+      "emoji": "🔵",
+      "category": "Màu Sắc & Hình Dạng"
+    },
+    {
+      "word": "GREEN",
+      "mean": "Màu Xanh Lá",
+      "emoji": "🟢",
+      "category": "Màu Sắc & Hình Dạng"
+    },
+    {
+      "word": "YELLOW",
+      "mean": "Màu Vàng",
+      "emoji": "🟡",
+      "category": "Màu Sắc & Hình Dạng"
+    },
+    {
+      "word": "PURPLE",
+      "mean": "Màu Tím",
+      "emoji": "🟣",
+      "category": "Màu Sắc & Hình Dạng"
+    },
+    {
+      "word": "PINK",
+      "mean": "Màu Hồng",
+      "emoji": "🩷",
+      "category": "Màu Sắc & Hình Dạng"
+    },
+    {
+      "word": "HEART",
+      "mean": "Hình Trái Tim",
+      "emoji": "❤️",
+      "category": "Màu Sắc & Hình Dạng"
+    },
+    {
+      "word": "DIAMOND",
+      "mean": "Viên Kim Cương",
+      "emoji": "💎",
+      "category": "Màu Sắc & Hình Dạng"
+    },
+    {
+      "word": "MONDAY",
+      "mean": "Thứ Hai",
+      "emoji": "📅",
+      "category": "Thứ & Ngày"
+    },
+    {
+      "word": "TUESDAY",
+      "mean": "Thứ Ba",
+      "emoji": "📅",
+      "category": "Thứ & Ngày"
+    },
+    {
+      "word": "WEDNESDAY",
+      "mean": "Thứ Tư",
+      "emoji": "📅",
+      "category": "Thứ & Ngày"
+    },
+    {
+      "word": "THURSDAY",
+      "mean": "Thứ Năm",
+      "emoji": "📅",
+      "category": "Thứ & Ngày"
+    },
+    {
+      "word": "FRIDAY",
+      "mean": "Thứ Sáu",
+      "emoji": "📅",
+      "category": "Thứ & Ngày"
+    },
+    {
+      "word": "SATURDAY",
+      "mean": "Thứ Bảy",
+      "emoji": "📅",
+      "category": "Thứ & Ngày"
+    },
+    {
+      "word": "SUNDAY",
+      "mean": "Chủ Nhật",
+      "emoji": "📅",
+      "category": "Thứ & Ngày"
+    },
+    {
+      "word": "JANUARY",
+      "mean": "Tháng Một",
+      "emoji": "🗓️",
+      "category": "Tháng Trong Năm"
+    },
+    {
+      "word": "FEBRUARY",
+      "mean": "Tháng Hai",
+      "emoji": "🗓️",
+      "category": "Tháng Trong Năm"
+    },
+    {
+      "word": "MARCH",
+      "mean": "Tháng Ba",
+      "emoji": "🗓️",
+      "category": "Tháng Trong Năm"
+    },
+    {
+      "word": "APRIL",
+      "mean": "Tháng Tư",
+      "emoji": "🗓️",
+      "category": "Tháng Trong Năm"
+    },
+    {
+      "word": "MAY",
+      "mean": "Tháng Năm",
+      "emoji": "🗓️",
+      "category": "Tháng Trong Năm"
+    },
+    {
+      "word": "JUNE",
+      "mean": "Tháng Sáu",
+      "emoji": "🗓️",
+      "category": "Tháng Trong Năm"
+    },
+    {
+      "word": "JULY",
+      "mean": "Tháng Bảy",
+      "emoji": "🗓️",
+      "category": "Tháng Trong Năm"
+    },
+    {
+      "word": "AUGUST",
+      "mean": "Tháng Tám",
+      "emoji": "🗓️",
+      "category": "Tháng Trong Năm"
+    },
+    {
+      "word": "SEPTEMBER",
+      "mean": "Tháng Chín",
+      "emoji": "🗓️",
+      "category": "Tháng Trong Năm"
+    },
+    {
+      "word": "OCTOBER",
+      "mean": "Tháng Mười",
+      "emoji": "🗓️",
+      "category": "Tháng Trong Năm"
+    },
+    {
+      "word": "NOVEMBER",
+      "mean": "Tháng Mười Một",
+      "emoji": "🗓️",
+      "category": "Tháng Trong Năm"
+    },
+    {
+      "word": "DECEMBER",
+      "mean": "Tháng Mười Hai",
+      "emoji": "🗓️",
+      "category": "Tháng Trong Năm"
+    },
+    {
+      "word": "FATHER",
+      "mean": "Bố",
+      "emoji": "👨",
+      "category": "Gia Đình & Người Thân"
+    },
+    {
+      "word": "MOTHER",
+      "mean": "Mẹ",
+      "emoji": "👩",
+      "category": "Gia Đình & Người Thân"
+    },
+    {
+      "word": "BROTHER",
+      "mean": "Anh Em Trai",
+      "emoji": "👦",
+      "category": "Gia Đình & Người Thân"
+    },
+    {
+      "word": "SISTER",
+      "mean": "Chị Em Gái",
+      "emoji": "👧",
+      "category": "Gia Đình & Người Thân"
+    },
+    {
+      "word": "GRANDPA",
+      "mean": "Ông Nội Ngoại",
+      "emoji": "👴",
+      "category": "Gia Đình & Người Thân"
+    },
+    {
+      "word": "GRANDMA",
+      "mean": "Bà Nội Ngoại",
+      "emoji": "👵",
+      "category": "Gia Đình & Người Thân"
+    },
+    {
+      "word": "UNCLE",
+      "mean": "Chú Cậu Bác",
+      "emoji": "👨‍🦰",
+      "category": "Gia Đình & Người Thân"
+    },
+    {
+      "word": "AUNT",
+      "mean": "Cô Dì Bác",
+      "emoji": "👩‍🦰",
+      "category": "Gia Đình & Người Thân"
+    },
+    {
+      "word": "COUSIN",
+      "mean": "Anh Chị Em Họ",
+      "emoji": "🧑",
+      "category": "Gia Đình & Người Thân"
+    },
+    {
+      "word": "TEACHER",
+      "mean": "Giáo Viên",
+      "emoji": "👩‍🏫",
+      "category": "Nghề Nghiệp"
+    },
+    {
+      "word": "DOCTOR",
+      "mean": "Bác Sĩ",
+      "emoji": "👨‍⚕️",
+      "category": "Nghề Nghiệp"
+    },
+    {
+      "word": "NURSE",
+      "mean": "Y Tá",
+      "emoji": "👩‍⚕️",
+      "category": "Nghề Nghiệp"
+    },
+    {
+      "word": "POLICE",
+      "mean": "Cảnh Sát",
+      "emoji": "👮",
+      "category": "Nghề Nghiệp"
+    },
+    {
+      "word": "FARMER",
+      "mean": "Nông Dân",
+      "emoji": "👨‍🌾",
+      "category": "Nghề Nghiệp"
+    },
+    {
+      "word": "SINGER",
+      "mean": "Ca Sĩ",
+      "emoji": "🎤",
+      "category": "Nghề Nghiệp"
+    },
+    {
+      "word": "CHEF",
+      "mean": "Đầu Bếp",
+      "emoji": "👨‍🍳",
+      "category": "Nghề Nghiệp"
+    },
+    {
+      "word": "PILOT",
+      "mean": "Phi Công",
+      "emoji": "👨‍✈️",
+      "category": "Nghề Nghiệp"
+    },
+    {
+      "word": "DRIVER",
+      "mean": "Tài Xế",
+      "emoji": "🚕",
+      "category": "Nghề Nghiệp"
+    },
+    {
+      "word": "WORKER",
+      "mean": "Công Nhân",
+      "emoji": "👷",
+      "category": "Nghề Nghiệp"
+    },
+    {
+      "word": "DENTIST",
+      "mean": "Nha Sĩ",
+      "emoji": "🦷",
+      "category": "Nghề Nghiệp"
+    },
+    {
+      "word": "ARTIST",
+      "mean": "Họa Sĩ",
+      "emoji": "🎨",
+      "category": "Nghề Nghiệp"
+    },
+    {
+      "word": "HEAD",
+      "mean": "Cái Đầu",
+      "emoji": "👤",
+      "category": "Cơ Thể Người"
+    },
+    {
+      "word": "HAIR",
+      "mean": "Tóc",
+      "emoji": "💇",
+      "category": "Cơ Thể Người"
+    },
+    {
+      "word": "EYE",
+      "mean": "Mắt",
+      "emoji": "👁️",
+      "category": "Cơ Thể Người"
+    },
+    {
+      "word": "EAR",
+      "mean": "Tai",
+      "emoji": "👂",
+      "category": "Cơ Thể Người"
+    },
+    {
+      "word": "NOSE",
+      "mean": "Mũi",
+      "emoji": "👃",
+      "category": "Cơ Thể Người"
+    },
+    {
+      "word": "MOUTH",
+      "mean": "Miệng",
+      "emoji": "👄",
+      "category": "Cơ Thể Người"
+    },
+    {
+      "word": "TOOTH",
+      "mean": "Răng",
+      "emoji": "🦷",
+      "category": "Cơ Thể Người"
+    },
+    {
+      "word": "NECK",
+      "mean": "Cổ",
+      "emoji": "🧣",
+      "category": "Cơ Thể Người"
+    },
+    {
+      "word": "SHOULDER",
+      "mean": "Vai",
+      "emoji": "🤷",
+      "category": "Cơ Thể Người"
+    },
+    {
+      "word": "ARM",
+      "mean": "Cánh Tay",
+      "emoji": "💪",
+      "category": "Cơ Thể Người"
+    },
+    {
+      "word": "HAND",
+      "mean": "Bàn Tay",
+      "emoji": "✋",
+      "category": "Cơ Thể Người"
+    },
+    {
+      "word": "FINGER",
+      "mean": "Ngón Tay",
+      "emoji": "👆",
+      "category": "Cơ Thể Người"
+    },
+    {
+      "word": "LEG",
+      "mean": "Cái Chân",
+      "emoji": "🦵",
+      "category": "Cơ Thể Người"
+    },
+    {
+      "word": "FOOT",
+      "mean": "Bàn Chân",
+      "emoji": "🦶",
+      "category": "Cơ Thể Người"
+    },
+    {
+      "word": "TOE",
+      "mean": "Ngón Chân",
+      "emoji": "👣",
+      "category": "Cơ Thể Người"
+    },
+    {
+      "word": "SHIRT",
+      "mean": "Áo Sơ Mi",
+      "emoji": "👔",
+      "category": "Quần Áo"
+    },
+    {
+      "word": "T-SHIRT",
+      "mean": "Áo Thun",
+      "emoji": "👕",
+      "category": "Quần Áo"
+    },
+    {
+      "word": "PANTS",
+      "mean": "Cái Quần",
+      "emoji": "👖",
+      "category": "Quần Áo"
+    },
+    {
+      "word": "DRESS",
+      "mean": "Cái Váy",
+      "emoji": "👗",
+      "category": "Quần Áo"
+    },
+    {
+      "word": "SKIRT",
+      "mean": "Chân Váy",
+      "emoji": "🥻",
+      "category": "Quần Áo"
+    },
+    {
+      "word": "JACKET",
+      "mean": "Áo Khoác",
+      "emoji": "🧥",
+      "category": "Quần Áo"
+    },
+    {
+      "word": "SHOE",
+      "mean": "Chiếc Giày",
+      "emoji": "👞",
+      "category": "Quần Áo"
+    },
+    {
+      "word": "SOCK",
+      "mean": "Chiếc Tất",
+      "emoji": "🧦",
+      "category": "Quần Áo"
+    },
+    {
+      "word": "HAT",
+      "mean": "Cái Mũ",
+      "emoji": "🧢",
+      "category": "Quần Áo"
+    },
+    {
+      "word": "GLASSES",
+      "mean": "Cái Kính",
+      "emoji": "👓",
+      "category": "Quần Áo"
+    },
+    {
+      "word": "SUNNY",
+      "mean": "Trời Nắng",
+      "emoji": "☀️",
+      "category": "Thời Tiết"
+    },
+    {
+      "word": "RAINY",
+      "mean": "Trời Mưa",
+      "emoji": "🌧️",
+      "category": "Thời Tiết"
+    },
+    {
+      "word": "CLOUDY",
+      "mean": "Nhiều Mây",
+      "emoji": "☁️",
+      "category": "Thời Tiết"
+    },
+    {
+      "word": "WINDY",
+      "mean": "Trời Gió",
+      "emoji": "🌬️",
+      "category": "Thời Tiết"
+    },
+    {
+      "word": "SNOWY",
+      "mean": "Trời Tuyết",
+      "emoji": "❄️",
+      "category": "Thời Tiết"
+    },
+    {
+      "word": "STORMY",
+      "mean": "Có Bão",
+      "emoji": "⛈️",
+      "category": "Thời Tiết"
+    },
+    {
+      "word": "HOT",
+      "mean": "Nóng",
+      "emoji": "🔥",
+      "category": "Thời Tiết"
+    },
+    {
+      "word": "COLD",
+      "mean": "Lạnh",
+      "emoji": "🥶",
+      "category": "Thời Tiết"
+    },
+    {
+      "word": "HAPPY",
+      "mean": "Vui Vẻ",
+      "emoji": "😊",
+      "category": "Cảm Xúc"
+    },
+    {
+      "word": "SAD",
+      "mean": "Buồn Bã",
+      "emoji": "😢",
+      "category": "Cảm Xúc"
+    },
+    {
+      "word": "ANGRY",
+      "mean": "Tức Giận",
+      "emoji": "😠",
+      "category": "Cảm Xúc"
+    },
+    {
+      "word": "SCARED",
+      "mean": "Sợ Hãi",
+      "emoji": "😨",
+      "category": "Cảm Xúc"
+    },
+    {
+      "word": "SURPRISED",
+      "mean": "Ngạc Nhiên",
+      "emoji": "😲",
+      "category": "Cảm Xúc"
+    },
+    {
+      "word": "EXCITED",
+      "mean": "Hào Hứng",
+      "emoji": "🤩",
+      "category": "Cảm Xúc"
+    },
+    {
+      "word": "TIRED",
+      "mean": "Mệt Mỏi",
+      "emoji": "😴",
+      "category": "Cảm Xúc"
+    },
+    {
+      "word": "HUNGRY",
+      "mean": "Đói Bụng",
+      "emoji": "🤤",
+      "category": "Cảm Xúc"
+    },
+    {
+      "word": "THIRSTY",
+      "mean": "Khát Nước",
+      "emoji": "🥤",
+      "category": "Cảm Xúc"
+    },
+    {
+      "word": "RUN",
+      "mean": "Chạy",
+      "emoji": "🏃",
+      "category": "Hành Động"
+    },
+    {
+      "word": "WALK",
+      "mean": "Đi Bộ",
+      "emoji": "🚶",
+      "category": "Hành Động"
+    },
+    {
+      "word": "JUMP",
+      "mean": "Nhảy",
+      "emoji": "🦘",
+      "category": "Hành Động"
+    },
+    {
+      "word": "SWIM",
+      "mean": "Bơi",
+      "emoji": "🏊",
+      "category": "Hành Động"
+    },
+    {
+      "word": "FLY",
+      "mean": "Con Ruồi",
+      "emoji": "🪰",
+      "category": "Côn Trùng"
+    },
+    {
+      "word": "READ",
+      "mean": "Đọc",
+      "emoji": "📖",
+      "category": "Hành Động"
+    },
+    {
+      "word": "WRITE",
+      "mean": "Viết",
+      "emoji": "✍️",
+      "category": "Hành Động"
+    },
+    {
+      "word": "SING",
+      "mean": "Hát",
+      "emoji": "🎤",
+      "category": "Hành Động"
+    },
+    {
+      "word": "DANCE",
+      "mean": "Khiêu Vũ",
+      "emoji": "💃",
+      "category": "Hành Động"
+    },
+    {
+      "word": "SLEEP",
+      "mean": "Ngủ",
+      "emoji": "🛌",
+      "category": "Hành Động"
+    },
+    {
+      "word": "EAT",
+      "mean": "Ăn",
+      "emoji": "🍽️",
+      "category": "Hành Động"
+    },
+    {
+      "word": "DRINK",
+      "mean": "Uống",
+      "emoji": "🥛",
+      "category": "Hành Động"
+    },
+    {
+      "word": "PLAY",
+      "mean": "Chơi",
+      "emoji": "🎮",
+      "category": "Hành Động"
+    },
+    {
+      "word": "BIG",
+      "mean": "To Lớn",
+      "emoji": "🐘",
+      "category": "Tính Từ Miêu Tả"
+    },
+    {
+      "word": "SMALL",
+      "mean": "Nhỏ Bé",
+      "emoji": "🐁",
+      "category": "Tính Từ Miêu Tả"
+    },
+    {
+      "word": "TALL",
+      "mean": "Cao",
+      "emoji": "🦒",
+      "category": "Tính Từ Miêu Tả"
+    },
+    {
+      "word": "SHORT",
+      "mean": "Thấp",
+      "emoji": "🐧",
+      "category": "Tính Từ Miêu Tả"
+    },
+    {
+      "word": "FAST",
+      "mean": "Nhanh",
+      "emoji": "🐆",
+      "category": "Tính Từ Miêu Tả"
+    },
+    {
+      "word": "SLOW",
+      "mean": "Chậm",
+      "emoji": "🐢",
+      "category": "Tính Từ Miêu Tả"
+    },
+    {
+      "word": "BEAUTIFUL",
+      "mean": "Xinh Đẹp",
+      "emoji": "🌸",
+      "category": "Tính Từ Miêu Tả"
+    },
+    {
+      "word": "UGLY",
+      "mean": "Xấu Xí",
+      "emoji": "👹",
+      "category": "Tính Từ Miêu Tả"
+    },
+    {
+      "word": "GOOD",
+      "mean": "Tốt",
+      "emoji": "👍",
+      "category": "Tính Từ Miêu Tả"
+    },
+    {
+      "word": "BAD",
+      "mean": "Xấu",
+      "emoji": "👎",
+      "category": "Tính Từ Miêu Tả"
+    },
+    {
+      "word": "SOCCER",
+      "mean": "Bóng Đá",
+      "emoji": "⚽",
+      "category": "Thể Thao"
+    },
+    {
+      "word": "BASKETBALL",
+      "mean": "Bóng Rổ",
+      "emoji": "🏀",
+      "category": "Thể Thao"
+    },
+    {
+      "word": "VOLLEYBALL",
+      "mean": "Bóng Chuyền",
+      "emoji": "🏐",
+      "category": "Thể Thao"
+    },
+    {
+      "word": "TENNIS",
+      "mean": "Quần Vợt",
+      "emoji": "🎾",
+      "category": "Thể Thao"
+    },
+    {
+      "word": "BASEBALL",
+      "mean": "Bóng Chày",
+      "emoji": "⚾",
+      "category": "Thể Thao"
+    },
+    {
+      "word": "GOLF",
+      "mean": "Đánh Gôn",
+      "emoji": "⛳",
+      "category": "Thể Thao"
+    },
+    {
+      "word": "BADMINTON",
+      "mean": "Cầu Lông",
+      "emoji": "🏸",
+      "category": "Thể Thao"
+    },
+    {
+      "word": "SCHOOL",
+      "mean": "Trường Học",
+      "emoji": "🏫",
+      "category": "Địa Điểm"
+    },
+    {
+      "word": "PARK",
+      "mean": "Công Viên",
+      "emoji": "🏞️",
+      "category": "Địa Điểm"
+    },
+    {
+      "word": "HOSPITAL",
+      "mean": "Bệnh Viện",
+      "emoji": "🏥",
+      "category": "Địa Điểm"
+    },
+    {
+      "word": "SUPERMARKET",
+      "mean": "Siêu Thị",
+      "emoji": "🛒",
+      "category": "Địa Điểm"
+    },
+    {
+      "word": "ZOO",
+      "mean": "Sở Thú",
+      "emoji": "🦁",
+      "category": "Địa Điểm"
+    },
+    {
+      "word": "CINEMA",
+      "mean": "Rạp Phim",
+      "emoji": "🎬",
+      "category": "Địa Điểm"
+    },
+    {
+      "word": "BEACH",
+      "mean": "Bãi Biển",
+      "emoji": "🏖️",
+      "category": "Địa Điểm"
+    },
+    {
+      "word": "BANK",
+      "mean": "Ngân Hàng",
+      "emoji": "🏦",
+      "category": "Địa Điểm"
+    },
+    {
+      "word": "RESTAURANT",
+      "mean": "Nhà Hàng",
+      "emoji": "🍽️",
+      "category": "Địa Điểm"
+    },
+    {
+      "word": "HORSE",
+      "mean": "Con Ngựa",
+      "emoji": "🐎",
+      "category": "Động Vật"
+    },
+    {
+      "word": "COW",
+      "mean": "Con Bò",
+      "emoji": "🐄",
+      "category": "Động Vật"
+    },
+    {
+      "word": "PIG",
+      "mean": "Con Lợn",
+      "emoji": "🐖",
+      "category": "Động Vật"
+    },
+    {
+      "word": "SHEEP",
+      "mean": "Con Cừu",
+      "emoji": "🐑",
+      "category": "Động Vật"
+    },
+    {
+      "word": "CHICKEN",
+      "mean": "Con Gà",
+      "emoji": "🐔",
+      "category": "Động Vật"
+    },
+    {
+      "word": "BIRD",
+      "mean": "Con Chim",
+      "emoji": "🐦",
+      "category": "Động Vật"
+    },
+    {
+      "word": "FISH",
+      "mean": "Thịt Cá",
+      "emoji": "🐟",
+      "category": "Thực Phẩm Nấu Chín"
+    },
+    {
+      "word": "FROG",
+      "mean": "Con Ếch",
+      "emoji": "🐸",
+      "category": "Động Vật"
+    },
+    {
+      "word": "MOUSE",
+      "mean": "Chuột Máy Tính",
+      "emoji": "🖱️",
+      "category": "Công Nghệ"
+    },
+    {
+      "word": "SNAKE",
+      "mean": "Con Rắn",
+      "emoji": "🐍",
+      "category": "Động Vật"
+    },
+    {
+      "word": "WATER",
+      "mean": "Nước",
+      "emoji": "💧",
+      "category": "Đồ Uống"
+    },
+    {
+      "word": "JUICE",
+      "mean": "Nước Ép",
+      "emoji": "🧃",
+      "category": "Đồ Uống"
+    },
+    {
+      "word": "TEA",
+      "mean": "Trà",
+      "emoji": "🍵",
+      "category": "Đồ Uống"
+    },
+    {
+      "word": "COFFEE",
+      "mean": "Cà Phê",
+      "emoji": "☕",
+      "category": "Đồ Uống"
+    },
+    {
+      "word": "SODA",
+      "mean": "Nước Ngọt",
+      "emoji": "🥤",
+      "category": "Đồ Uống"
+    },
+    {
+      "word": "CARROT",
+      "mean": "Cà Rốt",
+      "emoji": "🥕",
+      "category": "Rau Củ Tươi"
+    },
+    {
+      "word": "POTATO",
+      "mean": "Khoai Tây",
+      "emoji": "🥔",
+      "category": "Rau Củ Tươi"
+    },
+    {
+      "word": "TOMATO",
+      "mean": "Cà Chua",
+      "emoji": "🍅",
+      "category": "Rau Củ Tươi"
+    },
+    {
+      "word": "ONION",
+      "mean": "Hành Tây",
+      "emoji": "🧅",
+      "category": "Rau Củ Tươi"
+    },
+    {
+      "word": "GARLIC",
+      "mean": "Tỏi",
+      "emoji": "🧄",
+      "category": "Rau Củ Tươi"
+    },
+    {
+      "word": "CABBAGE",
+      "mean": "Bắp Cải",
+      "emoji": "🥬",
+      "category": "Rau Củ Tươi"
+    },
+    {
+      "word": "CORN",
+      "mean": "Ngô",
+      "emoji": "🌽",
+      "category": "Rau Củ Tươi"
+    },
+    {
+      "word": "MUSHROOM",
+      "mean": "Nấm",
+      "emoji": "🍄",
+      "category": "Rau Củ Tươi"
+    },
+    {
+      "word": "PUMPKIN",
+      "mean": "Bí Ngô",
+      "emoji": "🎃",
+      "category": "Rau Củ Tươi"
+    },
+    {
+      "word": "BEAN",
+      "mean": "Hạt Đậu",
+      "emoji": "🫘",
+      "category": "Rau Củ Tươi"
+    },
+    {
+      "word": "TELEVISION",
+      "mean": "Tivi",
+      "emoji": "📺",
+      "category": "Đồ Vật Trong Nhà"
+    },
+    {
+      "word": "SOFA",
+      "mean": "Ghế Sofa",
+      "emoji": "🛋️",
+      "category": "Đồ Vật Trong Nhà"
+    },
+    {
+      "word": "TABLE",
+      "mean": "Cái Bàn",
+      "emoji": "🪑",
+      "category": "Đồ Vật Trong Nhà"
+    },
+    {
+      "word": "WINDOW",
+      "mean": "Cửa Sổ",
+      "emoji": "🪟",
+      "category": "Đồ Vật Trong Nhà"
+    },
+    {
+      "word": "MIRROR",
+      "mean": "Cái Gương",
+      "emoji": "🪞",
+      "category": "Đồ Vật Trong Nhà"
+    },
+    {
+      "word": "FAN",
+      "mean": "Cái Quạt",
+      "emoji": "🎐",
+      "category": "Đồ Vật Trong Nhà"
+    },
+    {
+      "word": "BLANKET",
+      "mean": "Cái Chăn",
+      "emoji": "🛌",
+      "category": "Đồ Vật Trong Nhà"
+    },
+    {
+      "word": "PILLOW",
+      "mean": "Cái Gối",
+      "emoji": "🛌",
+      "category": "Đồ Vật Trong Nhà"
+    },
+    {
+      "word": "TOWEL",
+      "mean": "Cái Khăn",
+      "emoji": "🧻",
+      "category": "Đồ Vật Trong Nhà"
+    },
+    {
+      "word": "SOAP",
+      "mean": "Xà Phòng",
+      "emoji": "🧼",
+      "category": "Đồ Vật Trong Nhà"
+    },
+    {
+      "word": "KITCHEN",
+      "mean": "Nhà Bếp",
+      "emoji": "🍳",
+      "category": "Phòng Trong Nhà"
+    },
+    {
+      "word": "BEDROOM",
+      "mean": "Phòng Ngủ",
+      "emoji": "🛌",
+      "category": "Phòng Trong Nhà"
+    },
+    {
+      "word": "BATHROOM",
+      "mean": "Phòng Tắm",
+      "emoji": "🛁",
+      "category": "Phòng Trong Nhà"
+    },
+    {
+      "word": "LIVINGROOM",
+      "mean": "Phòng Khách",
+      "emoji": "🛋️",
+      "category": "Phòng Trong Nhà"
+    },
+    {
+      "word": "GARDEN",
+      "mean": "Khu Vườn",
+      "emoji": "🏡",
+      "category": "Phòng Trong Nhà"
+    },
+    {
+      "word": "BALCONY",
+      "mean": "Ban Công",
+      "emoji": "🏢",
+      "category": "Phòng Trong Nhà"
+    },
+    {
+      "word": "GARAGE",
+      "mean": "Nhà Xe",
+      "emoji": "🚗",
+      "category": "Phòng Trong Nhà"
+    },
+    {
+      "word": "YARD",
+      "mean": "Cái Sân",
+      "emoji": "🏡",
+      "category": "Phòng Trong Nhà"
+    },
+    {
+      "word": "DOLL",
+      "mean": "Búp Bê",
+      "emoji": "🪆",
+      "category": "Đồ Chơi & Giải Trí"
+    },
+    {
+      "word": "KITE",
+      "mean": "Cái Diều",
+      "emoji": "🪁",
+      "category": "Đồ Chơi & Giải Trí"
+    },
+    {
+      "word": "BALL",
+      "mean": "Quả Bóng",
+      "emoji": "⚽",
+      "category": "Đồ Chơi & Giải Trí"
+    },
+    {
+      "word": "YO-YO",
+      "mean": "Cái Yoyo",
+      "emoji": "🪀",
+      "category": "Đồ Chơi & Giải Trí"
+    },
+    {
+      "word": "PUZZLE",
+      "mean": "Xếp Hình",
+      "emoji": "🧩",
+      "category": "Đồ Chơi & Giải Trí"
+    },
+    {
+      "word": "BLOCK",
+      "mean": "Khối Xếp",
+      "emoji": "🧱",
+      "category": "Đồ Chơi & Giải Trí"
+    },
+    {
+      "word": "TEDDY",
+      "mean": "Gấu Bông",
+      "emoji": "🧸",
+      "category": "Đồ Chơi & Giải Trí"
+    },
+    {
+      "word": "SLIDE",
+      "mean": "Cầu Trượt",
+      "emoji": "🛝",
+      "category": "Đồ Chơi & Giải Trí"
+    },
+    {
+      "word": "SWING",
+      "mean": "Cái Xích Đu",
+      "emoji": "🎠",
+      "category": "Đồ Chơi & Giải Trí"
+    },
+    {
+      "word": "DRUM",
+      "mean": "Cái Trống",
+      "emoji": "🥁",
+      "category": "Đồ Chơi & Giải Trí"
+    },
+    {
+      "word": "PIANO",
+      "mean": "Đàn Piano",
+      "emoji": "🎹",
+      "category": "Nhạc Cụ"
+    },
+    {
+      "word": "GUITAR",
+      "mean": "Đàn Guitar",
+      "emoji": "🎸",
+      "category": "Nhạc Cụ"
+    },
+    {
+      "word": "VIOLIN",
+      "mean": "Đàn Violin",
+      "emoji": "🎻",
+      "category": "Nhạc Cụ"
+    },
+    {
+      "word": "TRUMPET",
+      "mean": "Kèn",
+      "emoji": "🎺",
+      "category": "Nhạc Cụ"
+    },
+    {
+      "word": "FLUTE",
+      "mean": "Sáo",
+      "emoji": "🎵",
+      "category": "Nhạc Cụ"
+    },
+    {
+      "word": "ANT",
+      "mean": "Con Kiến",
+      "emoji": "🐜",
+      "category": "Côn Trùng"
+    },
+    {
+      "word": "BEE",
+      "mean": "Con Ong",
+      "emoji": "🐝",
+      "category": "Côn Trùng"
+    },
+    {
+      "word": "SPIDER",
+      "mean": "Con Nhện",
+      "emoji": "🕷️",
+      "category": "Côn Trùng"
+    },
+    {
+      "word": "MOSQUITO",
+      "mean": "Con Muỗi",
+      "emoji": "🦟",
+      "category": "Côn Trùng"
+    },
+    {
+      "word": "WORM",
+      "mean": "Con Giun",
+      "emoji": "🪱",
+      "category": "Côn Trùng"
+    },
+    {
+      "word": "SNAIL",
+      "mean": "Con Ốc",
+      "emoji": "🐌",
+      "category": "Côn Trùng"
+    },
+    {
+      "word": "BEETLE",
+      "mean": "Bọ Cánh Cứng",
+      "emoji": "🪲",
+      "category": "Côn Trùng"
+    },
+    {
+      "word": "SHARK",
+      "mean": "Cá Mập",
+      "emoji": "🦈",
+      "category": "Sinh Vật Biển"
+    },
+    {
+      "word": "WHALE",
+      "mean": "Cá Voi",
+      "emoji": "🐋",
+      "category": "Sinh Vật Biển"
+    },
+    {
+      "word": "OCTOPUS",
+      "mean": "Bạch Tuộc",
+      "emoji": "🐙",
+      "category": "Sinh Vật Biển"
+    },
+    {
+      "word": "SQUID",
+      "mean": "Con Mực",
+      "emoji": "🦑",
+      "category": "Sinh Vật Biển"
+    },
+    {
+      "word": "CRAB",
+      "mean": "Con Cua",
+      "emoji": "🦀",
+      "category": "Sinh Vật Biển"
+    },
+    {
+      "word": "LOBSTER",
+      "mean": "Tôm Hùm",
+      "emoji": "🦞",
+      "category": "Sinh Vật Biển"
+    },
+    {
+      "word": "JELLYFISH",
+      "mean": "Sứa",
+      "emoji": "🪼",
+      "category": "Sinh Vật Biển"
+    },
+    {
+      "word": "STARFISH",
+      "mean": "Sao Biển",
+      "emoji": "⭐",
+      "category": "Sinh Vật Biển"
+    },
+    {
+      "word": "SEAHORSE",
+      "mean": "Cá Ngựa",
+      "emoji": "🐉",
+      "category": "Sinh Vật Biển"
+    },
+    {
+      "word": "WOOD",
+      "mean": "Gỗ",
+      "emoji": "🪵",
+      "category": "Vật Liệu"
+    },
+    {
+      "word": "STONE",
+      "mean": "Hòn Đá",
+      "emoji": "🪨",
+      "category": "Vật Liệu"
+    },
+    {
+      "word": "PAPER",
+      "mean": "Giấy",
+      "emoji": "📄",
+      "category": "Vật Liệu"
+    },
+    {
+      "word": "GLASS",
+      "mean": "Cái Ly",
+      "emoji": "🥃",
+      "category": "Từ Vựng Bổ Sung 3"
+    },
+    {
+      "word": "METAL",
+      "mean": "Kim Loại",
+      "emoji": "⚙️",
+      "category": "Vật Liệu"
+    },
+    {
+      "word": "PLASTIC",
+      "mean": "Nhựa",
+      "emoji": "🛍️",
+      "category": "Vật Liệu"
+    },
+    {
+      "word": "GOLD",
+      "mean": "Vàng",
+      "emoji": "🥇",
+      "category": "Vật Liệu"
+    },
+    {
+      "word": "SILVER",
+      "mean": "Bạc",
+      "emoji": "🥈",
+      "category": "Vật Liệu"
+    },
+    {
+      "word": "CIRCLE",
+      "mean": "Hình Tròn",
+      "emoji": "🔴",
+      "category": "Toán Học & Khối"
+    },
+    {
+      "word": "SQUARE",
+      "mean": "Hình Vuông",
+      "emoji": "🟥",
+      "category": "Toán Học & Khối"
+    },
+    {
+      "word": "TRIANGLE",
+      "mean": "Hình Tam Giác",
+      "emoji": "🔺",
+      "category": "Toán Học & Khối"
+    },
+    {
+      "word": "RECTANGLE",
+      "mean": "Hình Chữ Nhật",
+      "emoji": "🎴",
+      "category": "Toán Học & Khối"
+    },
+    {
+      "word": "OVAL",
+      "mean": "Hình Bầu Dục",
+      "emoji": "🥚",
+      "category": "Toán Học & Khối"
+    },
+    {
+      "word": "LINE",
+      "mean": "Đường Thẳng",
+      "emoji": "➖",
+      "category": "Toán Học & Khối"
+    },
+    {
+      "word": "POINT",
+      "mean": "Điểm",
+      "emoji": "📍",
+      "category": "Toán Học & Khối"
+    },
+    {
+      "word": "UP",
+      "mean": "Lên",
+      "emoji": "⬆️",
+      "category": "Phương Hướng"
+    },
+    {
+      "word": "DOWN",
+      "mean": "Xuống",
+      "emoji": "⬇️",
+      "category": "Phương Hướng"
+    },
+    {
+      "word": "LEFT",
+      "mean": "Trái",
+      "emoji": "⬅️",
+      "category": "Phương Hướng"
+    },
+    {
+      "word": "RIGHT",
+      "mean": "Phải",
+      "emoji": "➡️",
+      "category": "Phương Hướng"
+    },
+    {
+      "word": "FRONT",
+      "mean": "Phía Trước",
+      "emoji": "🔼",
+      "category": "Phương Hướng"
+    },
+    {
+      "word": "BACK",
+      "mean": "Cái Lưng",
+      "emoji": "🔙",
+      "category": "Các Bộ Phận Khác"
+    },
+    {
+      "word": "NORTH",
+      "mean": "Hướng Bắc",
+      "emoji": "🧭",
+      "category": "Phương Hướng"
+    },
+    {
+      "word": "SOUTH",
+      "mean": "Hướng Nam",
+      "emoji": "🧭",
+      "category": "Phương Hướng"
+    },
+    {
+      "word": "WASH",
+      "mean": "Rửa",
+      "emoji": "🧼",
+      "category": "Hoạt Động Hằng Ngày"
+    },
+    {
+      "word": "BRUSH",
+      "mean": "Lược",
+      "emoji": "🪮",
+      "category": "Đồ Dùng Cá Nhân"
+    },
+    {
+      "word": "COMB",
+      "mean": "Chải Tóc",
+      "emoji": "🪮",
+      "category": "Hoạt Động Hằng Ngày"
+    },
+    {
+      "word": "COOK",
+      "mean": "Nấu Ăn",
+      "emoji": "🍳",
+      "category": "Hoạt Động Hằng Ngày"
+    },
+    {
+      "word": "CLEAN",
+      "mean": "Sạch",
+      "emoji": "🧼",
+      "category": "Tính Từ Trạng Thái"
+    },
+    {
+      "word": "STUDY",
+      "mean": "Học Tập",
+      "emoji": "📚",
+      "category": "Hoạt Động Hằng Ngày"
+    },
+    {
+      "word": "WORK",
+      "mean": "Làm Việc",
+      "emoji": "💼",
+      "category": "Hoạt Động Hằng Ngày"
+    },
+    {
+      "word": "DRAW",
+      "mean": "Vẽ",
+      "emoji": "🖍️",
+      "category": "Hoạt Động Hằng Ngày"
+    },
+    {
+      "word": "PAINT",
+      "mean": "Sơn",
+      "emoji": "🎨",
+      "category": "Hoạt Động Hằng Ngày"
+    },
+    {
+      "word": "WATCH",
+      "mean": "Đồng Hồ Đeo Tay",
+      "emoji": "⌚",
+      "category": "Quần Áo & Trang Sức"
+    },
+    {
+      "word": "LISTEN",
+      "mean": "Nghe",
+      "emoji": "🎧",
+      "category": "Hoạt Động Hằng Ngày"
+    },
+    {
+      "word": "SEE",
+      "mean": "Nhìn",
+      "emoji": "👀",
+      "category": "Động Từ Cảm Giác"
+    },
+    {
+      "word": "HEAR",
+      "mean": "Nghe",
+      "emoji": "👂",
+      "category": "Động Từ Cảm Giác"
+    },
+    {
+      "word": "SMELL",
+      "mean": "Ngửi",
+      "emoji": "👃",
+      "category": "Động Từ Cảm Giác"
+    },
+    {
+      "word": "TASTE",
+      "mean": "Nếm",
+      "emoji": "👅",
+      "category": "Động Từ Cảm Giác"
+    },
+    {
+      "word": "TOUCH",
+      "mean": "Chạm",
+      "emoji": "👉",
+      "category": "Động Từ Cảm Giác"
+    },
+    {
+      "word": "FEEL",
+      "mean": "Cảm Thấy",
+      "emoji": "❤️",
+      "category": "Động Từ Cảm Giác"
+    },
+    {
+      "word": "RICH",
+      "mean": "Giàu",
+      "emoji": "💰",
+      "category": "Tính Từ Trạng Thái"
+    },
+    {
+      "word": "POOR",
+      "mean": "Nghèo",
+      "emoji": "🪙",
+      "category": "Tính Từ Trạng Thái"
+    },
+    {
+      "word": "STRONG",
+      "mean": "Mạnh",
+      "emoji": "💪",
+      "category": "Tính Từ Trạng Thái"
+    },
+    {
+      "word": "WEAK",
+      "mean": "Yếu",
+      "emoji": "🥀",
+      "category": "Tính Từ Trạng Thái"
+    },
+    {
+      "word": "YOUNG",
+      "mean": "Trẻ",
+      "emoji": "👶",
+      "category": "Tính Từ Trạng Thái"
+    },
+    {
+      "word": "OLD",
+      "mean": "Già",
+      "emoji": "👴",
+      "category": "Tính Từ Trạng Thái"
+    },
+    {
+      "word": "NEW",
+      "mean": "Mới",
+      "emoji": "✨",
+      "category": "Tính Từ Trạng Thái"
+    },
+    {
+      "word": "DIRTY",
+      "mean": "Bẩn",
+      "emoji": "💩",
+      "category": "Tính Từ Trạng Thái"
+    },
+    {
+      "word": "SOFT",
+      "mean": "Mềm",
+      "emoji": "🧽",
+      "category": "Tính Từ Trạng Thái"
+    },
+    {
+      "word": "HARD",
+      "mean": "Cứng",
+      "emoji": "🪨",
+      "category": "Tính Từ Trạng Thái"
+    },
+    {
+      "word": "HEAVY",
+      "mean": "Nặng",
+      "emoji": "🏋️",
+      "category": "Tính Từ Trạng Thái"
+    },
+    {
+      "word": "LIGHT",
+      "mean": "Nhẹ",
+      "emoji": "🎈",
+      "category": "Tính Từ Trạng Thái"
+    },
+    {
+      "word": "RICE",
+      "mean": "Cơm",
+      "emoji": "🍚",
+      "category": "Thực Phẩm Nấu Chín"
+    },
+    {
+      "word": "NOODLE",
+      "mean": "Mì",
+      "emoji": "🍜",
+      "category": "Thực Phẩm Nấu Chín"
+    },
+    {
+      "word": "SOUP",
+      "mean": "Súp",
+      "emoji": "🥣",
+      "category": "Thực Phẩm Nấu Chín"
+    },
+    {
+      "word": "BREAD",
+      "mean": "Bánh Mì",
+      "emoji": "🍞",
+      "category": "Thực Phẩm Nấu Chín"
+    },
+    {
+      "word": "BURGER",
+      "mean": "Bánh Burger",
+      "emoji": "🍔",
+      "category": "Thực Phẩm Nấu Chín"
+    },
+    {
+      "word": "SANDWICH",
+      "mean": "Bánh Kẹp",
+      "emoji": "🥪",
+      "category": "Thực Phẩm Nấu Chín"
+    },
+    {
+      "word": "SALAD",
+      "mean": "Rau Trộn",
+      "emoji": "🥗",
+      "category": "Thực Phẩm Nấu Chín"
+    },
+    {
+      "word": "EGG",
+      "mean": "Quả Trứng",
+      "emoji": "🥚",
+      "category": "Thực Phẩm Nấu Chín"
+    },
+    {
+      "word": "MEAT",
+      "mean": "Thịt",
+      "emoji": "🥩",
+      "category": "Thực Phẩm Nấu Chín"
+    },
+    {
+      "word": "CHEESE",
+      "mean": "Phô Mai",
+      "emoji": "🧀",
+      "category": "Thực Phẩm Nấu Chín"
+    },
+    {
+      "word": "BUTTER",
+      "mean": "Bơ",
+      "emoji": "🧈",
+      "category": "Thực Phẩm Nấu Chín"
+    },
+    {
+      "word": "MOUNTAIN",
+      "mean": "Ngọn Núi",
+      "emoji": "⛰️",
+      "category": "Thiên Nhiên Kỳ Vĩ"
+    },
+    {
+      "word": "RIVER",
+      "mean": "Dòng Sông",
+      "emoji": "🏞️",
+      "category": "Thiên Nhiên Kỳ Vĩ"
+    },
+    {
+      "word": "LAKE",
+      "mean": "Hồ Nước",
+      "emoji": "💧",
+      "category": "Thiên Nhiên Kỳ Vĩ"
+    },
+    {
+      "word": "FOREST",
+      "mean": "Khu Rừng",
+      "emoji": "🌲",
+      "category": "Thiên Nhiên Kỳ Vĩ"
+    },
+    {
+      "word": "DESERT",
+      "mean": "Sa Mạc",
+      "emoji": "🏜️",
+      "category": "Thiên Nhiên Kỳ Vĩ"
+    },
+    {
+      "word": "ISLAND",
+      "mean": "Hòn Đảo",
+      "emoji": "🏝️",
+      "category": "Thiên Nhiên Kỳ Vĩ"
+    },
+    {
+      "word": "CAVE",
+      "mean": "Hang Động",
+      "emoji": "🦇",
+      "category": "Thiên Nhiên Kỳ Vĩ"
+    },
+    {
+      "word": "VOLCANO",
+      "mean": "Núi Lửa",
+      "emoji": "🌋",
+      "category": "Thiên Nhiên Kỳ Vĩ"
+    },
+    {
+      "word": "PEN",
+      "mean": "Bút Bi",
+      "emoji": "🖊️",
+      "category": "Đồ Dùng Học Tập & VP"
+    },
+    {
+      "word": "ERASER",
+      "mean": "Cục Tẩy",
+      "emoji": "🧽",
+      "category": "Đồ Dùng Học Tập & VP"
+    },
+    {
+      "word": "GLUE",
+      "mean": "Keo Dán",
+      "emoji": "🧴",
+      "category": "Đồ Dùng Học Tập & VP"
+    },
+    {
+      "word": "SCISSORS",
+      "mean": "Cái Kéo",
+      "emoji": "✂️",
+      "category": "Đồ Dùng Học Tập & VP"
+    },
+    {
+      "word": "NOTEBOOK",
+      "mean": "Sổ Tay",
+      "emoji": "📓",
+      "category": "Đồ Dùng Học Tập & VP"
+    },
+    {
+      "word": "MAP",
+      "mean": "Bản Đồ",
+      "emoji": "🗺️",
+      "category": "Đồ Dùng Học Tập & VP"
+    },
+    {
+      "word": "GLOBE",
+      "mean": "Quả Địa Cầu",
+      "emoji": "🌍",
+      "category": "Đồ Dùng Học Tập & VP"
+    },
+    {
+      "word": "BOARD",
+      "mean": "Cái Bảng",
+      "emoji": "⬛",
+      "category": "Đồ Dùng Học Tập & VP"
+    },
+    {
+      "word": "PHONE",
+      "mean": "Điện Thoại",
+      "emoji": "📱",
+      "category": "Công Nghệ"
+    },
+    {
+      "word": "LAPTOP",
+      "mean": "Máy Tính Xách Tay",
+      "emoji": "💻",
+      "category": "Công Nghệ"
+    },
+    {
+      "word": "TABLET",
+      "mean": "Máy Tính Bảng",
+      "emoji": "📱",
+      "category": "Công Nghệ"
+    },
+    {
+      "word": "KEYBOARD",
+      "mean": "Bàn Phím",
+      "emoji": "⌨️",
+      "category": "Công Nghệ"
+    },
+    {
+      "word": "CAMERA",
+      "mean": "Máy Ảnh",
+      "emoji": "📷",
+      "category": "Công Nghệ"
+    },
+    {
+      "word": "RADIO",
+      "mean": "Máy Phát Thanh",
+      "emoji": "📻",
+      "category": "Công Nghệ"
+    },
+    {
+      "word": "SWEATER",
+      "mean": "Áo Len",
+      "emoji": "🧶",
+      "category": "Quần Áo & Trang Sức"
+    },
+    {
+      "word": "COAT",
+      "mean": "Áo Khoác Dài",
+      "emoji": "🧥",
+      "category": "Quần Áo & Trang Sức"
+    },
+    {
+      "word": "BOOT",
+      "mean": "Ủng",
+      "emoji": "👢",
+      "category": "Quần Áo & Trang Sức"
+    },
+    {
+      "word": "SCARF",
+      "mean": "Khăn Quàng",
+      "emoji": "🧣",
+      "category": "Quần Áo & Trang Sức"
+    },
+    {
+      "word": "GLOVE",
+      "mean": "Găng Tay",
+      "emoji": "🧤",
+      "category": "Quần Áo & Trang Sức"
+    },
+    {
+      "word": "BELT",
+      "mean": "Thắt Lưng",
+      "emoji": "🥋",
+      "category": "Quần Áo & Trang Sức"
+    },
+    {
+      "word": "TIE",
+      "mean": "Cà Vạt",
+      "emoji": "👔",
+      "category": "Quần Áo & Trang Sức"
+    },
+    {
+      "word": "RING",
+      "mean": "Cái Nhẫn",
+      "emoji": "💍",
+      "category": "Quần Áo & Trang Sức"
+    },
+    {
+      "word": "NECKLACE",
+      "mean": "Vòng Cổ",
+      "emoji": "📿",
+      "category": "Quần Áo & Trang Sức"
+    },
+    {
+      "word": "OWL",
+      "mean": "Cú Mèo",
+      "emoji": "🦉",
+      "category": "Chim Chóc"
+    },
+    {
+      "word": "PARROT",
+      "mean": "Con Vẹt",
+      "emoji": "🦜",
+      "category": "Chim Chóc"
+    },
+    {
+      "word": "SWAN",
+      "mean": "Thiên Nga",
+      "emoji": "🦢",
+      "category": "Chim Chóc"
+    },
+    {
+      "word": "FLAMINGO",
+      "mean": "Hồng Hạc",
+      "emoji": "🦩",
+      "category": "Chim Chóc"
+    },
+    {
+      "word": "PEACOCK",
+      "mean": "Con Công",
+      "emoji": "🦚",
+      "category": "Chim Chóc"
+    },
+    {
+      "word": "OSTRICH",
+      "mean": "Đà Điểu",
+      "emoji": "🪶",
+      "category": "Chim Chóc"
+    },
+    {
+      "word": "CROW",
+      "mean": "Con Quạ",
+      "emoji": "🐦‍⬛",
+      "category": "Chim Chóc"
+    },
+    {
+      "word": "DOVE",
+      "mean": "Chim Bồ Câu",
+      "emoji": "🕊️",
+      "category": "Chim Chóc"
+    },
+    {
+      "word": "KANGAROO",
+      "mean": "Chuột Túi",
+      "emoji": "🦘",
+      "category": "Thú Có Túi & Khác"
+    },
+    {
+      "word": "KOALA",
+      "mean": "Gấu Koala",
+      "emoji": "🐨",
+      "category": "Thú Có Túi & Khác"
+    },
+    {
+      "word": "BAT",
+      "mean": "Con Dơi",
+      "emoji": "🦇",
+      "category": "Thú Có Túi & Khác"
+    },
+    {
+      "word": "FOX",
+      "mean": "Con Cáo",
+      "emoji": "🦊",
+      "category": "Thú Có Túi & Khác"
+    },
+    {
+      "word": "WOLF",
+      "mean": "Chó Sói",
+      "emoji": "🐺",
+      "category": "Thú Có Túi & Khác"
+    },
+    {
+      "word": "BOAR",
+      "mean": "Lợn Rừng",
+      "emoji": "🐗",
+      "category": "Thú Có Túi & Khác"
+    },
+    {
+      "word": "CAMEL",
+      "mean": "Lạc Đà",
+      "emoji": "🐪",
+      "category": "Thú Có Túi & Khác"
+    },
+    {
+      "word": "GIRAFFE",
+      "mean": "Hươu Cao Cổ",
+      "emoji": "🦒",
+      "category": "Thú Có Túi & Khác"
+    },
+    {
+      "word": "HIPPO",
+      "mean": "Hà Mã",
+      "emoji": "🦛",
+      "category": "Thú Có Túi & Khác"
+    },
+    {
+      "word": "RHINO",
+      "mean": "Tê Giác",
+      "emoji": "🦏",
+      "category": "Thú Có Túi & Khác"
+    },
+    {
+      "word": "SQUIRREL",
+      "mean": "Con Sóc",
+      "emoji": "🐿️",
+      "category": "Thú Có Túi & Khác"
+    },
+    {
+      "word": "HEDGEHOG",
+      "mean": "Nhím",
+      "emoji": "🦔",
+      "category": "Thú Có Túi & Khác"
+    },
+    {
+      "word": "SLOTH",
+      "mean": "Con Lười",
+      "emoji": "🦥",
+      "category": "Thú Có Túi & Khác"
+    },
+    {
+      "word": "CHRISTMAS",
+      "mean": "Giáng Sinh",
+      "emoji": "🎄",
+      "category": "Lễ Hội"
+    },
+    {
+      "word": "HALLOWEEN",
+      "mean": "Lễ Halloween",
+      "emoji": "🎃",
+      "category": "Lễ Hội"
+    },
+    {
+      "word": "NEWYEAR",
+      "mean": "Năm Mới",
+      "emoji": "🎆",
+      "category": "Lễ Hội"
+    },
+    {
+      "word": "PARTY",
+      "mean": "Bữa Tiệc",
+      "emoji": "🎉",
+      "category": "Lễ Hội"
+    },
+    {
+      "word": "PRESENT",
+      "mean": "Quà Tặng",
+      "emoji": "🎁",
+      "category": "Lễ Hội"
+    },
+    {
+      "word": "BALLOON",
+      "mean": "Bóng Bay",
+      "emoji": "🎈",
+      "category": "Lễ Hội"
+    },
+    {
+      "word": "KING",
+      "mean": "Vua",
+      "emoji": "👑",
+      "category": "Từ Vựng Bổ Sung 1"
+    },
+    {
+      "word": "QUEEN",
+      "mean": "Nữ Hoàng",
+      "emoji": "👑",
+      "category": "Từ Vựng Bổ Sung 1"
+    },
+    {
+      "word": "PRINCE",
+      "mean": "Hoàng Tử",
+      "emoji": "🤴",
+      "category": "Từ Vựng Bổ Sung 1"
+    },
+    {
+      "word": "PRINCESS",
+      "mean": "Công Chúa",
+      "emoji": "👸",
+      "category": "Từ Vựng Bổ Sung 1"
+    },
+    {
+      "word": "CASTLE",
+      "mean": "Lâu Đài",
+      "emoji": "🏰",
+      "category": "Từ Vựng Bổ Sung 1"
+    },
+    {
+      "word": "DRAGON",
+      "mean": "Con Rồng",
+      "emoji": "🐉",
+      "category": "Từ Vựng Bổ Sung 1"
+    },
+    {
+      "word": "MAGIC",
+      "mean": "Phép Thuật",
+      "emoji": "🪄",
+      "category": "Từ Vựng Bổ Sung 1"
+    },
+    {
+      "word": "WAND",
+      "mean": "Đũa Phép",
+      "emoji": "🪄",
+      "category": "Từ Vựng Bổ Sung 1"
+    },
+    {
+      "word": "FAIRY",
+      "mean": "Tiên Nữ",
+      "emoji": "🧚",
+      "category": "Từ Vựng Bổ Sung 1"
+    },
+    {
+      "word": "GHOST",
+      "mean": "Ma Quỷ",
+      "emoji": "👻",
+      "category": "Từ Vựng Bổ Sung 1"
+    },
+    {
+      "word": "ZOMBIE",
+      "mean": "Xác Ướp",
+      "emoji": "🧟",
+      "category": "Từ Vựng Bổ Sung 1"
+    },
+    {
+      "word": "TICKET",
+      "mean": "Vé",
+      "emoji": "🎫",
+      "category": "Từ Vựng Bổ Sung 2"
+    },
+    {
+      "word": "MONEY",
+      "mean": "Tiền",
+      "emoji": "💵",
+      "category": "Từ Vựng Bổ Sung 2"
+    },
+    {
+      "word": "COIN",
+      "mean": "Tiền Xu",
+      "emoji": "🪙",
+      "category": "Từ Vựng Bổ Sung 2"
+    },
+    {
+      "word": "BILL",
+      "mean": "Hóa Đơn",
+      "emoji": "🧾",
+      "category": "Từ Vựng Bổ Sung 2"
+    },
+    {
+      "word": "PASSPORT",
+      "mean": "Hộ Chiếu",
+      "emoji": "🛂",
+      "category": "Từ Vựng Bổ Sung 2"
+    },
+    {
+      "word": "SUITCASE",
+      "mean": "Vali",
+      "emoji": "🧳",
+      "category": "Từ Vựng Bổ Sung 2"
+    },
+    {
+      "word": "TENT",
+      "mean": "Cái Lều",
+      "emoji": "⛺",
+      "category": "Từ Vựng Bổ Sung 2"
+    },
+    {
+      "word": "CAMPFIRE",
+      "mean": "Lửa Trại",
+      "emoji": "🏕️",
+      "category": "Từ Vựng Bổ Sung 2"
+    },
+    {
+      "word": "COMPASS",
+      "mean": "La Bàn",
+      "emoji": "🧭",
+      "category": "Từ Vựng Bổ Sung 2"
+    },
+    {
+      "word": "MEDICINE",
+      "mean": "Thuốc",
+      "emoji": "💊",
+      "category": "Từ Vựng Bổ Sung 3"
+    },
+    {
+      "word": "BANDAGE",
+      "mean": "Băng Gạc",
+      "emoji": "🩹",
+      "category": "Từ Vựng Bổ Sung 3"
+    },
+    {
+      "word": "SYRINGE",
+      "mean": "Ống Tiêm",
+      "emoji": "💉",
+      "category": "Từ Vựng Bổ Sung 3"
+    },
+    {
+      "word": "WHEELCHAIR",
+      "mean": "Xe Lăn",
+      "emoji": "🦽",
+      "category": "Từ Vựng Bổ Sung 3"
+    },
+    {
+      "word": "CUP",
+      "mean": "Cái Cốc",
+      "emoji": "☕",
+      "category": "Từ Vựng Bổ Sung 3"
+    },
+    {
+      "word": "PLATE",
+      "mean": "Cái Đĩa",
+      "emoji": "🍽️",
+      "category": "Từ Vựng Bổ Sung 3"
+    },
+    {
+      "word": "BOWL",
+      "mean": "Cái Bát",
+      "emoji": "🥣",
+      "category": "Từ Vựng Bổ Sung 3"
+    },
+    {
+      "word": "FORK",
+      "mean": "Cái Nĩa",
+      "emoji": "🍴",
+      "category": "Từ Vựng Bổ Sung 3"
+    },
+    {
+      "word": "SPOON",
+      "mean": "Cái Thìa",
+      "emoji": "🥄",
+      "category": "Từ Vựng Bổ Sung 3"
+    },
+    {
+      "word": "KNIFE",
+      "mean": "Con Dao",
+      "emoji": "🔪",
+      "category": "Từ Vựng Bổ Sung 3"
+    },
+    {
+      "word": "DOOR",
+      "mean": "Cửa Ra Vào",
+      "emoji": "🚪",
+      "category": "Từ Vựng Bổ Sung 4"
+    },
+    {
+      "word": "ROOF",
+      "mean": "Mái Nhà",
+      "emoji": "🏠",
+      "category": "Từ Vựng Bổ Sung 4"
+    },
+    {
+      "word": "WALL",
+      "mean": "Bức Tường",
+      "emoji": "🧱",
+      "category": "Từ Vựng Bổ Sung 4"
+    },
+    {
+      "word": "FLOOR",
+      "mean": "Sàn Nhà",
+      "emoji": "🪵",
+      "category": "Từ Vựng Bổ Sung 4"
+    },
+    {
+      "word": "CEILING",
+      "mean": "Trần Nhà",
+      "emoji": "💡",
+      "category": "Từ Vựng Bổ Sung 4"
+    },
+    {
+      "word": "STAIRS",
+      "mean": "Cầu Thang",
+      "emoji": "🪜",
+      "category": "Từ Vựng Bổ Sung 4"
+    },
+    {
+      "word": "ELEVATOR",
+      "mean": "Thang Máy",
+      "emoji": "🛗",
+      "category": "Từ Vựng Bổ Sung 4"
+    },
+    {
+      "word": "BLACK",
+      "mean": "Màu Đen",
+      "emoji": "⚫",
+      "category": "Màu Sắc Bổ Sung"
+    },
+    {
+      "word": "WHITE",
+      "mean": "Màu Trắng",
+      "emoji": "⚪",
+      "category": "Màu Sắc Bổ Sung"
+    },
+    {
+      "word": "GRAY",
+      "mean": "Màu Xám",
+      "emoji": "🔘",
+      "category": "Màu Sắc Bổ Sung"
+    },
+    {
+      "word": "BROWN",
+      "mean": "Màu Nâu",
+      "emoji": "🟤",
+      "category": "Màu Sắc Bổ Sung"
+    },
+    {
+      "word": "DONKEY",
+      "mean": "Con Lừa",
+      "emoji": "🫏",
+      "category": "Động Vật Nông Trại"
+    },
+    {
+      "word": "GOAT",
+      "mean": "Con Dê",
+      "emoji": "🐐",
+      "category": "Động Vật Nông Trại"
+    },
+    {
+      "word": "TURKEY",
+      "mean": "Gà Tây",
+      "emoji": "🦃",
+      "category": "Động Vật Nông Trại"
+    },
+    {
+      "word": "GOOSE",
+      "mean": "Ngỗng",
+      "emoji": "🪿",
+      "category": "Động Vật Nông Trại"
+    },
+    {
+      "word": "MULE",
+      "mean": "Con La",
+      "emoji": "🫏",
+      "category": "Động Vật Nông Trại"
+    },
+    {
+      "word": "SALT",
+      "mean": "Muối",
+      "emoji": "🧂",
+      "category": "Gia Vị & Nấu Ăn"
+    },
+    {
+      "word": "PEPPER",
+      "mean": "Tiêu",
+      "emoji": "🌶️",
+      "category": "Gia Vị & Nấu Ăn"
+    },
+    {
+      "word": "SUGAR",
+      "mean": "Đường",
+      "emoji": "🍚",
+      "category": "Gia Vị & Nấu Ăn"
+    },
+    {
+      "word": "OIL",
+      "mean": "Dầu Ăn",
+      "emoji": "🛢️",
+      "category": "Gia Vị & Nấu Ăn"
+    },
+    {
+      "word": "VINEGAR",
+      "mean": "Giấm",
+      "emoji": "🍾",
+      "category": "Gia Vị & Nấu Ăn"
+    },
+    {
+      "word": "FLOUR",
+      "mean": "Bột Mì",
+      "emoji": "🌾",
+      "category": "Gia Vị & Nấu Ăn"
+    },
+    {
+      "word": "HONEY",
+      "mean": "Mật Ong",
+      "emoji": "🍯",
+      "category": "Gia Vị & Nấu Ăn"
+    },
+    {
+      "word": "TOOTHBRUSH",
+      "mean": "Bàn Chải",
+      "emoji": "🪥",
+      "category": "Đồ Dùng Cá Nhân"
+    },
+    {
+      "word": "TOOTHPASTE",
+      "mean": "Kem Đánh Răng",
+      "emoji": "🧴",
+      "category": "Đồ Dùng Cá Nhân"
+    },
+    {
+      "word": "SHAMPOO",
+      "mean": "Dầu Gội",
+      "emoji": "🧴",
+      "category": "Đồ Dùng Cá Nhân"
+    },
+    {
+      "word": "PERFUME",
+      "mean": "Nước Hoa",
+      "emoji": "🧴",
+      "category": "Đồ Dùng Cá Nhân"
+    },
+    {
+      "word": "LIPSTICK",
+      "mean": "Son Môi",
+      "emoji": "💄",
+      "category": "Đồ Dùng Cá Nhân"
+    },
+    {
+      "word": "UMBRELLA",
+      "mean": "Cái Ô",
+      "emoji": "☂️",
+      "category": "Đồ Dùng Cá Nhân"
+    },
+    {
+      "word": "STOMACH",
+      "mean": "Bụng",
+      "emoji": "🤰",
+      "category": "Các Bộ Phận Khác"
+    },
+    {
+      "word": "KNEE",
+      "mean": "Đầu Gối",
+      "emoji": "🦵",
+      "category": "Các Bộ Phận Khác"
+    },
+    {
+      "word": "ELBOW",
+      "mean": "Khuỷu Tay",
+      "emoji": "💪",
+      "category": "Các Bộ Phận Khác"
+    },
+    {
+      "word": "CHIN",
+      "mean": "Cái Cằm",
+      "emoji": "👤",
+      "category": "Các Bộ Phận Khác"
+    },
+    {
+      "word": "CHEEK",
+      "mean": "Cái Má",
+      "emoji": "😊",
+      "category": "Các Bộ Phận Khác"
+    },
+    {
+      "word": "FOREHEAD",
+      "mean": "Trán",
+      "emoji": "👤",
+      "category": "Các Bộ Phận Khác"
+    },
+    {
+      "word": "HEEL",
+      "mean": "Gót Chân",
+      "emoji": "🦶",
+      "category": "Các Bộ Phận Khác"
+    },
+    {
+      "word": "THUMB",
+      "mean": "Ngón Cái",
+      "emoji": "👍",
+      "category": "Các Bộ Phận Khác"
+    },
+    {
+      "word": "SUBWAY",
+      "mean": "Tàu Điện Ngầm",
+      "emoji": "🚇",
+      "category": "Phương Tiện Công Cộng"
+    },
+    {
+      "word": "TRAM",
+      "mean": "Xe Điện",
+      "emoji": "🚋",
+      "category": "Phương Tiện Công Cộng"
+    },
+    {
+      "word": "FERRY",
+      "mean": "Phà",
+      "emoji": "⛴️",
+      "category": "Phương Tiện Công Cộng"
+    },
+    {
+      "word": "TRACTOR",
+      "mean": "Máy Kéo",
+      "emoji": "🚜",
+      "category": "Phương Tiện Công Cộng"
+    },
+    {
+      "word": "AMBULANCE",
+      "mean": "Xe Cứu Thương",
+      "emoji": "🚑",
+      "category": "Phương Tiện Công Cộng"
+    },
+    {
+      "word": "FIRETRUCK",
+      "mean": "Xe Cứu Hỏa",
+      "emoji": "🚒",
+      "category": "Phương Tiện Công Cộng"
+    },
+    {
+      "word": "POLICECAR",
+      "mean": "Xe Cảnh Sát",
+      "emoji": "🚓",
+      "category": "Phương Tiện Công Cộng"
+    },
+    {
+      "word": "MUSEUM",
+      "mean": "Bảo Tàng",
+      "emoji": "🏛️",
+      "category": "Công Trình & Nơi Chốn"
+    },
+    {
+      "word": "LIBRARY",
+      "mean": "Thư Viện",
+      "emoji": "📚",
+      "category": "Công Trình & Nơi Chốn"
+    },
+    {
+      "word": "STATION",
+      "mean": "Nhà Ga",
+      "emoji": "🚉",
+      "category": "Công Trình & Nơi Chốn"
+    },
+    {
+      "word": "AIRPORT",
+      "mean": "Sân Bay",
+      "emoji": "✈️",
+      "category": "Công Trình & Nơi Chốn"
+    },
+    {
+      "word": "PHARMACY",
+      "mean": "Hiệu Thuốc",
+      "emoji": "💊",
+      "category": "Công Trình & Nơi Chốn"
+    },
+    {
+      "word": "BAKERY",
+      "mean": "Tiệm Bánh",
+      "emoji": "🥐",
+      "category": "Công Trình & Nơi Chốn"
+    },
+    {
+      "word": "FACTORY",
+      "mean": "Nhà Máy",
+      "emoji": "🏭",
+      "category": "Công Trình & Nơi Chốn"
+    },
+    {
+      "word": "BRIDGE",
+      "mean": "Cây Cầu",
+      "emoji": "🌉",
+      "category": "Công Trình & Nơi Chốn"
+    },
+    {
+      "word": "TOWER",
+      "mean": "Tòa Tháp",
+      "emoji": "🗼",
+      "category": "Công Trình & Nơi Chốn"
+    },
+    {
+      "word": "DIVING",
+      "mean": "Lặn",
+      "emoji": "🤿",
+      "category": "Thể Thao Dưới Nước & Khác"
+    },
+    {
+      "word": "SURFING",
+      "mean": "Lướt Sóng",
+      "emoji": "🏄",
+      "category": "Thể Thao Dưới Nước & Khác"
+    },
+    {
+      "word": "SKIING",
+      "mean": "Trượt Tuyết",
+      "emoji": "⛷️",
+      "category": "Thể Thao Dưới Nước & Khác"
+    },
+    {
+      "word": "SKATING",
+      "mean": "Trượt Băng",
+      "emoji": "⛸️",
+      "category": "Thể Thao Dưới Nước & Khác"
+    },
+    {
+      "word": "BOXING",
+      "mean": "Quyền Anh",
+      "emoji": "🥊",
+      "category": "Thể Thao Dưới Nước & Khác"
+    },
+    {
+      "word": "KARATE",
+      "mean": "Võ Karate",
+      "emoji": "🥋",
+      "category": "Thể Thao Dưới Nước & Khác"
+    },
+    {
+      "word": "CYCLING",
+      "mean": "Đạp Xe",
+      "emoji": "🚴",
+      "category": "Thể Thao Dưới Nước & Khác"
+    },
+    {
+      "word": "BORED",
+      "mean": "Buồn Chán",
+      "emoji": "🥱",
+      "category": "Cảm Xúc Tiêu Cực"
+    },
+    {
+      "word": "SHY",
+      "mean": "Xấu Hổ",
+      "emoji": "🫣",
+      "category": "Cảm Xúc Tiêu Cực"
+    },
+    {
+      "word": "NERVOUS",
+      "mean": "Lo Lắng",
+      "emoji": "😰",
+      "category": "Cảm Xúc Tiêu Cực"
+    },
+    {
+      "word": "PROUD",
+      "mean": "Tự Hào",
+      "emoji": "😤",
+      "category": "Cảm Xúc Tiêu Cực"
+    },
+    {
+      "word": "JEALOUS",
+      "mean": "Ghen Tị",
+      "emoji": "😒",
+      "category": "Cảm Xúc Tiêu Cực"
+    },
+    {
+      "word": "MORNING",
+      "mean": "Buổi Sáng",
+      "emoji": "🌅",
+      "category": "Thời Gian"
+    },
+    {
+      "word": "AFTERNOON",
+      "mean": "Buổi Chiều",
+      "emoji": "🌇",
+      "category": "Thời Gian"
+    },
+    {
+      "word": "EVENING",
+      "mean": "Buổi Tối",
+      "emoji": "🌃",
+      "category": "Thời Gian"
+    },
+    {
+      "word": "NIGHT",
+      "mean": "Đêm",
+      "emoji": "🌙",
+      "category": "Thời Gian"
+    },
+    {
+      "word": "DAY",
+      "mean": "Ngày",
+      "emoji": "☀️",
+      "category": "Thời Gian"
+    },
+    {
+      "word": "WEEK",
+      "mean": "Tuần",
+      "emoji": "📅",
+      "category": "Thời Gian"
+    },
+    {
+      "word": "MONTH",
+      "mean": "Tháng",
+      "emoji": "🗓️",
+      "category": "Thời Gian"
+    },
+    {
+      "word": "YEAR",
+      "mean": "Năm",
+      "emoji": "📆",
+      "category": "Thời Gian"
+    },
+    {
+      "word": "TODAY",
+      "mean": "Hôm Nay",
+      "emoji": "📍",
+      "category": "Thời Gian"
+    },
+    {
+      "word": "TOMORROW",
+      "mean": "Ngày Mai",
+      "emoji": "⏭️",
+      "category": "Thời Gian"
+    },
+    {
+      "word": "YESTERDAY",
+      "mean": "Hôm Qua",
+      "emoji": "⏮️",
+      "category": "Thời Gian"
+    },
+    {
+      "word": "CUBE",
+      "mean": "Khối Lập Phương",
+      "emoji": "🧊",
+      "category": "Hình Khối 3D"
+    },
+    {
+      "word": "SPHERE",
+      "mean": "Khối Cầu",
+      "emoji": "🔮",
+      "category": "Hình Khối 3D"
+    },
+    {
+      "word": "CONE",
+      "mean": "Hình Nón",
+      "emoji": "🍦",
+      "category": "Hình Khối 3D"
+    },
+    {
+      "word": "CYLINDER",
+      "mean": "Hình Trụ",
+      "emoji": "🥫",
+      "category": "Hình Khối 3D"
+    },
+    {
+      "word": "PYRAMID",
+      "mean": "Kim Tự Tháp",
+      "emoji": "⛺",
+      "category": "Hình Khối 3D"
+    },
+    {
+      "word": "GALAXY",
+      "mean": "Thiên Hà",
+      "emoji": "🌌",
+      "category": "Vũ Trụ 2"
+    },
+    {
+      "word": "METEOR",
+      "mean": "Sao Băng",
+      "emoji": "🌠",
+      "category": "Vũ Trụ 2"
+    },
+    {
+      "word": "ORBIT",
+      "mean": "Quỹ Đạo",
+      "emoji": "🪐",
+      "category": "Vũ Trụ 2"
+    },
+    {
+      "word": "SAUCE",
+      "mean": "Nước Sốt",
+      "emoji": "🥫",
+      "category": "Gia Vị & Nấu Ăn"
+    },
+    {
+      "word": "MUSTARD",
+      "mean": "Mù Tạt",
+      "emoji": "🌭",
+      "category": "Gia Vị & Nấu Ăn"
+    },
+    {
+      "word": "FOGGY",
+      "mean": "Trời Sương",
+      "emoji": "🌁",
+      "category": "Thời Tiết 2"
+    },
+    {
+      "word": "BREEZE",
+      "mean": "Gió Nhẹ",
+      "emoji": "🌬️",
+      "category": "Thời Tiết 2"
+    },
+    {
+      "word": "SCREEN",
+      "mean": "Màn Hình",
+      "emoji": "🖥️",
+      "category": "Công Nghệ 2"
+    },
+    {
+      "word": "CHARGER",
+      "mean": "Cục Sạc",
+      "emoji": "🔋",
+      "category": "Công Nghệ 2"
+    }
+  ]
+}
