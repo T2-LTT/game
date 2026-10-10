@@ -24,12 +24,32 @@ const App = () => {
   const [playerScores, setPlayerScores] = useState({});
   const [playersList, setPlayersList] = useState(playersData); // Danh sách người chơi
   const [isLoadingPlayers, setIsLoadingPlayers] = useState(true);
+  
+  // Trạng thái đồng bộ Offline-First
+  const [syncState, setSyncState] = useState({ isOnline: navigator.onLine, isSyncing: false, pending: 0 });
 
   const GOOGLE_APP_URL = 'https://script.google.com/macros/s/AKfycbwrFmv40bnFCUOfpwGw3OVp-6mUiNhXinuHgoDicwvP3QQgbtHS8Gu3dBWlEjyTln1RRA/exec';
 
   useEffect(() => {
     unlockAudioOnFirstTouch();
     startSyncWorker(); // Kích hoạt Sync Worker chạy ngầm
+    
+    // Quản lý trạng thái đồng bộ
+    const updateSyncState = () => {
+      const q = localStorage.getItem('game_sync_queue');
+      const pending = q ? JSON.parse(q).length : 0;
+      setSyncState(prev => ({ ...prev, pending, isOnline: navigator.onLine }));
+    };
+
+    window.addEventListener('online', updateSyncState);
+    window.addEventListener('offline', updateSyncState);
+    window.addEventListener('sync_queue_updated', updateSyncState);
+    window.addEventListener('sync_started', () => setSyncState(prev => ({ ...prev, isSyncing: true })));
+    window.addEventListener('sync_finished', () => {
+      updateSyncState();
+      setSyncState(prev => ({ ...prev, isSyncing: false }));
+    });
+    updateSyncState();
     
     const envParam = import.meta.env.DEV ? '?env=dev' : '';
     
@@ -258,6 +278,31 @@ const App = () => {
         {/* MÀN HÌNH 5: BỘ SƯU TẬP HUY HIỆU */}
         {currentScreen === 'badges' && <BadgesPanel player={activePlayer?.id} onBack={() => setCurrentScreen(activePlayer ? 'playerMenu' : 'selectPlayer')} />}
       </div>
+      
+      {/* TÍNH NĂNG MỚI: ĐÈN BÁO ĐỒNG BỘ ĐÁM MÂY (PHASE 4) */}
+      <div style={{
+        position: 'fixed', bottom: '15px', right: '15px', zIndex: 9999,
+        background: 'rgba(10, 15, 30, 0.7)', padding: '6px 14px', borderRadius: '20px',
+        display: 'flex', alignItems: 'center', gap: '8px', fontSize: '0.85rem', color: 'white',
+        backdropFilter: 'blur(5px)', border: '1px solid rgba(255,255,255,0.1)',
+        boxShadow: '0 4px 15px rgba(0,0,0,0.3)',
+        transition: 'all 0.3s ease'
+      }}>
+        {syncState.isOnline ? (
+          syncState.isSyncing ? (
+            <><Icons.RefreshCw size={15} color="#00d2ff" style={{ animation: 'spin 1s linear infinite' }} /> Đang đẩy lên mây...</>
+          ) : syncState.pending > 0 ? (
+            <><Icons.Cloud size={15} color="#ffcc00" /> Đợi đồng bộ ({syncState.pending})</>
+          ) : (
+            <><Icons.Cloud size={15} color="#10b981" /> Đã lưu trên mây</>
+          )
+        ) : (
+          <><Icons.WifiOff size={15} color="#ff0055" /> Không có mạng (Chờ {syncState.pending})</>
+        )}
+      </div>
+      <style>{`
+        @keyframes spin { 100% { transform: rotate(360deg); } }
+      `}</style>
     </>
   );
 };

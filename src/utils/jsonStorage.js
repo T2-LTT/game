@@ -31,6 +31,9 @@ export const pushToSyncQueue = (payload) => {
     
     localStorage.setItem(SYNC_QUEUE_KEY, JSON.stringify(queue));
     
+    // Báo cho UI biết có dữ liệu đang chờ đồng bộ
+    window.dispatchEvent(new Event('sync_queue_updated'));
+    
     // Thử đồng bộ ngay nếu đang có mạng
     if (navigator.onLine) {
       processSyncQueue();
@@ -54,6 +57,8 @@ export const processSyncQueue = async () => {
   if (queue.length === 0) return;
   
   isSyncing = true;
+  window.dispatchEvent(new Event('sync_started')); // Báo cho UI biết đang bắt đầu đồng bộ
+  
   console.log(`Bắt đầu đồng bộ ${queue.length} bản ghi lên Google Sheets...`);
   
   try {
@@ -74,10 +79,12 @@ export const processSyncQueue = async () => {
     // Vì mode no-cors luôn successful nếu mạng OK, ta giả định là đã gửi thành công
     console.log("Đã gửi đồng bộ thành công!");
     localStorage.removeItem(SYNC_QUEUE_KEY); // Xóa hàng đợi
+    window.dispatchEvent(new Event('sync_queue_updated')); // Báo cho UI cập nhật
   } catch (e) {
     console.error('Lỗi khi đồng bộ hàng đợi:', e);
   } finally {
     isSyncing = false;
+    window.dispatchEvent(new Event('sync_finished')); // Báo cho UI biết đã đồng bộ xong
   }
 };
 
