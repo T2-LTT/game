@@ -14,7 +14,7 @@ Hệ thống này sẽ giúp bạn:
 1. Truy cập [Google Sheets](https://sheets.google.com) và tạo một **Bảng tính trống (Blank spreadsheet)**.
 2. Đặt tên cho file (Ví dụ: `Dữ Liệu Game Space`).
 3. Tạo và Đổi tên **Sheet 1** thành: `Điểm số Game`
-   - Tại dòng đầu tiên (Header), gõ các cột: `Thời Gian` | `ID Bé` | `Tên Game` | `Hành Động` | `Số Điểm`
+   - Tại dòng đầu tiên (Header), gõ các cột: `Thời Gian` | `ID Bé` | `Tên Game` | `Hành Động` | `Số Điểm` | `Câu Hỏi` | `Đáp án chọn` | `Đáp án đúng` | `Kết quả`
 4. Bấm dấu **+** ở góc dưới cùng bên trái để tạo **Sheet 2** và đổi tên thành: `Player`
    - Tại dòng đầu tiên, gõ chính xác 5 cột tiếng Anh: `id` | `name` | `yearOfBirth` | `avatar` | `color`
    - Từ dòng thứ 2 trở đi, điền thông tin của các bé vào (Ví dụ: `nhi`, `Bảo Nhi`, `2018`, `/image/baonhi.JPG`, `var(--neon-blue)`).
@@ -75,7 +75,15 @@ function doPost(e) {
   
   var now = new Date();
   
-  sheet.appendRow([now, data.playerId, data.gameName, data.action, data.score]);
+  // Trích xuất dữ liệu, hỗ trợ cả ghi điểm lẫn ghi lịch sử đúng sai
+  var action = data.action || '';
+  var score = data.score !== undefined ? data.score : '';
+  var question = data.question || '';
+  var userAns = data.userAns || '';
+  var correctAns = data.correctAns || '';
+  var isCorrect = data.isCorrect !== undefined ? (data.isCorrect ? 'Đúng' : 'Sai') : '';
+  
+  sheet.appendRow([now, data.playerId || '', data.gameName || '', action, score, question, userAns, correctAns, isCorrect]);
   
   return ContentService.createTextOutput("Thành công").setMimeType(ContentService.MimeType.TEXT);
 }

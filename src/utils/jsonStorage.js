@@ -72,14 +72,23 @@ export const logAttempt = (playerId, gameName, questionText, isCorrect, userAns 
 
   // Đẩy lên Google Sheets
   const GOOGLE_APP_URL = 'https://script.google.com/macros/s/AKfycbwrFmv40bnFCUOfpwGw3OVp-6mUiNhXinuHgoDicwvP3QQgbtHS8Gu3dBWlEjyTln1RRA/exec';
-  const actionText = `${questionText} | Chọn: ${userAns} (${isCorrect ? 'Đúng' : 'Sai'})`;
   const envValue = import.meta.env.DEV ? 'dev' : 'prod';
   
   fetch(GOOGLE_APP_URL, {
     method: 'POST',
     mode: 'no-cors',
     headers: { 'Content-Type': 'text/plain;charset=utf-8' },
-    body: JSON.stringify({ env: envValue, playerId, gameName, action: actionText, score: 0 })
+    body: JSON.stringify({ 
+      env: envValue, 
+      playerId, 
+      gameName, 
+      action: 'Nhật ký làm bài', 
+      score: 0,
+      question: questionText,
+      userAns: String(userAns),
+      correctAns: String(correctAns),
+      isCorrect: isCorrect
+    })
   }).catch(e => console.error('Lỗi đẩy Google Sheets:', e));
 };
 
