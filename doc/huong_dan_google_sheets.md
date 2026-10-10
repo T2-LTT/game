@@ -68,36 +68,72 @@ function doPost(e) {
     return ContentService.createTextOutput("Yêu cầu không hợp lệ").setMimeType(ContentService.MimeType.TEXT);
   }
   
-  var data = JSON.parse(e.postData.contents);
+  var payload = JSON.parse(e.postData.contents);
   var now = new Date();
   
-  // Xử lý huy hiệu (Lưu vào sheet Tủ kính)
-  if (data.type === 'badge') {
-    var badgeSheet = ss.getSheetByName('Tủ kính');
-    if (!badgeSheet) {
-      badgeSheet = ss.insertSheet('Tủ kính');
-      badgeSheet.appendRow(['Thời Gian', 'ID Bé', 'Huy Hiệu', 'Biểu Tượng']);
+  // XỬ LÝ ĐỒNG BỘ HÀNG LOẠT (TỪ SYNC QUEUE OFFLINE)
+  if (payload.type === 'bulk_sync') {
+    var items = payload.data || [];
+    
+    // Tối ưu: Mở sẵn các Sheet
+    var sheetLogName = (payload.env === 'dev') ? 'Điểm số DEV' : 'Điểm số Game';
+    var sheetLog = ss.getSheetByName(sheetLogName) || ss.getSheetByName('Điểm số Game');
+    if (!sheetLog) sheetLog = ss.getSheets()[0];
+    
+    var sheetBadge = ss.getSheetByName('Tủ kính');
+    if (!sheetBadge) {
+      sheetBadge = ss.insertSheet('Tủ kính');
+      sheetBadge.appendRow(['Thời Gian', 'ID Bé', 'Huy Hiệu', 'Biểu Tượng', 'GUID']);
     }
-    badgeSheet.appendRow([now, data.playerId || '', data.badgeName || '', data.emoji || '']);
-    return ContentService.createTextOutput("Lưu huy hiệu thành công").setMimeType(ContentService.MimeType.TEXT);
+    
+    // Quét toàn bộ GUID đã có trên Sheet Điểm Số (Giả sử GUID ở cột J - Cột số 10)
+    var existingLogGuids = {};
+    var logData = sheetLog.getDataRange().getValues();
+    for (var i = 1; i < logData.length; i++) {
+      var cellGuid = logData[i][9]; // Index 9 là cột 10
+      if (cellGuid) existingLogGuids[cellGuid] = true;
+    }
+    
+    // Quét toàn bộ GUID đã có trên Sheet Tủ Kính (Giả sử GUID ở cột E - Cột số 5)
+    var existingBadgeGuids = {};
+    var badgeData = sheetBadge.getDataRange().getValues();
+    for (var j = 1; j < badgeData.length; j++) {
+      var cellBadgeGuid = badgeData[j][4]; // Index 4 là cột 5
+      if (cellBadgeGuid) existingBadgeGuids[cellBadgeGuid] = true;
+    }
+    
+    // Bắt đầu rã đông "Thùng hàng" và chèn dữ liệu
+    for (var k = 0; k < items.length; k++) {
+      var item = items[k];
+      var guid = item.guid || '';
+      
+      if (item.type === 'badge') {
+        // Chống trùng lặp huy hiệu
+        if (!existingBadgeGuids[guid]) {
+          sheetBadge.appendRow([now, item.playerId || '', item.badgeName || '', item.emoji || '', guid]);
+          existingBadgeGuids[guid] = true; // Lưu vào nhớ tạm để các vòng lặp sau không chèn đúp
+        }
+      } else {
+        // Chống trùng lặp điểm số / nhật ký
+        if (!existingLogGuids[guid]) {
+          var action = item.action || '';
+          var score = item.score !== undefined ? item.score : '';
+          var question = item.question || '';
+          var userAns = item.userAns || '';
+          var correctAns = item.correctAns || '';
+          var isCorrect = item.isCorrect !== undefined ? (item.isCorrect ? 'Đúng' : 'Sai') : '';
+          
+          sheetLog.appendRow([now, item.playerId || '', item.gameName || '', action, score, question, userAns, correctAns, isCorrect, guid]);
+          existingLogGuids[guid] = true;
+        }
+      }
+    }
+    
+    return ContentService.createTextOutput("Bulk sync thành công").setMimeType(ContentService.MimeType.TEXT);
   }
   
-  // Xử lý lưu điểm số và nhật ký
-  var sheetName = (data.env === 'dev') ? 'Điểm số DEV' : 'Điểm số Game';
-  var sheet = ss.getSheetByName(sheetName) || ss.getSheetByName('Điểm số Game');
-  if (!sheet) sheet = ss.getSheets()[0];
-  
-  // Trích xuất dữ liệu, hỗ trợ cả ghi điểm lẫn ghi lịch sử đúng sai
-  var action = data.action || '';
-  var score = data.score !== undefined ? data.score : '';
-  var question = data.question || '';
-  var userAns = data.userAns || '';
-  var correctAns = data.correctAns || '';
-  var isCorrect = data.isCorrect !== undefined ? (data.isCorrect ? 'Đúng' : 'Sai') : '';
-  
-  sheet.appendRow([now, data.playerId || '', data.gameName || '', action, score, question, userAns, correctAns, isCorrect]);
-  
-  return ContentService.createTextOutput("Thành công").setMimeType(ContentService.MimeType.TEXT);
+  // ... (Tương thích ngược với định dạng cũ nếu có)
+  return ContentService.createTextOutput("Yêu cầu không thuộc định dạng mới").setMimeType(ContentService.MimeType.TEXT);
 }
 ```
 4. Bấm biểu tượng 💾 **Lưu dự án (Save)** ở thanh công cụ phía trên.
