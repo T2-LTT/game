@@ -278,16 +278,16 @@ const DrawingGame = ({ onBack, player, playerName, playerAvatar }) => {
             style={{
               position: 'absolute',
               bottom: '20px',
-              right: '20px',
-              padding: '10px 20px',
+              left: '20px',
+              padding: '8px 16px',
               display: 'flex',
               alignItems: 'center',
-              gap: '10px',
-              fontSize: '1.1rem',
-              boxShadow: '0 0 20px rgba(0, 210, 255, 0.5)'
+              gap: '6px',
+              fontSize: '0.9rem',
+              boxShadow: '0 0 15px rgba(0, 210, 255, 0.5)'
             }}
           >
-            <Download size={24} /> Lưu Tranh
+            <Download size={18} /> Lưu Tranh
           </button>
         </div>
       </div>
