@@ -57,6 +57,18 @@ Rèn luyện tư duy toán học, phản xạ và từ vựng Tiếng Anh cho h�
      - **Chế độ Ghép chữ:** Ghép các mảnh chữ cái thành từ Tiếng Anh hoàn chỉnh.
 3. 🧠 **Minigame Lật Thẻ Trí Nhớ (Mức Thử Thách):** Thách thức trí nhớ với các cặp thẻ từ vựng Tiếng Anh & hành tinh vũ trụ.
 4. 🔍 **Minigame Tìm Điểm Khác Biệt Vũ Trụ:** So sánh 2 bức tranh ngân hà để tìm điểm khác nhau. Có nút **💡 Gợi Ý** khi bé chưa tìm ra.
+5. 🖱️ **Minigame Đập Chuột:** Rèn luyện phản xạ nhanh tay lẹ mắt.
+6. 🐟 **Minigame Bắt Cá:** Rèn luyện sự khéo léo và tập trung.
+
+---
+
+### 🎨 C. TRẠM SÁNG TẠO NGHỆ THUẬT (MỌI LỨA TUỔI)
+1. 🖌️ **Xưởng Họa Sĩ Nhí:** 
+   - Bảng vẽ tự do với nhiều màu sắc và kích cỡ nét cọ.
+   - Bé có thể thoải mái sáng tạo và bấm "Lưu Tranh" để tải tác phẩm về máy (kèm thưởng điểm).
+2. 🎹 **Bé Đánh Đàn Piano:** 
+   - Đàn Piano ảo với âm thanh chuẩn, phím đèn LED và pháo hoa khi chạm.
+   - Thưởng điểm cho bé khi đánh đủ 20 nốt nhạc.
 
 ---
 
