@@ -121,35 +121,15 @@ const DrawingGame = ({ onBack, player, playerName, playerAvatar }) => {
     setIsEraser(false);
   };
 
-  const saveArtwork = () => {
-    if (!hasDrawn) {
-      alert('Bé hãy vẽ một bức tranh thật đẹp trước khi lưu nhé!');
-      return;
-    }
-
-    const canvas = canvasRef.current;
-    const dataUrl = canvas.toDataURL('image/png');
-    
-    // Tải xuống
-    const link = document.createElement('a');
-    link.download = `Tranh-cua-${playerName}.png`;
-    link.href = dataUrl;
-    link.click();
-
-    playSound('correct');
-    confetti({
-      particleCount: 150,
-      spread: 80,
-      origin: { y: 0.6 }
-    });
-
-    if (!scoreEarned) {
+  const handleBack = () => {
+    if (hasDrawn && !scoreEarned) {
       updatePlayerStats(player, 5); // Tặng 5 điểm sáng tạo
       const result = addBadge(player, 'Họa Sĩ Nhí Vũ Trụ', '🎨');
       if (result) speak(`Chúc mừng ${playerName} nhận được huy hiệu Họa Sĩ Nhí Vũ Trụ`);
       logAttempt(player, 'Vẽ Tranh', 'Sáng tạo một bức tranh mới', true, 'Tác phẩm hoàn thành', 'Tuyệt vời');
       setScoreEarned(true);
     }
+    onBack();
   };
 
   return (
@@ -157,7 +137,7 @@ const DrawingGame = ({ onBack, player, playerName, playerAvatar }) => {
       
       {/* Top Header */}
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '15px', flexWrap: 'wrap', gap: '10px' }}>
-        <button className="glass-button" onClick={onBack} style={{ padding: '8px 16px', fontSize: '1rem' }}>
+        <button className="glass-button" onClick={handleBack} style={{ padding: '8px 16px', fontSize: '1rem' }}>
           <ChevronLeft size={20} /> Trạm chính
         </button>
 
@@ -271,24 +251,6 @@ const DrawingGame = ({ onBack, player, playerName, playerAvatar }) => {
             onTouchEnd={stopDrawing}
             style={{ width: '100%', height: '100%', display: 'block', touchAction: 'none' }}
           />
-
-          <button
-            className="glass-button btn-primary floating"
-            onClick={saveArtwork}
-            style={{
-              position: 'absolute',
-              bottom: '20px',
-              left: '20px',
-              padding: '8px 16px',
-              display: 'flex',
-              alignItems: 'center',
-              gap: '6px',
-              fontSize: '0.9rem',
-              boxShadow: '0 0 15px rgba(0, 210, 255, 0.5)'
-            }}
-          >
-            <Download size={18} /> Lưu Tranh
-          </button>
         </div>
       </div>
     </div>

@@ -29,7 +29,7 @@ const WhackAMole = ({ onBack, player = 'kiet', playerName }) => {
         const randomHole = Math.floor(Math.random() * 9);
         setActiveHole(randomHole);
         setHitHole(null); // Reset hit state
-      }, 800);
+      }, 500);
 
       timerInterval = setInterval(() => {
         setTimeLeft((prev) => prev - 1);

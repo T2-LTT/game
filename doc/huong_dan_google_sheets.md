@@ -54,6 +54,31 @@ function doGet(e) {
     return ContentService.createTextOutput(JSON.stringify(result)).setMimeType(ContentService.MimeType.JSON);
   }
   
+  // Hành động: Lấy danh sách huy hiệu từ Tủ kính
+  if (e.parameter.action === 'getBadges') {
+    var sheet = ss.getSheetByName('Tủ kính');
+    if (!sheet) {
+      return ContentService.createTextOutput(JSON.stringify([])).setMimeType(ContentService.MimeType.JSON);
+    }
+    
+    var data = sheet.getDataRange().getValues();
+    if (data.length < 2) return ContentService.createTextOutput(JSON.stringify([])).setMimeType(ContentService.MimeType.JSON);
+    
+    var result = [];
+    // Bỏ qua dòng tiêu đề, lặp lấy dữ liệu
+    for (var i = 1; i < data.length; i++) {
+      result.push({
+        date: data[i][0] || '',
+        owner: data[i][1] || '',
+        name: data[i][2] || '',
+        emoji: data[i][3] || '',
+        id: data[i][4] || '' // GUID
+      });
+    }
+    
+    return ContentService.createTextOutput(JSON.stringify(result)).setMimeType(ContentService.MimeType.JSON);
+  }
+  
   // Mặc định: Trả về dữ liệu điểm
   var sheetName = (e.parameter.env === 'dev') ? 'Điểm số DEV' : 'Điểm số Game';
   var defaultSheet = ss.getSheetByName(sheetName) || ss.getSheetByName('Điểm số Game') || ss.getSheets()[0];

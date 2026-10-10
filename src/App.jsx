@@ -53,12 +53,13 @@ const App = () => {
     
     const envParam = import.meta.env.DEV ? '?env=dev' : '';
     
-    // Tải danh sách người chơi VÀ điểm số từ Google Sheets
+    // Tải danh sách người chơi, điểm số VÀ huy hiệu từ Google Sheets
     Promise.all([
       fetch(`${GOOGLE_APP_URL}?action=getPlayers`).then(res => res.json()),
-      fetch(`${GOOGLE_APP_URL}${envParam}`).then(res => res.json())
+      fetch(`${GOOGLE_APP_URL}${envParam}`).then(res => res.json()),
+      fetch(`${GOOGLE_APP_URL}?action=getBadges`).then(res => res.json())
     ])
-    .then(([playersDataArray, logsDataArray]) => {
+    .then(([playersDataArray, logsDataArray, remoteBadgesArray]) => {
       if (Array.isArray(playersDataArray) && playersDataArray.length > 0) {
         const localData = getGameData();
         const validPlayers = playersDataArray.filter(p => p.id && p.name).map(p => {
@@ -105,6 +106,39 @@ const App = () => {
         if (needsSave) saveGameData(localData);
         
         setPlayerScores(mergedScores);
+      }
+      
+      // Đồng bộ Huy hiệu hai chiều (Phase 5)
+      if (Array.isArray(remoteBadgesArray) && remoteBadgesArray.length > 0) {
+        const localBadgesStr = localStorage.getItem('game_badges');
+        const localBadges = localBadgesStr ? JSON.parse(localBadgesStr) : [];
+        let badgesChanged = false;
+        
+        // Dùng Dictionary kiểm tra trùng lặp cho nhanh
+        const localBadgeMap = {};
+        localBadges.forEach(b => {
+          localBadgeMap[`${b.owner}_${b.name}`] = true;
+        });
+        
+        remoteBadgesArray.forEach(remoteB => {
+          const key = `${remoteB.owner}_${remoteB.name}`;
+          if (!localBadgeMap[key] && remoteB.owner && remoteB.name) {
+            localBadges.push({
+              id: remoteB.id || Date.now().toString(),
+              owner: remoteB.owner,
+              name: remoteB.name,
+              emoji: remoteB.emoji || '🏅',
+              date: remoteB.date || new Date().toLocaleDateString('vi-VN')
+            });
+            localBadgeMap[key] = true;
+            badgesChanged = true;
+          }
+        });
+        
+        if (badgesChanged) {
+          localStorage.setItem('game_badges', JSON.stringify(localBadges));
+          console.log("Đã đồng bộ huy hiệu từ Đám mây về máy!");
+        }
       }
     })
     .catch(e => console.log('Không thể tải từ Sheets, dùng data mặc định.', e))
@@ -280,24 +314,39 @@ const App = () => {
       </div>
       
       {/* TÍNH NĂNG MỚI: ĐÈN BÁO ĐỒNG BỘ ĐÁM MÂY (PHASE 4) */}
-      <div style={{
-        position: 'fixed', bottom: '15px', right: '15px', zIndex: 9999,
-        background: 'rgba(10, 15, 30, 0.7)', padding: '6px 14px', borderRadius: '20px',
-        display: 'flex', alignItems: 'center', gap: '8px', fontSize: '0.85rem', color: 'white',
-        backdropFilter: 'blur(5px)', border: '1px solid rgba(255,255,255,0.1)',
-        boxShadow: '0 4px 15px rgba(0,0,0,0.3)',
-        transition: 'all 0.3s ease'
-      }}>
+      <div 
+        title={
+          !syncState.isOnline ? `Ngoại tuyến (Chờ ${syncState.pending})` : 
+          syncState.isSyncing ? "Đang đẩy lên mây..." : 
+          syncState.pending > 0 ? `Đợi đồng bộ (${syncState.pending})` : 
+          "Đã lưu trên mây"
+        }
+        style={{
+          position: 'fixed', bottom: '15px', left: '15px', zIndex: 9999,
+          background: 'rgba(10, 15, 30, 0.7)', padding: '10px', borderRadius: '50%',
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+          backdropFilter: 'blur(5px)', border: '1px solid rgba(255,255,255,0.1)',
+          boxShadow: '0 4px 15px rgba(0,0,0,0.3)',
+          transition: 'all 0.3s ease',
+          width: '40px', height: '40px'
+        }}
+      >
         {syncState.isOnline ? (
           syncState.isSyncing ? (
-            <><Icons.RefreshCw size={15} color="#00d2ff" style={{ animation: 'spin 1s linear infinite' }} /> Đang đẩy lên mây...</>
+            <Icons.RefreshCw size={20} color="#00d2ff" style={{ animation: 'spin 1s linear infinite' }} />
           ) : syncState.pending > 0 ? (
-            <><Icons.Cloud size={15} color="#ffcc00" /> Đợi đồng bộ ({syncState.pending})</>
+            <div style={{ position: 'relative' }}>
+              <Icons.Cloud size={20} color="#ffcc00" />
+              <span style={{ position: 'absolute', top: '-5px', right: '-8px', background: '#ff0055', fontSize: '0.6rem', padding: '2px 4px', borderRadius: '10px', fontWeight: 'bold' }}>{syncState.pending}</span>
+            </div>
           ) : (
-            <><Icons.Cloud size={15} color="#10b981" /> Đã lưu trên mây</>
+            <Icons.Cloud size={20} color="#10b981" />
           )
         ) : (
-          <><Icons.WifiOff size={15} color="#ff0055" /> Không có mạng (Chờ {syncState.pending})</>
+          <div style={{ position: 'relative' }}>
+            <Icons.WifiOff size={20} color="#ff0055" />
+            {syncState.pending > 0 && <span style={{ position: 'absolute', top: '-5px', right: '-8px', background: '#ffcc00', color: '#000', fontSize: '0.6rem', padding: '2px 4px', borderRadius: '10px', fontWeight: 'bold' }}>{syncState.pending}</span>}
+          </div>
         )}
       </div>
       <style>{`
