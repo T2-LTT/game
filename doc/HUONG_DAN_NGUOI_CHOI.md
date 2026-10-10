@@ -3,14 +3,14 @@
 Chào mừng bạn và các bé đến với **Hành Trình Vũ Trụ** - Game giáo dục vừa học vừa chơi dành riêng cho hai bé:
 - 👦 **Tân Binh:** Tuấn Kiệt (3 tuổi - Mầm non)
 - 👧 **Chỉ Huy:** Bảo Nhi (8 tuổi - Tiểu học)
-- 🌐 **Đường link chơi trực tiếp:** [https://tanthiluong.netlify.app](https://tanthiluong.netlify.app)
+- 🌐 **Đường link chơi trực tiếp:** [https://tanthiluong.vercel.app/](https://tanthiluong.vercel.app/)
 
 ---
 
 ## 🎮 1. HƯỚNG DẪN DÀNH CHO NGƯỜI CHƠI
 
 ### 📱 1. Cách chơi trên Điện thoại / iPad / Máy tính:
-1. Truy cập đường link [https://tanthiluong.netlify.app](https://tanthiluong.netlify.app).
+1. Truy cập đường link [https://tanthiluong.vercel.app/](https://tanthiluong.vercel.app/).
 2. **Tại Giao diện chính (Menu):**
    - Bấm chọn **Tân Binh Tuấn Kiệt** hoặc **Chỉ Huy Bảo Nhi** để vào màn chơi phù hợp với độ tuổi.
 3. **Thanh công cụ ở góc trên màn hình:**
