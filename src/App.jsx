@@ -14,7 +14,7 @@ import * as Icons from 'lucide-react';
 import { toggleBGM, unlockAudioOnFirstTouch, isBGMPlaying } from './utils/audio';
 import playersData from '../data/players.json';
 import gamesData from '../data/games.json';
-import { getGameData, saveGameData } from './utils/jsonStorage';
+import { getGameData, saveGameData, startSyncWorker } from './utils/jsonStorage';
 
 const App = () => {
   const [currentScreen, setCurrentScreen] = useState('selectPlayer'); // selectPlayer, playerMenu, game, parent, badges
@@ -29,6 +29,7 @@ const App = () => {
 
   useEffect(() => {
     unlockAudioOnFirstTouch();
+    startSyncWorker(); // Kích hoạt Sync Worker chạy ngầm
     
     const envParam = import.meta.env.DEV ? '?env=dev' : '';
     

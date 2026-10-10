@@ -1,5 +1,99 @@
 // Default empty structure
 const STORAGE_KEY = 'game_space_data_v1';
+const SYNC_QUEUE_KEY = 'game_sync_queue';
+const GOOGLE_APP_URL = 'https://script.google.com/macros/s/AKfycbwrFmv40bnFCUOfpwGw3OVp-6mUiNhXinuHgoDicwvP3QQgbtHS8Gu3dBWlEjyTln1RRA/exec';
+
+// Hàm tạo GUID chuẩn YYYYMMDDHHMMSS-RND
+export const generateGUID = () => {
+  const now = new Date();
+  const pad = (n) => String(n).padStart(2, '0');
+  const timestamp = `${now.getFullYear()}${pad(now.getMonth()+1)}${pad(now.getDate())}${pad(now.getHours())}${pad(now.getMinutes())}${pad(now.getSeconds())}`;
+  const randomStr = Math.random().toString(36).substring(2, 7);
+  return `${timestamp}-${randomStr}`;
+};
+
+// Hàm đẩy vào hàng đợi đồng bộ
+export const pushToSyncQueue = (payload) => {
+  try {
+    const rawQueue = localStorage.getItem(SYNC_QUEUE_KEY);
+    const queue = rawQueue ? JSON.parse(rawQueue) : [];
+    
+    // Luôn nhét GUID vào payload nếu chưa có
+    if (!payload.guid) {
+      payload.guid = generateGUID();
+    }
+    
+    queue.push({
+      ...payload,
+      status: 'pending',
+      queuedAt: new Date().toISOString()
+    });
+    
+    localStorage.setItem(SYNC_QUEUE_KEY, JSON.stringify(queue));
+    
+    // Thử đồng bộ ngay nếu đang có mạng
+    if (navigator.onLine) {
+      processSyncQueue();
+    }
+  } catch (e) {
+    console.error("Lỗi thêm vào hàng đợi:", e);
+  }
+};
+
+// Cờ kiểm tra đang đồng bộ tránh trùng lặp
+let isSyncing = false;
+
+// Hàm xử lý hàng đợi
+export const processSyncQueue = async () => {
+  if (!navigator.onLine || isSyncing) return;
+  
+  const rawQueue = localStorage.getItem(SYNC_QUEUE_KEY);
+  if (!rawQueue) return;
+  
+  const queue = JSON.parse(rawQueue);
+  if (queue.length === 0) return;
+  
+  isSyncing = true;
+  console.log(`Bắt đầu đồng bộ ${queue.length} bản ghi lên Google Sheets...`);
+  
+  try {
+    const envValue = import.meta.env.DEV ? 'dev' : 'prod';
+    
+    // Gửi bulk_sync
+    const response = await fetch(GOOGLE_APP_URL, {
+      method: 'POST',
+      mode: 'no-cors', // Lưu ý: no-cors không đọc được response trả về
+      headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+      body: JSON.stringify({ 
+        type: 'bulk_sync', 
+        env: envValue,
+        data: queue 
+      })
+    });
+    
+    // Vì mode no-cors luôn successful nếu mạng OK, ta giả định là đã gửi thành công
+    console.log("Đã gửi đồng bộ thành công!");
+    localStorage.removeItem(SYNC_QUEUE_KEY); // Xóa hàng đợi
+  } catch (e) {
+    console.error('Lỗi khi đồng bộ hàng đợi:', e);
+  } finally {
+    isSyncing = false;
+  }
+};
+
+// Kích hoạt worker chạy ngầm
+export const startSyncWorker = () => {
+  // Lắng nghe sự kiện có mạng lại
+  window.addEventListener('online', () => {
+    console.log("Đã có kết nối mạng, tiến hành đồng bộ dữ liệu...");
+    processSyncQueue();
+  });
+  
+  // Chạy ngầm định kỳ mỗi 30 giây để bắt những trường hợp kẹt
+  setInterval(() => {
+    processSyncQueue();
+  }, 30000);
+};
 
 // Lấy toàn bộ dữ liệu game (từ localStorage hoặc JSON khởi tạo)
 export const getGameData = () => {
@@ -52,7 +146,7 @@ export const logAttempt = (playerId, gameName, questionText, isCorrect, userAns 
   const timeString = `${now.toLocaleDateString('vi-VN')} ${now.toLocaleTimeString('vi-VN')}`;
 
   const logItem = {
-    id: Date.now().toString(),
+    id: generateGUID(),
     timestamp: timeString,
     gameName,
     questionText,
@@ -70,26 +164,19 @@ export const logAttempt = (playerId, gameName, questionText, isCorrect, userAns 
   currentData.players[playerId] = player;
   saveGameData(currentData);
 
-  // Đẩy lên Google Sheets
-  const GOOGLE_APP_URL = 'https://script.google.com/macros/s/AKfycbwrFmv40bnFCUOfpwGw3OVp-6mUiNhXinuHgoDicwvP3QQgbtHS8Gu3dBWlEjyTln1RRA/exec';
+  // Đẩy vào hàng đợi thay vì gọi fetch trực tiếp
   const envValue = import.meta.env.DEV ? 'dev' : 'prod';
-  
-  fetch(GOOGLE_APP_URL, {
-    method: 'POST',
-    mode: 'no-cors',
-    headers: { 'Content-Type': 'text/plain;charset=utf-8' },
-    body: JSON.stringify({ 
-      env: envValue, 
-      playerId, 
-      gameName, 
-      action: 'Nhật ký làm bài', 
-      score: 0,
-      question: questionText,
-      userAns: String(userAns),
-      correctAns: String(correctAns),
-      isCorrect: isCorrect
-    })
-  }).catch(e => console.error('Lỗi đẩy Google Sheets:', e));
+  pushToSyncQueue({
+    env: envValue, 
+    playerId, 
+    gameName, 
+    action: 'Nhật ký làm bài', 
+    score: 0,
+    question: questionText,
+    userAns: String(userAns),
+    correctAns: String(correctAns),
+    isCorrect: isCorrect
+  });
 };
 
 // Cập nhật điểm & huy hiệu cho bé
@@ -123,15 +210,14 @@ export const updatePlayerStats = (playerId, scoreDelta, newBadge = null) => {
   saveGameData(currentData);
 
   if (scoreDelta > 0) {
-    const GOOGLE_APP_URL = 'https://script.google.com/macros/s/AKfycbwrFmv40bnFCUOfpwGw3OVp-6mUiNhXinuHgoDicwvP3QQgbtHS8Gu3dBWlEjyTln1RRA/exec';
     const envValue = import.meta.env.DEV ? 'dev' : 'prod';
-    
-    fetch(GOOGLE_APP_URL, {
-      method: 'POST',
-      mode: 'no-cors',
-      headers: { 'Content-Type': 'text/plain;charset=utf-8' },
-      body: JSON.stringify({ env: envValue, playerId, gameName: 'Hệ Thống', action: `Nhận điểm thưởng`, score: scoreDelta })
-    }).catch(e => console.error('Lỗi đẩy Google Sheets:', e));
+    pushToSyncQueue({ 
+      env: envValue, 
+      playerId, 
+      gameName: 'Hệ Thống', 
+      action: `Nhận điểm thưởng`, 
+      score: scoreDelta 
+    });
   }
 
   return player;
