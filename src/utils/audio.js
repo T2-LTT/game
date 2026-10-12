@@ -4,8 +4,7 @@ let isAudioUnlocked = false;
 
 // Danh sách URL nhạc nền dự phòng đảm bảo luôn chạy
 const BGM_URLS = [
-  'https://upload.wikimedia.org/wikipedia/commons/4/4b/Kevin_MacLeod_-_Carefree.ogg',
-  'https://upload.wikimedia.org/wikipedia/commons/d/d4/Kevin_MacLeod_-_Monkeys_Spinning_Monkeys.ogg'
+  '/audio/bgm.mp3'
 ];
 
 let currentBgmIndex = 0;

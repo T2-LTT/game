@@ -10,5 +10,6 @@
   { "id": "whackamole", "name": "Đập Chuột", "minAge": 0, "maxAge": 99, "component": "WhackAMole", "icon": "MousePointer2", "color": "#ff6b6b" },
   { "id": "catchfish", "name": "Bắt Cá", "minAge": 0, "maxAge": 99, "component": "CatchFishGame", "icon": "Fish", "color": "#4ade80" },
   { "id": "drawing", "name": "Xưởng Họa Sĩ", "minAge": 0, "maxAge": 99, "component": "DrawingGame", "icon": "PenTool", "color": "#ff9900" },
-  { "id": "piano", "name": "Bé Đánh Đàn", "minAge": 0, "maxAge": 99, "component": "PianoGame", "icon": "Music", "color": "var(--neon-purple)" }
+  { "id": "piano", "name": "Bé Đánh Đàn", "minAge": 0, "maxAge": 99, "component": "PianoGame", "icon": "Music", "color": "var(--neon-purple)" },
+  { "id": "story", "name": "Kể Truyện", "minAge": 0, "maxAge": 99, "component": "StoryTime", "icon": "BookOpen", "color": "#ff9a9e" }
 ]

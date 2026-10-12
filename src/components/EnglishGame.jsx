@@ -49,7 +49,10 @@ const EnglishGame = ({ onBack, player = 'nhi', playerName = 'Bảo Nhi', playerA
   };
 
   const handleNextWord = () => {
-    const nextIdx = (currentIndex + 1) % VOCAB_LIST.length;
+    let nextIdx;
+    do {
+      nextIdx = Math.floor(Math.random() * VOCAB_LIST.length);
+    } while (nextIdx === currentIndex && VOCAB_LIST.length > 1);
     setCurrentIndex(nextIdx);
   };
 

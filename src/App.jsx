@@ -10,6 +10,7 @@ import ParentDashboard from './components/ParentDashboard';
 import WhackAMole from './components/WhackAMole';
 import DrawingGame from './components/DrawingGame';
 import PianoGame from './components/PianoGame';
+import StoryTime from './components/StoryTime';
 import * as Icons from 'lucide-react';
 import { toggleBGM, unlockAudioOnFirstTouch, isBGMPlaying } from './utils/audio';
 import playersData from '../data/players.json';
@@ -85,13 +86,53 @@ const App = () => {
         // Merge với local storage để lấy số lớn nhất và lưu lại
         const localData = getGameData();
         const mergedScores = {};
-        const allPlayers = Array.isArray(playersDataArray) ? playersDataArray : playersList;
+        const allPlayers = (Array.isArray(playersDataArray) && playersDataArray.length > 0) ? playersDataArray : playersList;
         let needsSave = false;
+
+        // Phân loại logs từ Google Sheets theo ID nhân vật
+        const remoteLogsByPlayer = {};
+        for (let i = 1; i < logsDataArray.length; i++) {
+          const row = logsDataArray[i];
+          const pid = row[1];
+          if (!pid) continue;
+          
+          if (!remoteLogsByPlayer[pid]) remoteLogsByPlayer[pid] = [];
+          
+          remoteLogsByPlayer[pid].push({
+            timestamp: row[0],
+            playerId: pid,
+            gameName: row[2],
+            action: row[3],
+            score: parseInt(row[4], 10) || 0,
+            question: row[5],
+            userAnswer: row[6],
+            correctAnswer: row[7],
+            isCorrect: row[8] === 'Đúng',
+            guid: row[9] || `${row[0]}-${pid}` // Fallback cho log cũ không có guid
+          });
+        }
 
         allPlayers.forEach(p => {
           if (!localData.players[p.id]) {
-            localData.players[p.id] = { summary: { totalScore: 0 } };
+            localData.players[p.id] = { summary: { totalScore: 0 }, logs: [] };
           }
+          if (!localData.players[p.id].logs) {
+            localData.players[p.id].logs = [];
+          }
+
+          // Trộn Logs từ mây về máy
+          const localLogs = localData.players[p.id].logs;
+          const localGuids = new Set(localLogs.map(l => l.guid).filter(Boolean));
+          const remoteLogs = remoteLogsByPlayer[p.id] || [];
+          
+          remoteLogs.forEach(rLog => {
+            if (rLog.guid && !localGuids.has(rLog.guid) && rLog.action === 'Nhật ký làm bài') {
+              localLogs.push(rLog);
+              localGuids.add(rLog.guid);
+              needsSave = true;
+            }
+          });
+
           const localScore = localData.players[p.id]?.summary?.totalScore || 0;
           const remoteScore = onlineScores[p.id] || 0;
           const maxScore = Math.max(localScore, remoteScore);
@@ -302,6 +343,7 @@ const App = () => {
             case 'CatchFishGame': return <CatchFishGame {...props} />;
             case 'DrawingGame': return <DrawingGame {...props} />;
             case 'PianoGame': return <PianoGame {...props} />;
+            case 'StoryTime': return <StoryTime {...props} />;
             default: return null;
           }
         })()}
@@ -310,7 +352,7 @@ const App = () => {
         {currentScreen === 'parent' && <ParentDashboard onBack={() => setCurrentScreen('selectPlayer')} playersData={playersList} />}
         
         {/* MÀN HÌNH 5: BỘ SƯU TẬP HUY HIỆU */}
-        {currentScreen === 'badges' && <BadgesPanel player={activePlayer?.id} onBack={() => setCurrentScreen(activePlayer ? 'playerMenu' : 'selectPlayer')} />}
+        {currentScreen === 'badges' && <BadgesPanel player={activePlayer?.id} players={playersList} onBack={() => setCurrentScreen(activePlayer ? 'playerMenu' : 'selectPlayer')} />}
       </div>
       
       {/* TÍNH NĂNG MỚI: ĐÈN BÁO ĐỒNG BỘ ĐÁM MÂY (PHASE 4) */}

@@ -59,8 +59,6 @@ export const processSyncQueue = async () => {
   isSyncing = true;
   window.dispatchEvent(new Event('sync_started')); // Báo cho UI biết đang bắt đầu đồng bộ
   
-  console.log(`Bắt đầu đồng bộ ${queue.length} bản ghi lên Google Sheets...`);
-  
   try {
     const envValue = import.meta.env.DEV ? 'dev' : 'prod';
     
@@ -76,9 +74,21 @@ export const processSyncQueue = async () => {
       })
     });
     
-    // Vì mode no-cors luôn successful nếu mạng OK, ta giả định là đã gửi thành công
-    console.log("Đã gửi đồng bộ thành công!");
-    localStorage.removeItem(SYNC_QUEUE_KEY); // Xóa hàng đợi
+    // Khắc phục lỗi Race Condition: Chỉ xóa những record đã được gửi đi
+    const currentQueueRaw = localStorage.getItem(SYNC_QUEUE_KEY);
+    if (currentQueueRaw) {
+      const currentQueue = JSON.parse(currentQueueRaw);
+      const sentGuids = queue.map(q => q.guid);
+      const newQueue = currentQueue.filter(item => !sentGuids.includes(item.guid));
+      
+      if (newQueue.length === 0) {
+        localStorage.removeItem(SYNC_QUEUE_KEY);
+      } else {
+        localStorage.setItem(SYNC_QUEUE_KEY, JSON.stringify(newQueue));
+        setTimeout(processSyncQueue, 1000); // Gửi tiếp phần còn lại
+      }
+    }
+    
     window.dispatchEvent(new Event('sync_queue_updated')); // Báo cho UI cập nhật
   } catch (e) {
     console.error('Lỗi khi đồng bộ hàng đợi:', e);

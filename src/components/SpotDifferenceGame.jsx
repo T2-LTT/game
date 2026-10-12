@@ -63,7 +63,10 @@ const SpotDifferenceGame = ({ player = 'nhi', onBack }) => {
   };
 
   const nextScene = () => {
-    const nextIdx = (sceneIndex + 1) % SCENES.length;
+    let nextIdx;
+    do {
+      nextIdx = Math.floor(Math.random() * SCENES.length);
+    } while (nextIdx === sceneIndex && SCENES.length > 1);
     setSceneIndex(nextIdx);
   };
 

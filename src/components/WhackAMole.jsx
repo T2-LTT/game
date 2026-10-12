@@ -19,17 +19,19 @@ const WhackAMole = ({ onBack, player = 'kiet', playerName }) => {
   const [timeLeft, setTimeLeft] = useState(30);
   const [activeHole, setActiveHole] = useState(null);
   const [hitHole, setHitHole] = useState(null);
+  const [speed, setSpeed] = useState('slow'); // 'slow', 'normal', 'fast'
 
   useEffect(() => {
     let moleInterval;
     let timerInterval;
 
     if (isPlaying && timeLeft > 0) {
+      const speedMs = speed === 'slow' ? 1200 : speed === 'normal' ? 800 : 500;
       moleInterval = setInterval(() => {
         const randomHole = Math.floor(Math.random() * 9);
         setActiveHole(randomHole);
         setHitHole(null); // Reset hit state
-      }, 500);
+      }, speedMs);
 
       timerInterval = setInterval(() => {
         setTimeLeft((prev) => prev - 1);
@@ -97,9 +99,34 @@ const WhackAMole = ({ onBack, player = 'kiet', playerName }) => {
         </h1>
 
         {!isPlaying && timeLeft === 30 && (
-          <button className="glass-button btn-primary" onClick={startGame} style={{ fontSize: '1.5rem', padding: '15px 40px', display: 'flex', alignItems: 'center', gap: '10px' }}>
-            <Play size={24} /> Bắt đầu chơi
-          </button>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '20px' }}>
+            <div style={{ display: 'flex', gap: '10px', background: 'rgba(255,255,255,0.1)', padding: '10px', borderRadius: '15px' }}>
+              <button 
+                className={`glass-button ${speed === 'slow' ? 'btn-primary' : ''}`} 
+                onClick={() => setSpeed('slow')}
+                style={{ padding: '8px 16px' }}
+              >
+                Chậm 🐢
+              </button>
+              <button 
+                className={`glass-button ${speed === 'normal' ? 'btn-primary' : ''}`} 
+                onClick={() => setSpeed('normal')}
+                style={{ padding: '8px 16px' }}
+              >
+                Vừa 🚶
+              </button>
+              <button 
+                className={`glass-button ${speed === 'fast' ? 'btn-primary' : ''}`} 
+                onClick={() => setSpeed('fast')}
+                style={{ padding: '8px 16px' }}
+              >
+                Nhanh ⚡
+              </button>
+            </div>
+            <button className="glass-button btn-primary" onClick={startGame} style={{ fontSize: '1.5rem', padding: '15px 40px', display: 'flex', alignItems: 'center', gap: '10px' }}>
+              <Play size={24} /> Bắt đầu chơi
+            </button>
+          </div>
         )}
 
         {!isPlaying && timeLeft === 0 && (

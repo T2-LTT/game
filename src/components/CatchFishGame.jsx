@@ -21,6 +21,7 @@ const CatchFishGame = ({ onBack, player = 'kiet', playerName }) => {
   const [score, setScore] = useState(0);
   const [timeLeft, setTimeLeft] = useState(45);
   const [entities, setEntities] = useState([]);
+  const [speed, setSpeed] = useState('slow'); // 'slow', 'normal', 'fast'
   
   const nextId = useRef(0);
 
@@ -38,7 +39,10 @@ const CatchFishGame = ({ onBack, player = 'kiet', playerName }) => {
           const isJellyfish = Math.random() > 0.75; // 25% cơ hội sinh sứa
           const type = isJellyfish ? JELLYFISH : FISH_TYPES[Math.floor(Math.random() * FISH_TYPES.length)];
           const direction = Math.random() > 0.5 ? 1 : -1; // 1: trái sang phải, -1: phải sang trái
-          const duration = Math.random() * 3 + 1.5; // 1.5 - 4.5 giây bơi (nhanh hơn)
+          
+          let durationBase = speed === 'slow' ? 3 : speed === 'normal' ? 2 : 1;
+          const duration = Math.random() * 3 + durationBase; // Slow: 3-6s, Normal: 2-5s, Fast: 1-4s
+          
           const top = Math.random() * 70 + 10; // 10% - 80% chiều cao
           
           newEntities.push({
@@ -55,7 +59,7 @@ const CatchFishGame = ({ onBack, player = 'kiet', playerName }) => {
         
         // Tự động dọn dẹp (xóa) những con vật cũ để tránh phình to mảng
         setEntities(prev => prev.filter(e => e.id > nextId.current - 15)); 
-      }, 700);
+      }, speed === 'slow' ? 1200 : speed === 'normal' ? 800 : 500);
 
       timerInterval = setInterval(() => {
         setTimeLeft((prev) => prev - 1);
@@ -169,10 +173,35 @@ const CatchFishGame = ({ onBack, player = 'kiet', playerName }) => {
         </h1>
 
         {!isPlaying && timeLeft === 45 && (
-          <div style={{ zIndex: 10, textAlign: 'center' }}>
-             <p style={{ color: 'white', fontSize: '1.2rem', marginBottom: '20px', fontWeight: 'bold' }}>
+          <div style={{ zIndex: 10, textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '20px' }}>
+             <p style={{ color: 'white', fontSize: '1.2rem', marginBottom: '10px', fontWeight: 'bold' }}>
                Cá 🐟: +1 điểm | Sứa 🪼: Trừ 1 điểm
              </p>
+             
+             <div style={{ display: 'flex', gap: '10px', background: 'rgba(255,255,255,0.1)', padding: '10px', borderRadius: '15px' }}>
+              <button 
+                className={`glass-button ${speed === 'slow' ? 'btn-primary' : ''}`} 
+                onClick={() => setSpeed('slow')}
+                style={{ padding: '8px 16px' }}
+              >
+                Chậm 🐢
+              </button>
+              <button 
+                className={`glass-button ${speed === 'normal' ? 'btn-primary' : ''}`} 
+                onClick={() => setSpeed('normal')}
+                style={{ padding: '8px 16px' }}
+              >
+                Vừa 🚶
+              </button>
+              <button 
+                className={`glass-button ${speed === 'fast' ? 'btn-primary' : ''}`} 
+                onClick={() => setSpeed('fast')}
+                style={{ padding: '8px 16px' }}
+              >
+                Nhanh ⚡
+              </button>
+            </div>
+
             <button className="glass-button btn-primary" onClick={startGame} style={{ fontSize: '1.5rem', padding: '15px 40px', display: 'flex', alignItems: 'center', gap: '10px', margin: '0 auto' }}>
               <Play size={24} /> Bắt đầu chơi
             </button>

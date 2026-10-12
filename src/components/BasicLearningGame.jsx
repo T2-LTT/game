@@ -69,7 +69,11 @@ const BasicLearningGame = ({ onBack, player = 'kiet', playerName, playerAvatar =
 
     const newOptions = getRandomItems(data, 3);
     setOptions(newOptions);
-    const target = newOptions[Math.floor(Math.random() * newOptions.length)];
+    
+    let target;
+    do {
+      target = newOptions[Math.floor(Math.random() * newOptions.length)];
+    } while (targetItem && target.name === targetItem.name && data.length > 3);
     setTargetItem(target);
 
     let questionText = `${playerName} ơi, hãy tìm ${target.name} nhé!`;
