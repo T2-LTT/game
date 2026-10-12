@@ -3,7 +3,7 @@ import React, { useMemo } from 'react';
 const StarBackground = () => {
   // Generate random stars once
   const stars = useMemo(() => {
-    return Array.from({ length: 50 }).map(() => ({
+    return Array.from({ length: 30 }).map(() => ({
       left: `${Math.random() * 100}%`,
       top: `${Math.random() * 100}%`,
       size: `${Math.random() * 3 + 1}px`,
@@ -18,7 +18,7 @@ const StarBackground = () => {
         {`
           @keyframes twinkle {
             0%, 100% { opacity: 0.2; transform: scale(0.8); }
-            50% { opacity: 1; transform: scale(1.2); box-shadow: 0 0 10px white; }
+            50% { opacity: 1; transform: scale(1.2); }
           }
           @keyframes floatCloud {
             0% { transform: translateX(100vw); }
@@ -70,7 +70,8 @@ const StarBackground = () => {
               background: '#ffffff',
               borderRadius: '50%',
               animation: `twinkle ${star.duration} infinite ease-in-out`,
-              animationDelay: star.delay
+              animationDelay: star.delay,
+              willChange: 'opacity, transform'
             }}
           />
         ))}
