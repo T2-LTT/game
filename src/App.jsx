@@ -10,6 +10,13 @@ import WhackAMole from './components/WhackAMole';
 import DrawingGame from './components/DrawingGame';
 import PianoGame from './components/PianoGame';
 import StoryTime from './components/StoryTime';
+import ShadowMatchingGame from './components/ShadowMatchingGame';
+import BalloonPopGame from './components/BalloonPopGame';
+import MultiplicationRacingGame from './components/MultiplicationRacingGame';
+import WordChainGame from './components/WordChainGame';
+import RobotCodingGame from './components/RobotCodingGame';
+import SupermarketCashierGame from './components/SupermarketCashierGame';
+import WorldExplorerGame from './components/WorldExplorerGame';
 import * as Icons from 'lucide-react';
 import { toggleBGM, unlockAudioOnFirstTouch, isBGMPlaying } from './utils/audio';
 import playersData from '../data/players.json';
@@ -302,22 +309,38 @@ const App = () => {
             </div>
 
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '20px', width: '100%', maxWidth: '900px' }}>
-              {gamesData.filter(g => (currentYear - activePlayer.yearOfBirth) >= g.minAge).map((game, idx) => {
-                const IconComponent = Icons[game.icon] || Icons.Gamepad2;
-                return (
-                  <div 
-                    key={game.id || `game-${idx}`}
-                    className="glass-panel floating" 
-                    style={{ animationDelay: `${idx * 0.1}s`, padding: '30px 10px', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', cursor: 'pointer' }} 
-                    onClick={() => openGame(game)}
-                  >
-                    <div style={{ background: game.color, borderRadius: '50%', padding: '20px', marginBottom: '15px' }}>
-                      {IconComponent && <IconComponent size={48} color="white" />}
+              {[...gamesData]
+                .filter(g => (currentYear - activePlayer.yearOfBirth) >= g.minAge)
+                .sort((a, b) => (a.ageOrder || 0) - (b.ageOrder || 0))
+                .map((game, idx) => {
+                  const IconComponent = Icons[game.icon] || Icons.Gamepad2;
+                  return (
+                    <div 
+                      key={game.id || `game-${idx}`}
+                      className="glass-panel floating" 
+                      style={{ animationDelay: `${idx * 0.08}s`, padding: '25px 10px', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', cursor: 'pointer' }} 
+                      onClick={() => openGame(game)}
+                    >
+                      <div style={{ background: game.color, borderRadius: '50%', padding: '20px', marginBottom: '12px' }}>
+                        {IconComponent && <IconComponent size={48} color="white" />}
+                      </div>
+                      <h2 style={{ fontSize: '1.4rem', marginBottom: '8px' }}>{game.name}</h2>
+                      {game.ageLabel && (
+                        <span style={{ 
+                          fontSize: '0.85rem', 
+                          background: 'rgba(255, 255, 255, 0.1)', 
+                          border: '1px solid rgba(255, 255, 255, 0.15)',
+                          padding: '3px 12px', 
+                          borderRadius: '12px', 
+                          color: '#00d2ff',
+                          fontWeight: 'bold'
+                        }}>
+                          {game.ageLabel}
+                        </span>
+                      )}
                     </div>
-                    <h2 style={{ fontSize: '1.5rem', marginBottom: '10px' }}>{game.name}</h2>
-                  </div>
-                )
-              })}
+                  );
+                })}
             </div>
           </div>
         )}
@@ -342,6 +365,13 @@ const App = () => {
             case 'DrawingGame': return <DrawingGame {...props} />;
             case 'PianoGame': return <PianoGame {...props} />;
             case 'StoryTime': return <StoryTime {...props} />;
+            case 'ShadowMatchingGame': return <ShadowMatchingGame {...props} />;
+            case 'BalloonPopGame': return <BalloonPopGame {...props} />;
+            case 'MultiplicationRacingGame': return <MultiplicationRacingGame {...props} />;
+            case 'WordChainGame': return <WordChainGame {...props} />;
+            case 'RobotCodingGame': return <RobotCodingGame {...props} />;
+            case 'SupermarketCashierGame': return <SupermarketCashierGame {...props} />;
+            case 'WorldExplorerGame': return <WorldExplorerGame {...props} />;
             default: return null;
           }
         })()}

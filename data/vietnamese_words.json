@@ -1,0 +1,650 @@
+[
+  {
+    "first": "Mặt",
+    "second": "Trời"
+  },
+  {
+    "first": "Trời",
+    "second": "Mưa"
+  },
+  {
+    "first": "Trời",
+    "second": "Xanh"
+  },
+  {
+    "first": "Trời",
+    "second": "Nắng"
+  },
+  {
+    "first": "Trời",
+    "second": "Đất"
+  },
+  {
+    "first": "Mưa",
+    "second": "Rào"
+  },
+  {
+    "first": "Mưa",
+    "second": "Phùn"
+  },
+  {
+    "first": "Mưa",
+    "second": "Bão"
+  },
+  {
+    "first": "Mưa",
+    "second": "To"
+  },
+  {
+    "first": "Rào",
+    "second": "Chắn"
+  },
+  {
+    "first": "Chắn",
+    "second": "Gió"
+  },
+  {
+    "first": "Gió",
+    "second": "Mát"
+  },
+  {
+    "first": "Mát",
+    "second": "Mẻ"
+  },
+  {
+    "first": "Mẻ",
+    "second": "Bánh"
+  },
+  {
+    "first": "Bão",
+    "second": "Táp"
+  },
+  {
+    "first": "Bão",
+    "second": "Bùng"
+  },
+  {
+    "first": "Nắng",
+    "second": "Ấm"
+  },
+  {
+    "first": "Ấm",
+    "second": "Áp"
+  },
+  {
+    "first": "Áp",
+    "second": "Lực"
+  },
+  {
+    "first": "Mặt",
+    "second": "Trăng"
+  },
+  {
+    "first": "Trăng",
+    "second": "Rằm"
+  },
+  {
+    "first": "Trăng",
+    "second": "Sáng"
+  },
+  {
+    "first": "Trăng",
+    "second": "Non"
+  },
+  {
+    "first": "Sáng",
+    "second": "Tạo"
+  },
+  {
+    "first": "Tạo",
+    "second": "Dựng"
+  },
+  {
+    "first": "Bông",
+    "second": "Hoa"
+  },
+  {
+    "first": "Hoa",
+    "second": "Hồng"
+  },
+  {
+    "first": "Hoa",
+    "second": "Mai"
+  },
+  {
+    "first": "Hoa",
+    "second": "Đào"
+  },
+  {
+    "first": "Hoa",
+    "second": "Sen"
+  },
+  {
+    "first": "Hoa",
+    "second": "Cúc"
+  },
+  {
+    "first": "Hoa",
+    "second": "Quả"
+  },
+  {
+    "first": "Hồng",
+    "second": "Hào"
+  },
+  {
+    "first": "Hào",
+    "second": "Hứng"
+  },
+  {
+    "first": "Hứng",
+    "second": "Thú"
+  },
+  {
+    "first": "Thú",
+    "second": "Vị"
+  },
+  {
+    "first": "Vị",
+    "second": "Giác"
+  },
+  {
+    "first": "Sen",
+    "second": "Đá"
+  },
+  {
+    "first": "Đá",
+    "second": "Bóng"
+  },
+  {
+    "first": "Đá",
+    "second": "Quý"
+  },
+  {
+    "first": "Đá",
+    "second": "Hoa"
+  },
+  {
+    "first": "Quý",
+    "second": "Giá"
+  },
+  {
+    "first": "Giá",
+    "second": "Trị"
+  },
+  {
+    "first": "Bóng",
+    "second": "Bay"
+  },
+  {
+    "first": "Bóng",
+    "second": "Đá"
+  },
+  {
+    "first": "Bóng",
+    "second": "Râm"
+  },
+  {
+    "first": "Bóng",
+    "second": "Đêm"
+  },
+  {
+    "first": "Bay",
+    "second": "Lượn"
+  },
+  {
+    "first": "Bay",
+    "second": "Bổng"
+  },
+  {
+    "first": "Lượn",
+    "second": "Lờ"
+  },
+  {
+    "first": "Râm",
+    "second": "Mát"
+  },
+  {
+    "first": "Đêm",
+    "second": "Khuya"
+  },
+  {
+    "first": "Trái",
+    "second": "Cây"
+  },
+  {
+    "first": "Trái",
+    "second": "Tim"
+  },
+  {
+    "first": "Tim",
+    "second": "Gan"
+  },
+  {
+    "first": "Cây",
+    "second": "Xanh"
+  },
+  {
+    "first": "Cây",
+    "second": "Cỏ"
+  },
+  {
+    "first": "Cây",
+    "second": "Cối"
+  },
+  {
+    "first": "Cây",
+    "second": "Đa"
+  },
+  {
+    "first": "Đa",
+    "second": "Dạng"
+  },
+  {
+    "first": "Cối",
+    "second": "Xay"
+  },
+  {
+    "first": "Xay",
+    "second": "Lúa"
+  },
+  {
+    "first": "Lúa",
+    "second": "Nước"
+  },
+  {
+    "first": "Lúa",
+    "second": "Mì"
+  },
+  {
+    "first": "Xanh",
+    "second": "Biếc"
+  },
+  {
+    "first": "Xanh",
+    "second": "Lam"
+  },
+  {
+    "first": "Xanh",
+    "second": "Tươi"
+  },
+  {
+    "first": "Tươi",
+    "second": "Tắn"
+  },
+  {
+    "first": "Tắn",
+    "second": "Tươi"
+  },
+  {
+    "first": "Sách",
+    "second": "Vở"
+  },
+  {
+    "first": "Vở",
+    "second": "Bài"
+  },
+  {
+    "first": "Vở",
+    "second": "Ghi"
+  },
+  {
+    "first": "Ghi",
+    "second": "Nhớ"
+  },
+  {
+    "first": "Nhớ",
+    "second": "Thương"
+  },
+  {
+    "first": "Bài",
+    "second": "Học"
+  },
+  {
+    "first": "Bài",
+    "second": "Tập"
+  },
+  {
+    "first": "Bài",
+    "second": "Ca"
+  },
+  {
+    "first": "Bài",
+    "second": "Thơ"
+  },
+  {
+    "first": "Học",
+    "second": "Sinh"
+  },
+  {
+    "first": "Học",
+    "second": "Tập"
+  },
+  {
+    "first": "Học",
+    "second": "Bài"
+  },
+  {
+    "first": "Học",
+    "second": "Hỏi"
+  },
+  {
+    "first": "Học",
+    "second": "Hành"
+  },
+  {
+    "first": "Hành",
+    "second": "Động"
+  },
+  {
+    "first": "Tập",
+    "second": "Vở"
+  },
+  {
+    "first": "Tập",
+    "second": "Thể"
+  },
+  {
+    "first": "Tập",
+    "second": "Làm"
+  },
+  {
+    "first": "Làm",
+    "second": "Việc"
+  },
+  {
+    "first": "Làm",
+    "second": "Quen"
+  },
+  {
+    "first": "Thể",
+    "second": "Dục"
+  },
+  {
+    "first": "Thể",
+    "second": "Thao"
+  },
+  {
+    "first": "Thao",
+    "second": "Trường"
+  },
+  {
+    "first": "Sinh",
+    "second": "Nhật"
+  },
+  {
+    "first": "Sinh",
+    "second": "Viên"
+  },
+  {
+    "first": "Sinh",
+    "second": "Hoạt"
+  },
+  {
+    "first": "Hoạt",
+    "second": "Bát"
+  },
+  {
+    "first": "Bát",
+    "second": "Ngát"
+  },
+  {
+    "first": "Nhật",
+    "second": "Ký"
+  },
+  {
+    "first": "Ký",
+    "second": "Tên"
+  },
+  {
+    "first": "Nhà",
+    "second": "Trường"
+  },
+  {
+    "first": "Nhà",
+    "second": "Cửa"
+  },
+  {
+    "first": "Cửa",
+    "second": "Sổ"
+  },
+  {
+    "first": "Trường",
+    "second": "Học"
+  },
+  {
+    "first": "Trường",
+    "second": "Lớp"
+  },
+  {
+    "first": "Lớp",
+    "second": "Học"
+  },
+  {
+    "first": "Thầy",
+    "second": "Giáo"
+  },
+  {
+    "first": "Cô",
+    "second": "Giáo"
+  },
+  {
+    "first": "Giáo",
+    "second": "Viên"
+  },
+  {
+    "first": "Giáo",
+    "second": "Án"
+  },
+  {
+    "first": "Giáo",
+    "second": "Dục"
+  },
+  {
+    "first": "Viên",
+    "second": "Phấn"
+  },
+  {
+    "first": "Phấn",
+    "second": "Trắng"
+  },
+  {
+    "first": "Trắng",
+    "second": "Tinh"
+  },
+  {
+    "first": "Tinh",
+    "second": "Nghịch"
+  },
+  {
+    "first": "Ca",
+    "second": "Sĩ"
+  },
+  {
+    "first": "Ca",
+    "second": "Hát"
+  },
+  {
+    "first": "Hát",
+    "second": "Ca"
+  },
+  {
+    "first": "Thơ",
+    "second": "Ca"
+  },
+  {
+    "first": "Con",
+    "second": "Cá"
+  },
+  {
+    "first": "Con",
+    "second": "Mèo"
+  },
+  {
+    "first": "Con",
+    "second": "Chó"
+  },
+  {
+    "first": "Con",
+    "second": "Voi"
+  },
+  {
+    "first": "Cá",
+    "second": "Heo"
+  },
+  {
+    "first": "Cá",
+    "second": "Voi"
+  },
+  {
+    "first": "Cá",
+    "second": "Vàng"
+  },
+  {
+    "first": "Cá",
+    "second": "Kiếm"
+  },
+  {
+    "first": "Heo",
+    "second": "Con"
+  },
+  {
+    "first": "Heo",
+    "second": "Đất"
+  },
+  {
+    "first": "Voi",
+    "second": "Con"
+  },
+  {
+    "first": "Mèo",
+    "second": "Con"
+  },
+  {
+    "first": "Chó",
+    "second": "Con"
+  },
+  {
+    "first": "Bạn",
+    "second": "Bè"
+  },
+  {
+    "first": "Bè",
+    "second": "Bạn"
+  },
+  {
+    "first": "Bạn",
+    "second": "Thân"
+  },
+  {
+    "first": "Thân",
+    "second": "Thiện"
+  },
+  {
+    "first": "Thiện",
+    "second": "Lành"
+  },
+  {
+    "first": "Lành",
+    "second": "Lặn"
+  },
+  {
+    "first": "Yêu",
+    "second": "Thương"
+  },
+  {
+    "first": "Thương",
+    "second": "Mến"
+  },
+  {
+    "first": "Thương",
+    "second": "Yêu"
+  },
+  {
+    "first": "Vui",
+    "second": "Vẻ"
+  },
+  {
+    "first": "Vẻ",
+    "second": "Đẹp"
+  },
+  {
+    "first": "Đẹp",
+    "second": "Đẽ"
+  },
+  {
+    "first": "Đẹp",
+    "second": "Xinh"
+  },
+  {
+    "first": "Xinh",
+    "second": "Đẹp"
+  },
+  {
+    "first": "Đất",
+    "second": "Nước"
+  },
+  {
+    "first": "Nước",
+    "second": "Ngọt"
+  },
+  {
+    "first": "Nước",
+    "second": "Suối"
+  },
+  {
+    "first": "Nước",
+    "second": "Biển"
+  },
+  {
+    "first": "Biển",
+    "second": "Cả"
+  },
+  {
+    "first": "Suối",
+    "second": "Nguồn"
+  },
+  {
+    "first": "Nguồn",
+    "second": "Gốc"
+  },
+  {
+    "first": "Ngọt",
+    "second": "Ngào"
+  },
+  {
+    "first": "Ngào",
+    "second": "Ngạt"
+  },
+  {
+    "first": "Chào",
+    "second": "Hỏi"
+  },
+  {
+    "first": "Hỏi",
+    "second": "Han"
+  },
+  {
+    "first": "Hỏi",
+    "second": "Bài"
+  },
+  {
+    "first": "Bình",
+    "second": "Minh"
+  },
+  {
+    "first": "Minh",
+    "second": "Bạch"
+  },
+  {
+    "first": "Tàu",
+    "second": "Hỏa"
+  },
+  {
+    "first": "Tàu",
+    "second": "Thủy"
+  },
+  {
+    "first": "Hỏa",
+    "second": "Tiễn"
+  }
+]

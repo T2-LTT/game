@@ -34,6 +34,55 @@
       "name": "Hiệp Sĩ Tiếng Anh Vũ Trụ",
       "emoji": "🇬🇧",
       "description": "Chinh phục từ vựng và ghép chữ Tiếng Anh"
+    },
+    {
+      "id": "shadow_detective",
+      "owner": "all",
+      "name": "Thám Tử Bóng Bí Ẩn",
+      "emoji": "👥",
+      "description": "Tìm và ghép đúng các chiếc bóng hình con vật và đồ vật"
+    },
+    {
+      "id": "balloon_champion",
+      "owner": "all",
+      "name": "Tay Nổ Bong Bóng Siêu Phàm",
+      "emoji": "🎈",
+      "description": "Phản xạ nhanh nhạy và làm nổ đúng các quả bóng nhiệm vụ"
+    },
+    {
+      "id": "racing_champion",
+      "owner": "all",
+      "name": "Tay Đua Bảng Cửu Chương",
+      "emoji": "🏎️",
+      "description": "Bứt tốc Nitro và chinh phục trọn vẹn 10 vòng đua phép nhân"
+    },
+    {
+      "id": "word_chain_king",
+      "owner": "all",
+      "name": "Vua Nối Từ Tiếng Việt",
+      "emoji": "👑",
+      "description": "Nối chuỗi từ vựng Tiếng Việt phong phú và chuẩn xác"
+    },
+    {
+      "id": "coding_master",
+      "owner": "all",
+      "name": "Lập Trình Viên Tí Hon",
+      "emoji": "🤖",
+      "description": "Lập trình chuỗi thuật toán đưa Robot vượt mê cung nhặt kim cương"
+    },
+    {
+      "id": "supermarket_cashier",
+      "owner": "all",
+      "name": "Thu Ngân Siêu Thị Tài Ba",
+      "emoji": "🛒",
+      "description": "Tính toán hóa đơn và thối đúng từng mệnh giá tiền cho khách hàng"
+    },
+    {
+      "id": "world_explorer",
+      "owner": "all",
+      "name": "Nhà Thám Hiểm Địa Cầu",
+      "emoji": "🌍",
+      "description": "Khám phá quốc kỳ và các kỳ quan thế giới, thu thập đủ tem Visa"
     }
   ]
 }

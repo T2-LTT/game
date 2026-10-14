@@ -126,6 +126,26 @@ export const playSound = (type) => {
     gainNode.gain.exponentialRampToValueAtTime(0.01, t + 0.6);
     oscillator.start(t);
     oscillator.stop(t + 0.6);
+  } else if (type === 'pop') {
+    // Tiếng "Bốp!" nổ bong bóng siêu nảy
+    oscillator.type = 'sine';
+    oscillator.frequency.setValueAtTime(600, t);
+    oscillator.frequency.exponentialRampToValueAtTime(70, t + 0.09);
+    gainNode.gain.setValueAtTime(0.6, t);
+    gainNode.gain.exponentialRampToValueAtTime(0.01, t + 0.09);
+    oscillator.start(t);
+    oscillator.stop(t + 0.09);
+  } else if (type === 'magic') {
+    // Tiếng biến hình lấp lánh khi ghép đúng bóng
+    oscillator.type = 'triangle';
+    oscillator.frequency.setValueAtTime(523.25, t); // C5
+    oscillator.frequency.setValueAtTime(659.25, t + 0.08); // E5
+    oscillator.frequency.setValueAtTime(783.99, t + 0.16); // G5
+    oscillator.frequency.setValueAtTime(1046.50, t + 0.24); // C6
+    gainNode.gain.setValueAtTime(0.35, t);
+    gainNode.gain.exponentialRampToValueAtTime(0.01, t + 0.5);
+    oscillator.start(t);
+    oscillator.stop(t + 0.5);
   }
 };
 
@@ -139,6 +159,21 @@ export const speakEnglish = (text) => {
     const voices = window.speechSynthesis.getVoices();
     const enVoice = voices.find(v => v.lang.includes('en') || v.lang.includes('en-US'));
     if (enVoice) utterance.voice = enVoice;
+    window.speechSynthesis.speak(utterance);
+  }
+};
+
+// Đọc giọng Tiếng Việt ấm áp, vui tươi cho bé (TTS)
+export const speakVietnamese = (text) => {
+  if ('speechSynthesis' in window) {
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'vi-VN';
+    utterance.rate = 0.9;
+    utterance.pitch = 1.1; // Giọng tươi vui cho trẻ
+    const voices = window.speechSynthesis.getVoices();
+    const viVoice = voices.find(v => v.lang.includes('vi') || v.lang.includes('vi-VN'));
+    if (viVoice) utterance.voice = viVoice;
     window.speechSynthesis.speak(utterance);
   }
 };
