@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import StarBackground from './components/StarBackground';
 import BasicLearningGame from './components/BasicLearningGame';
 import MathGame from './components/MathGame';
 import EnglishGame from './components/EnglishGame';
@@ -225,7 +224,6 @@ const App = () => {
   // Màn hình 1: Chọn Nhân Vật
   return (
     <>
-      <StarBackground />
       <div style={{ position: 'relative', zIndex: 10 }}>
         
         {/* MÀN HÌNH 1: CHỌN NGƯỜI CHƠI */}

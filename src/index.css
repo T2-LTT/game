@@ -24,6 +24,8 @@
 body {
   font-family: 'Outfit', sans-serif;
   color: var(--text-main);
+  background: linear-gradient(135deg, #0f0c29 0%, #241d4f 50%, #161233 100%);
+  background-attachment: fixed;
   min-height: 100vh;
   min-height: 100dvh;
   overflow-x: hidden;
